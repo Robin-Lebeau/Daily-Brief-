@@ -1,0 +1,44 @@
+{
+  "max_per_source": 8,
+  "max_age_hours": 36,
+  "desks": [
+    {
+      "id": "business",
+      "name": "Business & markets",
+      "sources": [
+        {"name": "Financial Times", "site": "ft.com", "lang": "en",
+         "feeds": ["https://www.ft.com/rss/home", "https://www.ft.com/world?format=rss"]},
+        {"name": "Wall Street Journal", "site": "wsj.com", "lang": "en",
+         "feeds": ["https://feeds.a.dj.com/rss/RSSWorldNews.xml", "https://feeds.a.dj.com/rss/RSSMarketsMain.xml", "https://feeds.a.dj.com/rss/WSJcomUSBusiness.xml"]},
+        {"name": "Les Echos", "site": "lesechos.fr", "lang": "fr",
+         "feeds": ["https://syndication.lesechos.fr/rss/rss_une.xml"]},
+        {"name": "Challenges", "site": "challenges.fr", "lang": "fr",
+         "feeds": ["https://www.challenges.fr/rss.xml"]}
+      ]
+    },
+    {
+      "id": "world",
+      "name": "World & politics",
+      "sources": [
+        {"name": "New York Times", "site": "nytimes.com", "lang": "en",
+         "feeds": ["https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml", "https://rss.nytimes.com/services/xml/rss/nyt/World.xml"]},
+        {"name": "Le Monde", "site": "lemonde.fr", "lang": "fr",
+         "feeds": ["https://www.lemonde.fr/rss/une.xml", "https://www.lemonde.fr/rss/en_continu.xml"]}
+      ]
+    },
+    {
+      "id": "sport",
+      "name": "Sport",
+      "sources": [
+        {"name": "L'Équipe", "site": "lequipe.fr", "lang": "fr",
+         "feeds": ["https://dwh.lequipe.fr/api/edito/rss?path=/"]},
+        {"name": "The Athletic", "site": "nytimes.com/athletic", "lang": "en",
+         "feeds": ["https://www.nytimes.com/athletic/rss/news/"]},
+        {"name": "Sports Illustrated", "site": "si.com", "lang": "en",
+         "feeds": ["https://www.si.com/.rss/full/"]},
+        {"name": "The Hockey News", "site": "thehockeynews.com", "lang": "en",
+         "feeds": ["https://thehockeynews.com/.rss/full/"]}
+      ]
+    }
+  ]
+}
