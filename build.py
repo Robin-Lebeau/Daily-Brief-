@@ -66,6 +66,51 @@ def fetch_feed(url):
         return []
 
 
+def entry_image(e):
+    """Best image URL a feed entry offers, or None."""
+    cands = []
+    for key in ("media_content", "media_thumbnail"):
+        for m in e.get(key) or []:
+            url = m.get("url")
+            if url and (m.get("medium") in (None, "image") or "image" in (m.get("type") or "")):
+                try:
+                    w = int(m.get("width") or 0)
+                except ValueError:
+                    w = 0
+                cands.append((w, url))
+    for l in (e.get("enclosures") or []) + (e.get("links") or []):
+        if "image" in (l.get("type") or "") and l.get("href"):
+            cands.append((0, l["href"]))
+    if not cands:
+        m = re.search(r'<img[^>]+src=["\']([^"\']+)', e.get("summary") or "")
+        if m:
+            cands.append((0, html.unescape(m.group(1))))
+    cands = [c for c in cands if c[1].startswith(("http://", "https://"))]
+    if not cands:
+        return None
+    return max(cands, key=lambda c: c[0])[1]
+
+
+def page_image(url):
+    """Fallback: read the og:image preview picture from the article page."""
+    if "news.google.com" in url:
+        return None
+    try:
+        r = requests.get(url, timeout=8, headers={"User-Agent": UA})
+        head = r.text[:200_000]
+    except Exception:
+        return None
+    for pat in (r'<meta[^>]+(?:property|name)=["\'](?:og:image|twitter:image)["\'][^>]+content=["\']([^"\']+)',
+                r'<meta[^>]+content=["\']([^"\']+)["\'][^>]+(?:property|name)=["\'](?:og:image|twitter:image)["\']'):
+        m = re.search(pat, head, re.I)
+        if m and m.group(1).startswith(("http://", "https://")):
+            return html.unescape(m.group(1))
+    return None
+
+
+DEFAULT_EXCLUDES = [r"^opinion\b", r"\bopinion\s*\|", r"^(letter|letters)\s*:", r"^tribune\b"]
+
+
 def google_news_url(site, lang):
     hl, gl = {"fr": ("fr", "FR")}.get(lang, ("en-US", "US"))
     q = requests.utils.quote(f"site:{site} when:1d")
@@ -75,6 +120,7 @@ def google_news_url(site, lang):
 def collect_source(source, cfg, now):
     cutoff = now - dt.timedelta(hours=cfg.get("max_age_hours", 36))
     items, seen = [], set()
+    excludes = [re.compile(p, re.I) for p in cfg.get("exclude_title_patterns", DEFAULT_EXCLUDES)]
 
     def add(entries, via_google=False):
         for e in entries:
@@ -84,6 +130,8 @@ def collect_source(source, cfg, now):
                 continue
             if via_google:  # Google News appends " - Publisher"
                 title = re.sub(r"\s+[-–|]\s+[^-–|]{2,40}$", "", title)
+            if any(x.search(title) for x in excludes) or "/opinion" in link:
+                continue
             key = title.lower()
             t = entry_time(e)
             if key in seen or (t and t < cutoff):
@@ -93,6 +141,7 @@ def collect_source(source, cfg, now):
             if summary.lower().startswith(title.lower()[:50]):
                 summary = ""
             items.append({"title": title, "link": link, "summary": summary,
+                          "image": None if via_google else entry_image(e),
                           "time": t.isoformat() if t else None})
 
     for url in source.get("feeds", []):
@@ -101,7 +150,11 @@ def collect_source(source, cfg, now):
         add(fetch_feed(google_news_url(source["site"], source.get("lang", "en"))), via_google=True)
 
     items.sort(key=lambda i: i["time"] or "", reverse=True)
-    return items[: cfg.get("max_per_source", 8)]
+    items = items[: cfg.get("max_per_source", 8)]
+    for it in items[: cfg.get("fetch_images_for_top", 4)]:
+        if not it["image"]:
+            it["image"] = page_image(it["link"])
+    return items
 
 
 def collect_all(cfg, now):
@@ -217,27 +270,59 @@ def render(desks, ai, now_local, archive_prefix, archive_dates):
                 out.append(f'<a href="{esc(it["link"])}" target="_blank" rel="noopener">{esc(it["source"])}</a>')
         return ", ".join(out)
 
-    # briefing
+    def img_tag(url, cls):
+        if not url:
+            return ""
+        return (f'<img class="{cls}" src="{esc(url)}" alt="" loading="lazy" '
+                f'referrerpolicy="no-referrer" onerror="this.remove()">')
+
+    def first_image(ids):
+        for i in ids:
+            it = by_id.get(i)
+            if it and it.get("image"):
+                return it["image"]
+        return None
+
+    # briefing: first story is the large feature, the rest are picture cards
     if ai["briefing"]:
-        rows = "".join(
-            f'<li class="brief" data-desk="{b["desk"]}"><p>{esc(b.get("text"))}</p>'
-            f'<span class="via">{source_links(b["ids"])}</span></li>'
-            for b in ai["briefing"])
-        briefing = f'<section class="briefing" aria-labelledby="brief-h"><h2 id="brief-h">The essentials</h2><ul>{rows}</ul></section>'
+        cards = []
+        for n, b in enumerate(ai["briefing"]):
+            cls = "brief feature" if n == 0 else "brief"
+            pic = first_image(b["ids"])
+            first = by_id.get(b["ids"][0]) if b["ids"] else None
+            href = esc(first["link"]) if first else "#"
+            cards.append(
+                f'<li class="{cls}{"" if pic else " no-img"}" data-desk="{b["desk"]}">'
+                f'<a class="card-link" href="{href}" target="_blank" rel="noopener">'
+                f'<div class="pic">{img_tag(pic, "cover")}</div>'
+                f'<p>{esc(b.get("text"))}</p></a>'
+                f'<span class="via">{source_links(b["ids"])}</span></li>')
+        briefing = (f'<section class="briefing" aria-labelledby="brief-h"><h2 id="brief-h">The essentials</h2>'
+                    f'<ul>{"".join(cards)}</ul></section>')
     else:
         briefing = ""
 
-    # desks
+    # desks: each source leads with its best-illustrated story, then compact rows with thumbnails
     desk_html = []
     for d in desks:
         blocks = []
         for s in d["sources"]:
-            if s["items"]:
-                lis = "".join(
-                    f'<li><a href="{esc(i["link"])}" target="_blank" rel="noopener">{esc(i["title"])}</a>'
-                    + (f'<time>{fmt_time(i["time"])}</time>' if i["time"] else "")
-                    + (f'<p>{esc(i["summary"])}</p>' if i["summary"] else "") + "</li>"
-                    for i in s["items"])
+            items = list(s["items"])
+            if items:
+                lead_i = next((k for k, it in enumerate(items[:3]) if it.get("image")), 0)
+                items.insert(0, items.pop(lead_i))
+                lis = []
+                for k, i in enumerate(items):
+                    t = f'<time>{fmt_time(i["time"])}</time>' if i["time"] else ""
+                    link = f'href="{esc(i["link"])}" target="_blank" rel="noopener"'
+                    if k == 0:
+                        summ = f'<p>{esc(i["summary"])}</p>' if i["summary"] else ""
+                        lis.append(f'<li class="lead"><a {link}>{img_tag(i.get("image"), "lead-img")}'
+                                   f'<span class="hl">{esc(i["title"])}</span></a>{t}{summ}</li>')
+                    else:
+                        lis.append(f'<li class="row"><a {link}><span class="hl">{esc(i["title"])}</span>'
+                                   f'{img_tag(i.get("image"), "thumb")}</a>{t}</li>')
+                lis = "".join(lis)
             else:
                 lis = '<li class="empty">No headlines came through from this source today. Check its feed address in sources.json.</li>'
             lang = "fr" if s.get("lang") == "fr" else "en"
@@ -246,24 +331,33 @@ def render(desks, ai, now_local, archive_prefix, archive_dates):
             f'<section class="desk" id="desk-{d["id"]}" data-desk="{d["id"]}">'
             f'<h3>{esc(d["name"])}</h3><div class="sources">{"".join(blocks)}</div></section>')
 
-    # upcoming
+    # upcoming: calendar-style date badges
     today = now_local.date()
     if ai["upcoming"]:
         groups, order = {}, []
         for e in ai["upcoming"]:
-            label = day_label(e.get("date"), today)
-            if label not in groups:
-                groups[label] = []
-                order.append(label)
-            groups[label].append(e)
+            key = e.get("date") or ""
+            if key not in groups:
+                groups[key] = []
+                order.append(key)
+            groups[key].append(e)
         parts = []
-        for label in order:
+        for key in order:
+            try:
+                d = dt.date.fromisoformat(key)
+                badge = (f'<div class="badge"><span class="wd">{d.strftime("%a")}</span>'
+                         f'<span class="dn">{d.day}</span><span class="mo">{d.strftime("%b")}</span></div>')
+                label = "Tomorrow" if d == today + dt.timedelta(days=1) else ""
+            except ValueError:
+                badge = '<div class="badge tbc"><span class="dn">?</span><span class="mo">TBC</span></div>'
+                label = "Date to be confirmed"
             evs = "".join(
                 f'<li class="event" data-desk="{e["desk"]}"><strong>{esc(e.get("title"))}</strong>'
                 + (f'<span class="when">{esc(e.get("when"))}</span>' if not e.get("date") and e.get("when") else "")
                 + f'<span class="via">{source_links(e["ids"])}</span></li>'
-                for e in groups[label])
-            parts.append(f'<li class="day"><h4>{esc(label)}</h4><ul>{evs}</ul></li>')
+                for e in groups[key])
+            lab = f'<span class="rel">{label}</span>' if label else ""
+            parts.append(f'<li class="day">{badge}<div class="evs">{lab}<ul>{evs}</ul></div></li>')
         upcoming = f'<ol class="timeline">{"".join(parts)}</ol>'
     elif os.environ.get("ANTHROPIC_API_KEY"):
         upcoming = '<p class="note">No scheduled events were mentioned in today\'s headlines.</p>'
@@ -295,6 +389,9 @@ TEMPLATE = (ROOT / "template.html").read_text("utf-8")
 
 # ---------------------------------------------------------------- demo data
 
+DEMO_IMG = ("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 9'>"
+            "<rect width='16' height='9' fill='%238aa1b8'/><circle cx='5' cy='4' r='2' fill='%23c9d6e2'/></svg>")
+
 def demo_data(cfg, now):
     desks = []
     n = 0
@@ -306,7 +403,7 @@ def demo_data(cfg, now):
                 n += 1
                 items.append({"id": f"h{n}", "desk": d["id"], "source": s["name"],
                               "title": f"Placeholder headline {k + 1} from {s['name']} for layout testing",
-                              "link": "https://example.com", "summary": "Short placeholder description of the article, as a feed would provide it." if k % 2 == 0 else "",
+                              "link": "https://example.com", "image": DEMO_IMG if k != 2 else None, "summary": "Short placeholder description of the article, as a feed would provide it." if k % 2 == 0 else "",
                               "time": (now - dt.timedelta(hours=k * 3)).isoformat()})
             srcs.append({**s, "items": items})
         desks.append({**d, "sources": srcs})
