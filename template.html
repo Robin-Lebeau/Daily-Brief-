@@ -11,7 +11,7 @@
 <style>
 :root {
   --paper: #F1F4F7; --panel: #FFFFFF; --ink: #15212F; --muted: #5C6A79; --rule: #D4DBE3;
-  --business: #1D5C8C; --world: #8A3346; --sport: #2F7A4C;
+  --business: #1D5C8C; --world: #8A3346; --sport: #2F7A4C; --defense: #8A5A12;
   --serif: "Spectral", Georgia, "Times New Roman", serif;
   --sans: "Public Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
   box-sizing: border-box;
@@ -20,12 +20,12 @@
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
     --paper: #0F151C; --panel: #161E27; --ink: #E4EAF0; --muted: #93A0AE; --rule: #27323E;
-    --business: #6FA8D6; --world: #D98396; --sport: #6DC08F;
+    --business: #6FA8D6; --world: #D98396; --sport: #6DC08F; --defense: #E0B064;
   }
 }
 :root[data-theme="dark"] {
   --paper: #0F151C; --panel: #161E27; --ink: #E4EAF0; --muted: #93A0AE; --rule: #27323E;
-  --business: #6FA8D6; --world: #D98396; --sport: #6DC08F;
+  --business: #6FA8D6; --world: #D98396; --sport: #6DC08F; --defense: #E0B064;
 }
 *, *::before, *::after { box-sizing: inherit; }
 html { scroll-padding-top: env(safe-area-inset-top, 0px); }
@@ -47,6 +47,7 @@ header.top h1 span { display: block; font-size: 0.42em; font-weight: 500; color:
 .filters button[data-f="business"] { --c: var(--business); }
 .filters button[data-f="world"]    { --c: var(--world); }
 .filters button[data-f="sport"]    { --c: var(--sport); }
+.filters button[data-f="defense"]  { --c: var(--defense); }
 .filters button:not([data-f="all"])::before { content: ""; display: inline-block; width: .6rem; height: .6rem; border-radius: 50%; background: var(--c); margin-right: .45rem; vertical-align: .05em; }
 .filters button[aria-pressed="true"] { background: var(--ink); color: var(--paper); border-color: var(--ink); }
 
@@ -56,6 +57,7 @@ header.top h1 span { display: block; font-size: 0.42em; font-weight: 500; color:
 [data-desk="business"] { --c: var(--business); }
 [data-desk="world"]    { --c: var(--world); }
 [data-desk="sport"]    { --c: var(--sport); }
+[data-desk="defense"]  { --c: var(--defense); }
 
 .briefing { margin-bottom: 3rem; }
 .briefing h2 { font: 600 1.6rem/1.2 var(--serif); margin: 0 0 1rem; }
@@ -134,6 +136,7 @@ footer p { max-width: 46em; }
     <button type="button" data-f="all" aria-pressed="true">Everything</button>
     <button type="button" data-f="business" aria-pressed="false">Business &amp; markets</button>
     <button type="button" data-f="world" aria-pressed="false">World &amp; politics</button>
+    <button type="button" data-f="defense" aria-pressed="false">Space &amp; defense</button>
     <button type="button" data-f="sport" aria-pressed="false">Sport</button>
   </nav>
 

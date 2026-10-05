@@ -182,11 +182,11 @@ PROMPT = """You are preparing a morning briefing for a busy executive. Today is 
 Below are today's headlines from several publications, as JSON. Each has an id.
 
 Return ONLY a JSON object, with no prose and no code fences, in this shape:
-{{"briefing": [{{"text": str, "desk": "business"|"world"|"sport", "ids": [str]}}],
-  "upcoming": [{{"date": "YYYY-MM-DD" or null, "when": str, "title": str, "desk": "business"|"world"|"sport", "ids": [str]}}]}}
+{{"briefing": [{{"text": str, "desk": "business"|"world"|"defense"|"sport", "ids": [str]}}],
+  "upcoming": [{{"date": "YYYY-MM-DD" or null, "when": str, "title": str, "desk": "business"|"world"|"defense"|"sport", "ids": [str]}}]}}
 
 Rules:
-- briefing: the 6 most important stories of the day across all desks (include at least one sport story). One sentence each, at most 30 words, in English, in your own words. When several outlets cover the same story, merge them and list every id.
+- briefing: the 6 most important stories of the day across all desks (include at least one sport story and at least one space & defense story). One sentence each, at most 30 words, in English, in your own words. When several outlets cover the same story, merge them and list every id.
 - upcoming: scheduled events after today that the headlines explicitly mention or clearly imply: central bank meetings, data releases, elections, votes, summits, earnings, trials, launches, matches, finals, drafts, and similar. Only include events supported by the headlines and never invent a date. If only a vague time is known, set date to null and describe it in "when" (for example "next week"); otherwise "when" is a short label like "Wed 30 Sep". Up to 12 events, sorted by date.
 - Paraphrase; do not quote the articles.
 
@@ -225,7 +225,7 @@ def ask_claude(desks, now_local):
         data[group] = [x for x in data.get(group, []) if isinstance(x, dict)]
         for x in data[group]:
             x["ids"] = [i for i in x.get("ids", []) if i in valid]
-            if x.get("desk") not in ("business", "world", "sport"):
+            if x.get("desk") not in ("business", "world", "defense", "sport"):
                 x["desk"] = "world"
     data["upcoming"] = [e for e in data["upcoming"] if not e.get("date") or e["date"] > today]
     data["upcoming"].sort(key=lambda e: e.get("date") or "9999")

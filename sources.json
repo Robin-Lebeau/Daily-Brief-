@@ -68,6 +68,28 @@
       ]
     },
     {
+      "id": "defense",
+      "name": "Space & defense",
+      "sources": [
+        {
+          "name": "Payload",
+          "site": "payloadspace.com",
+          "lang": "en",
+          "feeds": [
+            "https://payloadspace.com/feed/"
+          ]
+        },
+        {
+          "name": "Tectonic",
+          "site": "tectonicdefense.com",
+          "lang": "en",
+          "feeds": [
+            "https://www.tectonicdefense.com/feed/"
+          ]
+        }
+      ]
+    },
+    {
       "id": "sport",
       "name": "Sport",
       "sources": [

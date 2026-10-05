@@ -1,0 +1,132 @@
+diff --git a/README.md b/README.md
+index e47863c..19a7d09 100644
+--- a/README.md
++++ b/README.md
+@@ -1,6 +1,6 @@
+ # Daily briefing
+ 
+-A page that rebuilds itself every morning with the day's headlines from the Financial Times, Wall Street Journal, Les Echos, Challenges, the New York Times, Le Monde, L'Équipe, The Athletic, Sports Illustrated and The Hockey News, plus a short summary of the essentials and a timeline of upcoming events.
++A page that rebuilds itself every morning with the day's headlines from the Financial Times, Wall Street Journal, Les Echos, Challenges, the New York Times, Le Monde, L'Équipe, The Athletic, Sports Illustrated and The Hockey News, Payload and Tectonic, plus a short summary of the essentials and a timeline of upcoming events.
+ 
+ ## How it works
+ 
+diff --git a/build.py b/build.py
+index 9dd3a00..2854ef0 100644
+--- a/build.py
++++ b/build.py
+@@ -182,11 +182,11 @@ PROMPT = """You are preparing a morning briefing for a busy executive. Today is
+ Below are today's headlines from several publications, as JSON. Each has an id.
+ 
+ Return ONLY a JSON object, with no prose and no code fences, in this shape:
+-{{"briefing": [{{"text": str, "desk": "business"|"world"|"sport", "ids": [str]}}],
+-  "upcoming": [{{"date": "YYYY-MM-DD" or null, "when": str, "title": str, "desk": "business"|"world"|"sport", "ids": [str]}}]}}
++{{"briefing": [{{"text": str, "desk": "business"|"world"|"defense"|"sport", "ids": [str]}}],
++  "upcoming": [{{"date": "YYYY-MM-DD" or null, "when": str, "title": str, "desk": "business"|"world"|"defense"|"sport", "ids": [str]}}]}}
+ 
+ Rules:
+-- briefing: the 6 most important stories of the day across all desks (include at least one sport story). One sentence each, at most 30 words, in English, in your own words. When several outlets cover the same story, merge them and list every id.
++- briefing: the 6 most important stories of the day across all desks (include at least one sport story and at least one space & defense story). One sentence each, at most 30 words, in English, in your own words. When several outlets cover the same story, merge them and list every id.
+ - upcoming: scheduled events after today that the headlines explicitly mention or clearly imply: central bank meetings, data releases, elections, votes, summits, earnings, trials, launches, matches, finals, drafts, and similar. Only include events supported by the headlines and never invent a date. If only a vague time is known, set date to null and describe it in "when" (for example "next week"); otherwise "when" is a short label like "Wed 30 Sep". Up to 12 events, sorted by date.
+ - Paraphrase; do not quote the articles.
+ 
+@@ -225,7 +225,7 @@ def ask_claude(desks, now_local):
+         data[group] = [x for x in data.get(group, []) if isinstance(x, dict)]
+         for x in data[group]:
+             x["ids"] = [i for i in x.get("ids", []) if i in valid]
+-            if x.get("desk") not in ("business", "world", "sport"):
++            if x.get("desk") not in ("business", "world", "defense", "sport"):
+                 x["desk"] = "world"
+     data["upcoming"] = [e for e in data["upcoming"] if not e.get("date") or e["date"] > today]
+     data["upcoming"].sort(key=lambda e: e.get("date") or "9999")
+diff --git a/sources.json b/sources.json
+index 6646e9a..d52e0ad 100644
+--- a/sources.json
++++ b/sources.json
+@@ -67,6 +67,28 @@
+         }
+       ]
+     },
++    {
++      "id": "defense",
++      "name": "Space & defense",
++      "sources": [
++        {
++          "name": "Payload",
++          "site": "payloadspace.com",
++          "lang": "en",
++          "feeds": [
++            "https://payloadspace.com/feed/"
++          ]
++        },
++        {
++          "name": "Tectonic",
++          "site": "tectonicdefense.com",
++          "lang": "en",
++          "feeds": [
++            "https://www.tectonicdefense.com/feed/"
++          ]
++        }
++      ]
++    },
+     {
+       "id": "sport",
+       "name": "Sport",
+@@ -112,4 +134,4 @@
+     "^(letter|letters)\\s*:",
+     "^tribune\\b"
+   ]
+-}
+\ No newline at end of file
++}
+diff --git a/template.html b/template.html
+index 9992a54..fa16b6b 100644
+--- a/template.html
++++ b/template.html
+@@ -11,7 +11,7 @@
+ <style>
+ :root {
+   --paper: #F1F4F7; --panel: #FFFFFF; --ink: #15212F; --muted: #5C6A79; --rule: #D4DBE3;
+-  --business: #1D5C8C; --world: #8A3346; --sport: #2F7A4C;
++  --business: #1D5C8C; --world: #8A3346; --sport: #2F7A4C; --defense: #8A5A12;
+   --serif: "Spectral", Georgia, "Times New Roman", serif;
+   --sans: "Public Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+   box-sizing: border-box;
+@@ -20,12 +20,12 @@
+ @media (prefers-color-scheme: dark) {
+   :root:not([data-theme="light"]) {
+     --paper: #0F151C; --panel: #161E27; --ink: #E4EAF0; --muted: #93A0AE; --rule: #27323E;
+-    --business: #6FA8D6; --world: #D98396; --sport: #6DC08F;
++    --business: #6FA8D6; --world: #D98396; --sport: #6DC08F; --defense: #E0B064;
+   }
+ }
+ :root[data-theme="dark"] {
+   --paper: #0F151C; --panel: #161E27; --ink: #E4EAF0; --muted: #93A0AE; --rule: #27323E;
+-  --business: #6FA8D6; --world: #D98396; --sport: #6DC08F;
++  --business: #6FA8D6; --world: #D98396; --sport: #6DC08F; --defense: #E0B064;
+ }
+ *, *::before, *::after { box-sizing: inherit; }
+ html { scroll-padding-top: env(safe-area-inset-top, 0px); }
+@@ -47,6 +47,7 @@ header.top h1 span { display: block; font-size: 0.42em; font-weight: 500; color:
+ .filters button[data-f="business"] { --c: var(--business); }
+ .filters button[data-f="world"]    { --c: var(--world); }
+ .filters button[data-f="sport"]    { --c: var(--sport); }
++.filters button[data-f="defense"]  { --c: var(--defense); }
+ .filters button:not([data-f="all"])::before { content: ""; display: inline-block; width: .6rem; height: .6rem; border-radius: 50%; background: var(--c); margin-right: .45rem; vertical-align: .05em; }
+ .filters button[aria-pressed="true"] { background: var(--ink); color: var(--paper); border-color: var(--ink); }
+ 
+@@ -56,6 +57,7 @@ header.top h1 span { display: block; font-size: 0.42em; font-weight: 500; color:
+ [data-desk="business"] { --c: var(--business); }
+ [data-desk="world"]    { --c: var(--world); }
+ [data-desk="sport"]    { --c: var(--sport); }
++[data-desk="defense"]  { --c: var(--defense); }
+ 
+ .briefing { margin-bottom: 3rem; }
+ .briefing h2 { font: 600 1.6rem/1.2 var(--serif); margin: 0 0 1rem; }
+@@ -134,6 +136,7 @@ footer p { max-width: 46em; }
+     <button type="button" data-f="all" aria-pressed="true">Everything</button>
+     <button type="button" data-f="business" aria-pressed="false">Business &amp; markets</button>
+     <button type="button" data-f="world" aria-pressed="false">World &amp; politics</button>
++    <button type="button" data-f="defense" aria-pressed="false">Space &amp; defense</button>
+     <button type="button" data-f="sport" aria-pressed="false">Sport</button>
+   </nav>
+ 
