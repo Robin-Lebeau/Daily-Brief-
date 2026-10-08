@@ -1,0 +1,1121 @@
+{
+ "desks": [
+  {
+   "id": "business",
+   "name": "Business & markets",
+   "sources": [
+    {
+     "name": "Financial Times",
+     "site": "ft.com",
+     "lang": "en",
+     "feeds": [
+      "https://www.ft.com/companies?format=rss",
+      "https://www.ft.com/markets?format=rss",
+      "https://www.ft.com/global-economy?format=rss"
+     ],
+     "items": [
+      {
+       "title": "Kirkland’s money machine goes dark",
+       "link": "https://www.ft.com/content/eba99693-2abc-4b08-9133-98452bc01290?syn-25a6b1a6=1",
+       "summary": "The world’s highest-grossing law firm will stop sharing its financial figures with the legal industry’s flagship ranking of law firm profits and revenues",
+       "image": null,
+       "time": "2026-10-08T04:00:26+00:00",
+       "id": "h1",
+       "desk": "business",
+       "source": "Financial Times"
+      },
+      {
+       "title": "Wise to pay customers’ tax bills after errors",
+       "link": "https://www.ft.com/content/681bea76-370b-4cbe-b1aa-239946ae6e4d?syn-25a6b1a6=1",
+       "summary": "Fintech seeks deal with HMRC after software miscalculated about 4,000 users’ investment gains",
+       "image": null,
+       "time": "2026-10-08T04:00:26+00:00",
+       "id": "h2",
+       "desk": "business",
+       "source": "Financial Times"
+      },
+      {
+       "title": "Big investors ‘bottom fish’ in Eurozone bond markets after France sell-off",
+       "link": "https://www.ft.com/content/9cf103ed-548e-4b06-baed-71632abca961?syn-25a6b1a6=1",
+       "summary": "Fears of a blow-up similar to the Eurozone debt crisis have been overdone, asset managers say",
+       "image": null,
+       "time": "2026-10-08T04:00:26+00:00",
+       "id": "h3",
+       "desk": "business",
+       "source": "Financial Times"
+      },
+      {
+       "title": "Norway lays down a line for EU on AI glasses",
+       "link": "https://www.ft.com/content/177f9fba-841a-4448-ad54-ac621dc58f2a?syn-25a6b1a6=1",
+       "summary": "Proposed ban will be test case for broad restrictions on the eyewear after fierce backlash over their use",
+       "image": null,
+       "time": "2026-10-08T04:00:26+00:00",
+       "id": "h4",
+       "desk": "business",
+       "source": "Financial Times"
+      },
+      {
+       "title": "Oil majors look beyond Middle East war in pursuit of region’s vast reserves",
+       "link": "https://www.ft.com/content/3534cf93-be7b-49ec-bf58-cea84e73cb28?syn-25a6b1a6=1",
+       "summary": "Western groups look to new investment opportunities despite the chaos and heightened risks caused by the conflict with Iran",
+       "image": null,
+       "time": "2026-10-08T04:00:26+00:00",
+       "id": "h5",
+       "desk": "business",
+       "source": "Financial Times"
+      },
+      {
+       "title": "The race for Britain’s car market is wide open — for now",
+       "link": "https://www.ft.com/content/cf568d51-cd06-4071-bbc0-d0e5126e1396?syn-25a6b1a6=1",
+       "summary": "All manner of trade barriers loom",
+       "image": null,
+       "time": "2026-10-08T04:00:16+00:00",
+       "id": "h6",
+       "desk": "business",
+       "source": "Financial Times"
+      },
+      {
+       "title": "What is the real price of oil any more?",
+       "link": "https://www.ft.com/content/5cad1f95-b06d-4ee1-b1c7-0244999337d4?syn-25a6b1a6=1",
+       "summary": "Crude futures are no longer a reliable guide to the inflationary impact of fuel prices",
+       "image": null,
+       "time": "2026-10-08T04:00:16+00:00",
+       "id": "h7",
+       "desk": "business",
+       "source": "Financial Times"
+      },
+      {
+       "title": "Azerbaijan denies buying German state secrets from former spy chief",
+       "link": "https://www.ft.com/content/572b899b-0e36-4a90-aadc-776818e339c3?syn-25a6b1a6=1",
+       "summary": "August Hanning is accused of purchasing classified information and potentially passing it on to foreign intelligence services",
+       "image": null,
+       "time": "2026-10-08T04:00:16+00:00",
+       "id": "h8",
+       "desk": "business",
+       "source": "Financial Times"
+      }
+     ]
+    },
+    {
+     "name": "Wall Street Journal",
+     "site": "wsj.com",
+     "lang": "en",
+     "feeds": [
+      "https://feeds.a.dj.com/rss/RSSMarketsMain.xml",
+      "https://feeds.a.dj.com/rss/WSJcomUSBusiness.xml"
+     ],
+     "items": [
+      {
+       "title": "France’s Economy Is Trapped in a Negative Feedback Loop",
+       "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPaWNoQ044eFJCMWY3a0lUcld5Ry1LRmYyU2VFbkRkU1FxaXpLekRVTWQ5djRtNVhvOThIcUJPX05hU0xGSzR4RHpSWGpyVTRLSDN4MWhQdXBkVDBGOWxEV3NlMVk2d21USTBsOVk2VGstaThMcWpMR2c3SVo2LWJLR1k3UndlSEljMEx0alFGUE1MRV8xbDJpNHZYNW54YU0?oc=5",
+       "summary": "",
+       "image": null,
+       "time": "2026-10-08T04:14:15+00:00",
+       "id": "h9",
+       "desk": "business",
+       "source": "Wall Street Journal"
+      },
+      {
+       "title": "How We Inflation-Proofed Our Retirement",
+       "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1FX1VDQ2lWOVJhY1o3c0V2TjZGR2E5clRrTjc2LVhBeWM0M2lpbndFb2R2WDB4U2tXQ2dIVWlDYnNYV1hpX1hRTEppSHdxUXdGMGV6enJ4TGVaSi1IVG5SRm0tYnI5XzJIZURCOWNseGhrcGZqXzQyOFAzVExVcTA?oc=5",
+       "summary": "",
+       "image": null,
+       "time": "2026-10-08T04:12:11+00:00",
+       "id": "h10",
+       "desk": "business",
+       "source": "Wall Street Journal"
+      },
+      {
+       "title": "FlyDubai Attacker Used ‘Crash Ax,’ a Common Fixture on Many Jets",
+       "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOZ2tZX3AxeENQblRLRGd4X2JxcGNLREtUYTBiQ3ZWUFAwMUhJTGwtMmVJa1k2QTZXYUZJRWRLMnhXUU9WcWQwb25HN3NjbWFCaFBZSWpCOGFUNTZRNXVCMFR6aHV0dzd4LWRJNDdHWmluSF9lZFlDeWhyV1JJTzk3YzJUd0I0OHlMbDJlemhJeDU?oc=5",
+       "summary": "",
+       "image": null,
+       "time": "2026-10-08T04:03:10+00:00",
+       "id": "h11",
+       "desk": "business",
+       "source": "Wall Street Journal"
+      },
+      {
+       "title": "Fast-Growing Dutch Bros Coffee, Known for Drive-Throughs, Wants to Cater to Walkers",
+       "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOYWFBRFRwNmZkVV9YSVdoUGJjc1l0VGU4c0d3dFhUOURDSjFDVkFyTWh3Z2l2NGtjN1piOWtQVFFJRGhuaXR3U0ZFM0xPSmsxYy1sQVlLR2xTeEx5VV9IWVl5VzVOWkJvbUZ2WlNVZDU0VmxnYm1qMkg0YU5LQ0pXU2tkMWpyQVhkMDhodUNWaTlZT2hYOVFVOVVPZTdISWdIQ0lMS0JPMDVxNWV5NXpLekQxNUZRRVVxS2xVU1VVQQ?oc=5",
+       "summary": "",
+       "image": null,
+       "time": "2026-10-08T04:03:03+00:00",
+       "id": "h12",
+       "desk": "business",
+       "source": "Wall Street Journal"
+      },
+      {
+       "title": "How a Boeing 737 MAX Survived a Nosedive Traveling at the Speed of Sound",
+       "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOeEk4ZWdldVdWZUhMUUZpN29yQVdid1N6OU5JaGVZbjZSLUdjdDA3R0JCRUFJQW5MRnlvSnFqR3NnWE1vYjJFQzdEZjlNRHFTQTdyXzlRQnM3S2NYSlItWFNTTk51b3VBQW9FNmtOVEYzdEtmT19lWlQwejJqQmxBSFotNnQzblhiUkV3UDlxa3E3c3NGWTBDdzFnY0FtSU9jWEZkOTQtWkNIemFscjBiNE83d0w4TkNvM1lN?oc=5",
+       "summary": "",
+       "image": null,
+       "time": "2026-10-08T04:02:09+00:00",
+       "id": "h13",
+       "desk": "business",
+       "source": "Wall Street Journal"
+      },
+      {
+       "title": "These Captains Launched a Sailing Company in One Month",
+       "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5wRnc2dklDdUk5dFdEQko4ell2cUtGeXhieG5ZVU5XWnhyU0tpVnFtZDBZUTh5WnZIektfOVVZWkF5cnRfa21UMnNaS2dwcGdhTnJOQ3ZVS0plYWRSai1LQ2w1QQ?oc=5",
+       "summary": "",
+       "image": null,
+       "time": "2026-10-08T03:55:26+00:00",
+       "id": "h14",
+       "desk": "business",
+       "source": "Wall Street Journal"
+      },
+      {
+       "title": "Samsung Sees Operating Profit Topping $80 Billion Amid AI Boom",
+       "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPT29pUjVPc09lVU1EU1ZfdkdTQ2NiYUxCWWdFUG56S2tIU2dIWGtiS2pGNVFHWTE2ajB6SURFU2VqODVsTlQ0eEgzU1g4MU4xdDA5Q3ZZUW9tb0ZVVzdwR2xuQVhuZzllbUJ6blZuN0owUFhPck1VMkR0TmhQbU40VlpEWDNvSzZmWk1QVVVaUzlleDNkbGJpWDY2VQ?oc=5",
+       "summary": "",
+       "image": null,
+       "time": "2026-10-08T03:29:00+00:00",
+       "id": "h15",
+       "desk": "business",
+       "source": "Wall Street Journal"
+      },
+      {
+       "title": "C.H. Robinson to Buy RXO for About $5.8 Billion",
+       "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQOXZkTDZCV3lmcVNBdUl3d1Q4a29wRnh4Q29UWHJpQmI3MUVpSEZMbmhnbU9BYUN0QXVsaXNFdG5XdEQ0eGdPa29EVGFaeXRsb3hWb3BfbXZOdm4zb3hJUHJmd0FnNzg2cGpIdEpPY1pCR0RLdzU4bkdhSWl4ZENPS0NodmZTVjFDc3JiblNiclo?oc=5",
+       "summary": "",
+       "image": null,
+       "time": "2026-10-08T02:58:02+00:00",
+       "id": "h16",
+       "desk": "business",
+       "source": "Wall Street Journal"
+      }
+     ]
+    },
+    {
+     "name": "Les Echos",
+     "site": "lesechos.fr",
+     "lang": "fr",
+     "feeds": [
+      "https://syndication.lesechos.fr/rss/rss_une.xml"
+     ],
+     "items": [
+      {
+       "title": "1.000 milliards de dettes en 2027 ? L'avertissement de la Cour des comptes européenne sur les dépenses de l'Union",
+       "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPajJmWDBjVXlNZ1Z4eFBMcDJPQUhQVFNKYUxzYklfNFM0MTNlbHZmTmNkcTRabzU3ZUFMWC1adms1VlBlR2FsQTgzNUN1NzZITmxpSmk1Z0tlSFM4a0Zva25KV0V1VHJUbzdGQ3ltek9QOGtsTkVEaENTLTZGd1NwYmlnVzlENEdjVDdSMlJRNHVUYmNnTG9FekszcldtbDlUMWJ1R0owOGh3VGdYN210VmQ4a2Z1bVY2SVpySTVuZ2l4M1dxQTROSUtzVi0zZ1QxdG5wcC1oQVJaRTJhVTQ1aVFtSEkwSFZv?oc=5",
+       "summary": "",
+       "image": null,
+       "time": "2026-10-08T04:00:08+00:00",
+       "id": "h17",
+       "desk": "business",
+       "source": "Les Echos"
+      },
+      {
+       "title": "Constitution SASU - Val-de-Marne - ALP01533732 - Les Echos",
+       "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNWnJyVldiXzY3UmtrbmJTR3ZPRDZKOG9vQW9JaWhIY3JNNXNFUUlOU2FRWkJyUTBNOWFhRDA2N3A2V3IweWVQOVRPc0ZjeHlpYTRVRUhxN2JZdG0wRUNfTDVPNzVnLUJBWHcwUGFfMEVmSk1XbzZrbTdOcGxwbE5zNUU1OUx5azF1cTBKZXg5TE5SNWppcGg5NHJoU3ZDUQ?oc=5",
+       "summary": "",
+       "image": null,
+       "time": "2026-10-08T03:34:04+00:00",
+       "id": "h18",
+       "desk": "business",
+       "source": "Les Echos"
+      },
+      {
+       "title": "Transfert de siège social même département - Paris - ALP01555206 - Les Echos",
+       "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNdFVzaFVfeDVIYnFtbFVHREJwYnhYNGVtYXd3OVc2cFppblhCVl9IQThmLUFrWGgtcWdGVTlkVzZJYWs3czBxUkJsc1hNeVVtWG1ZdEdIUk9sZWlZcFAwTWhNS0NtT0x3WHpCanJ4TGlTWU5FQUp6MmdZQXpVaFllM1ROZmU3ajN0TlZvbG9CeG9HdXNCN3ctbjBCZFM5UQ?oc=5",
+       "summary": "",
+       "image": null,
+       "time": "2026-10-07T21:12:28+00:00",
+       "id": "h19",
+       "desk": "business",
+       "source": "Les Echos"
+      },
+      {
+       "title": "Dissolution anticipée - Paris - ALP01555104 - Les Echos",
+       "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQX28yVGtwdmdzRVg3NVlDdXFGZHR1VDVfMnhVZTR6ZHJOaFJBTmdCZ3dIemlweng4a3ZaMlNrOURUWER0MHFGT2hTQmwwTEc5eE9HeUpnaGwwNTY0VjlMQW1lUmhZYXVHNUd6V25QVlU5czQ4T0RaUG9CZFdXbnZ4ZXdRSFoydTV5TnlwR1pqQ0RZeWVKZktlUWlRVlJYQQ?oc=5",
+       "summary": "",
+       "image": null,
+       "time": "2026-10-07T21:12:19+00:00",
+       "id": "h20",
+       "desk": "business",
+       "source": "Les Echos"
+      },
+      {
+       "title": "Dissolution anticipée - Paris - ALP01554988 - Les Echos",
+       "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPbnFaQmlZMUZSeUUzaE0wYUctVkluRlZoelpWUVVjcm8wNUdLRS1nR0VIdG9HNFpCM0V5b2tJaFNWS0hvSFlNc2NLQXJwZUNXdnN3ZWZnZXhUVUstbGZhblRIeU5Wa0JiMVU3VDgtclpKaVEzN0xXSjhVOTRBVXVQTEUwdWlEaVpsbF9jNWRHN2taTVR6QlFzTVVvaGV0Zw?oc=5",
+       "summary": "",
+       "image": null,
+       "time": "2026-10-07T21:12:06+00:00",
+       "id": "h21",
+       "desk": "business",
+       "source": "Les Echos"
+      },
+      {
+       "title": "Constitution SASU - Yvelines - ALP01555012 - Les Echos",
+       "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPb283MUxtOWJveXJLLUlWbFVTU1ZibmxqU1R3TUozZzRhQzBERXNhQWdTZGpvWURreW1Ed0MtNHl1ZG9yTXptYU1xV2IzTk9vYzU4YzdtZWRBNDVienR3dTdldXUybmotNHJ5V1JCcm5ONDF4cTBVU2tjemlnWU5iMTRxb1RTcm9MUWJlN0ZVeThWRmRKNExzWU0ta21vQQ?oc=5",
+       "summary": "",
+       "image": null,
+       "time": "2026-10-07T20:21:34+00:00",
+       "id": "h22",
+       "desk": "business",
+       "source": "Les Echos"
+      },
+      {
+       "title": "Constitution SASU - Paris - ALP01555367 - Les Echos",
+       "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQeEk1YW1rNVpyZXJJcTlaRVJOZ2pzY1REWUs2RDlqRHNrX2xzd2w4dFFabmRudGdtLXdudnU2aDdWVHJlVHlTbnRmeEIyVVJFVHNXNTdZRFRoVWtMdzhVYkVvQnFXS016ZHhmczRiS0RVTFJtekxWZFRZOGJWNHBsVFFaamNNTnJzblRrSWxKRWdVcmp3c1I4VXEza29kQQ?oc=5",
+       "summary": "",
+       "image": null,
+       "time": "2026-10-07T19:48:13+00:00",
+       "id": "h23",
+       "desk": "business",
+       "source": "Les Echos"
+      },
+      {
+       "title": "Changement de dirigeant - Val-de-Marne - ALP01544235 - Les Echos",
+       "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNelA4VVg1TVkzYkJ1N1hPcWJWNnI3bDk0SVhDYTlYcUFCQU43VVJXYzM1U193Rlc4a25uUElWV2NkeUZiaGR0ajJ4ZjhBRFBmdGNFd241ejB5NGVOaldYOWFVbW5Ua2JhQ00zNFdTVENhc1NCSGIxeTlKazRJUGJPLUVFanQ3Z3R5YWtjNEk0MlFYWFJMRWFUdjV2enVjUQ?oc=5",
+       "summary": "",
+       "image": null,
+       "time": "2026-10-07T19:31:45+00:00",
+       "id": "h24",
+       "desk": "business",
+       "source": "Les Echos"
+      }
+     ]
+    },
+    {
+     "name": "Challenges",
+     "site": "challenges.fr",
+     "lang": "fr",
+     "feeds": [
+      "https://www.challenges.fr/rss.xml"
+     ],
+     "items": [
+      {
+       "title": "Lycées, carburants, déficits… Tout ce qu’il faut retenir des annonces de Sébastien Lecornu",
+       "link": "https://www.challenges.fr/politique/lycees-carburants-deficits-tout-ce-quil-faut-retenir-des-annonces-de-sebastien-lecornu_646238",
+       "summary": "Sous pression face à la colère de la jeunesse et à la flambée des prix, Sébastien Lecornu a tenté mercredi de reprendre la main, en annonçant des mesures sur le carburant et l’électricité, tout en maintenant l’objectif de 5 % de déficit en…",
+       "image": "https://www.challenges.fr/_ipx/f_jpg&s_1200x630&enlarge_true/cha%2Fstatic%2F2026-10%2F62607.HR_1.png%3FVersionId%3D3C0.nCjQKeTg3uXmRl6sxW4lxqqnwyUD",
+       "time": "2026-10-07T17:44:00+00:00",
+       "id": "h25",
+       "desk": "business",
+       "source": "Challenges"
+      },
+      {
+       "title": "Injections de saumon, alternatives véganes : quel est cet actif anti-âge star qui cartonne sur TikTok ?",
+       "link": "https://www.challenges.fr/luxe/injections-de-saumon-alternatives-veganes-quel-est-cet-actif-anti-age-star-qui-cartonne-sur-tiktok_646219",
+       "summary": "De la médecine régénérative aux injections star en Corée, le PDRN s’impose comme l’actif anti-âge incontournable du moment. Aujourd’hui formulé à partir de plantes ou issu de la biotechnologie végane, décryptage et sélection des meilleures…",
+       "image": "https://www.challenges.fr/_ipx/f_jpg&s_1200x630&enlarge_true/cha%2Fstatic%2F2026-10%2F62527.HR_0.jpg%3FVersionId%3D4w42Q97kZYKh0oGzrdYsc9mBlWavujhD",
+       "time": "2026-10-07T17:30:00+00:00",
+       "id": "h26",
+       "desk": "business",
+       "source": "Challenges"
+      },
+      {
+       "title": "« 75 000 CDI perdus chaque année à cause de l’IA » : ces 5 métiers où les jeunes ne décrochent plus de contrat stable",
+       "link": "https://www.challenges.fr/vie-de-lentreprise/75-000-cdi-perdus-chaque-annee-a-cause-de-lia-ces-5-metiers-ou-les-jeunes-ne-decrochent-plus-de-contrat-stable_646231",
+       "summary": "Depuis l’arrivée de ChatGPT, les jeunes signent 75 000 CDI de moins par an dans les métiers les plus exposés à l’IA. Les seniors, eux, sont largement épargnés.",
+       "image": "https://www.challenges.fr/_ipx/f_jpg&s_1200x630&enlarge_true/cha%2Fstatic%2F2026-10%2F62605.HR_0.jpg%3FVersionId%3DxWIoL7EbICRY8oZTx1MheiJVp8_6nNGh",
+       "time": "2026-10-07T17:00:00+00:00",
+       "id": "h27",
+       "desk": "business",
+       "source": "Challenges"
+      },
+      {
+       "title": "« Nous refusons de payer pour travailler », la pétition d’une aide à domicile face à la hausse du carburant",
+       "link": "https://www.challenges.fr/economie/nous-refusons-de-payer-pour-travailler-la-petition-dune-aide-a-domicile-face-a-la-hausse-du-carburant_646236",
+       "summary": "« Nous refusons de payer pour travailler ! » signe Manuela Cabot Salar dans sa pétition. L'aide à domicile dénonce avec la hausse du carburant, des conditions de travail de plus en plus dégradés et demande l’augmentation immédiate des…",
+       "image": "https://www.challenges.fr/_ipx/f_jpg&s_1200x630&enlarge_true/ultimedia%2Fmulti%2Fs3xlr%2F3m5kpqk-H.jpg%3FupdatedAt%3D1791393636",
+       "time": "2026-10-07T16:56:53+00:00",
+       "id": "h28",
+       "desk": "business",
+       "source": "Challenges"
+      },
+      {
+       "title": "Mode : les accessoires les plus surprenants repérés à la Fashion Week de Paris",
+       "link": "https://www.challenges.fr/luxe/mode-les-accessoires-les-plus-surprenants-reperes-a-la-fashion-week-de-paris_646216",
+       "summary": "Alors que la Fashion Week prêt-à-porter femme pour le printemps-été 2027 s’achève à Paris, les podiums ont tranché : la saison prochaine se jouera dans le détail. Des boucles d’oreilles surdimensionnées aux gants couture, en passant par…",
+       "image": "https://www.challenges.fr/_ipx/f_jpg&s_1200x630&enlarge_true/cha%2Fstatic%2F2026-10%2F62519.HR_0.png%3FVersionId%3DC3AhAoQK8yuyxJTCVdZWzKdRgfPl4Ht2",
+       "time": "2026-10-07T16:30:00+00:00",
+       "id": "h29",
+       "desk": "business",
+       "source": "Challenges"
+      },
+      {
+       "title": "Les États-Unis plus dépendants que jamais des importations : pourquoi la guerre douanière de Trump se retourne contre l’Amérique",
+       "link": "https://www.challenges.fr/economie/les-etats-unis-plus-dependants-que-jamais-des-importations-pourquoi-la-guerre-douaniere-de-trump-se-retourne-contre-lamerique_646230",
+       "summary": "Le déficit commercial américain a atteint en août un plus haut depuis 17 mois, le pays continuant d’importer plus qu’il n’exporte malgré les barrières tarifaires mises en place depuis le retour de Donald Trump à la Maison Blanche. En cause…",
+       "image": "https://www.challenges.fr/_ipx/f_jpg&s_1200x630&enlarge_true/cha%2Fstatic%2F2026-10%2F62583.HR_0.jpg%3FVersionId%3DfaeoS.qjRiaz5vRXxRp0pegEpBldVYgI",
+       "time": "2026-10-07T16:30:00+00:00",
+       "id": "h30",
+       "desk": "business",
+       "source": "Challenges"
+      },
+      {
+       "title": "SCPI : la rentrée est-elle le bon moment pour revenir sur la pierre-papier ?",
+       "link": "https://www.challenges.fr/partenaires/meilleurtaux-placement/scpi-la-rentree-est-elle-le-bon-moment-pour-revenir-sur-la-pierre-papier_646235",
+       "summary": "Oui, la pierre-papier sort de sa crise, mais de façon très inégale. En 2025, selon l'Aspim, les prix de part se sont stabilisés et le taux de distribution moyen a atteint 4,91%, avec une performance globale annuelle qui va de +6,3% pour…",
+       "image": "https://www.challenges.fr/_ipx/f_jpg&s_1200x630&enlarge_true/cha%2Fstatic%2F2026-10%2F62476.HR_0.jpg%3FVersionId%3DyFPS8nfrlLgtepwLHoc9Vb06md4_Zgye",
+       "time": "2026-10-07T16:26:00+00:00",
+       "id": "h31",
+       "desk": "business",
+       "source": "Challenges"
+      },
+      {
+       "title": "« Netanyahou a toujours gagné des voix en prêchant la peur » : la rabbine Delphine Horvilleur se livre sans filtres sur Israël, trois ans après le 7-Octobre",
+       "link": "https://www.challenges.fr/monde/netanyahou-a-toujours-gagne-des-voix-en-prechant-la-peur-la-rabbine-delphine-horvilleur-se-livre-sans-filtres-sur-israel-trois-ans-apres-le-7-octobre_646233",
+       "summary": "Franco-israélienne et rabbine, Delphine Horvilleur a rencontré Challenges à l’occasion de la sortie de son nouvel essai, Sermons sous les décombres. L’ouvrage paraît ce jeudi 8 octobre, au lendemain des trois ans des attentats meurtriers…",
+       "image": "https://www.challenges.fr/_ipx/f_jpg&s_1200x630&enlarge_true/cha%2Fstatic%2F2026-10%2F62551.HR_0.jpg%3FVersionId%3DPDiA41cG7xkBew8GTVdRFx4qPw3Ju1o5",
+       "time": "2026-10-07T16:15:00+00:00",
+       "id": "h32",
+       "desk": "business",
+       "source": "Challenges"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "world",
+   "name": "World & politics",
+   "sources": [
+    {
+     "name": "New York Times",
+     "site": "nytimes.com",
+     "lang": "en",
+     "feeds": [
+      "https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml",
+      "https://rss.nytimes.com/services/xml/rss/nyt/World.xml"
+     ],
+     "items": [
+      {
+       "title": "Italy Weighs Controversial Law Giving Bonus Seats to Election Winners",
+       "link": "https://www.nytimes.com/2026/10/08/world/europe/italy-election-law-bonus.html",
+       "summary": "Supporters of the law say it would bring stability to a country with a long history of short-lived governments, but critics see the measure as a threat to democracy.",
+       "image": "https://static01.nyt.com/images/2026/10/07/multimedia/ITALY-ELECTORAL-LAW-hfbv/ITALY-ELECTORAL-LAW-hfbv-mediumSquareAt3X.jpg",
+       "time": "2026-10-08T04:01:04+00:00",
+       "id": "h33",
+       "desk": "world",
+       "source": "New York Times"
+      },
+      {
+       "title": "For France’s Resurgent Far Left, Student Protests Are an Opening and a Threat",
+       "link": "https://www.nytimes.com/2026/10/08/world/europe/france-protests-far-left-melenchon.html",
+       "summary": "Far-left leaders are cheering on the students. Government officials accuse them of stirring up the unrest for political gain.",
+       "image": "https://static01.nyt.com/images/2026/10/08/multimedia/08int-france-far-left-kpfg/08int-france-far-left-kpfg-mediumSquareAt3X.jpg",
+       "time": "2026-10-08T04:00:11+00:00",
+       "id": "h34",
+       "desk": "world",
+       "source": "New York Times"
+      },
+      {
+       "title": "France Braces for a Second Day of Mass Protests in a Week",
+       "link": "https://www.nytimes.com/2026/10/08/world/europe/france-protests-unrest-students.html",
+       "summary": "French activists were set to rally across France on Thursday, in a test of the longevity of a nationwide student protest movement.",
+       "image": "https://static01.nyt.com/images/2026/10/08/multimedia/08int-france-protests-1-qbjf/08int-france-protests-1-qbjf-mediumSquareAt3X.jpg",
+       "time": "2026-10-08T04:00:05+00:00",
+       "id": "h35",
+       "desk": "world",
+       "source": "New York Times"
+      },
+      {
+       "title": "Arizona Congressional Candidate Says She Was Raped While Fixing Sign",
+       "link": "https://www.nytimes.com/2026/10/07/us/bernadetta-green-placentia-campaign-sign-rape.html",
+       "summary": "Bernadette Greene-Placentia, a Democrat, said the attack in August occurred while she was repairing a damaged campaign sign.",
+       "image": "https://static01.nyt.com/images/2026/10/07/multimedia/07nat-az-candidate-rape-kwlj/07nat-az-candidate-rape-kwlj-mediumSquareAt3X.jpg",
+       "time": "2026-10-08T03:41:25+00:00",
+       "id": "h36",
+       "desk": "world",
+       "source": "New York Times"
+      },
+      {
+       "title": "At Texas Rally, Trump and Paxton Make for an Awkward Pair",
+       "link": "https://www.nytimes.com/2026/10/07/us/elections/in-texas-trump-and-paxton-make-for-an-awkward-pair.html",
+       "summary": "The president offered support for the Republican Senate candidate, after earlier grumbles, but focused much of his speech on a defense of his own record.",
+       "image": "https://static01.nyt.com/images/2026/10/07/multimedia/07dc-trump-wqfp/07dc-trump-wqfp-mediumSquareAt3X.jpg",
+       "time": "2026-10-08T03:32:45+00:00",
+       "id": "h37",
+       "desk": "world",
+       "source": "New York Times"
+      },
+      {
+       "title": "Margaret Hamilton, Whose Software Guided the Apollo Missions, Has Died",
+       "link": "https://www.nytimes.com/2026/10/07/obituaries/margaret-hamilton-dead.html",
+       "summary": "Margaret Hamilton, the first female programmer hired to work on the space project at M.I.T., was 90.",
+       "image": "https://static01.nyt.com/images/2026/10/07/obituaries/00obit-hamilton/00obit-hamilton-mediumSquareAt3X.jpg",
+       "time": "2026-10-08T03:07:24+00:00",
+       "id": "h38",
+       "desk": "world",
+       "source": "New York Times"
+      },
+      {
+       "title": "Texas Executes Man After Botched Lethal Injection in Tennessee",
+       "link": "https://www.nytimes.com/2026/10/07/us/texas-execution-lethal-injection.html",
+       "summary": "Jamaal Howard was put to death after courts rejected his lawyers’ requests to delay the execution over concerns about the drug.",
+       "image": "https://static01.nyt.com/images/2026/10/07/multimedia/07nat-texas-execution-1-vblc/07nat-texas-execution-1-vblc-mediumSquareAt3X.jpg",
+       "time": "2026-10-08T02:13:31+00:00",
+       "id": "h39",
+       "desk": "world",
+       "source": "New York Times"
+      },
+      {
+       "title": "For Twin Brothers Abducted in the Oct. 7 Attacks, Adjusting to Freedom Is a New Challenge",
+       "link": "https://www.nytimes.com/2026/10/07/world/middleeast/israel-october-7-attacks-hostages-twins-berman.html",
+       "summary": "Gali and Ziv Berman were taken hostage when their kibbutz was attacked on Oct. 7, 2023. They were freed a year ago but are still adjusting to freedom and trying to rebuild their lives.",
+       "image": "https://static01.nyt.com/images/2026/09/02/multimedia/00int-israel-hostage-twins-02-vplw/00int-israel-hostage-twins-02-vplw-mediumSquareAt3X-v2.jpg",
+       "time": "2026-10-08T02:00:19+00:00",
+       "id": "h40",
+       "desk": "world",
+       "source": "New York Times"
+      }
+     ]
+    },
+    {
+     "name": "Le Monde",
+     "site": "lemonde.fr",
+     "lang": "fr",
+     "feeds": [
+      "https://www.lemonde.fr/rss/une.xml",
+      "https://www.lemonde.fr/rss/en_continu.xml"
+     ],
+     "items": [
+      {
+       "title": "Finale de la CAN 2025 : le Tribunal arbitral du sport appelé à trancher entre le Maroc et le Sénégal",
+       "link": "https://www.lemonde.fr/afrique/article/2026/10/08/finale-de-la-can-2025-le-tribunal-arbitral-du-sport-appele-a-trancher-entre-le-maroc-et-le-senegal_6789931_3212.html",
+       "summary": "Pour avoir quitté la pelouse afin de dénoncer un penalty, les Sénégalais ont été déclarés forfait malgré leur victoire face aux Marocains (1-0). Depuis, chacune des sélections revendique le titre continental : les premiers s’estiment…",
+       "image": "https://img.lemde.fr/2026/03/17/397/0/4767/2383/644/322/60/0/2f68750_ftp-1-ddjcpw7vxgcx-5511139-01-06.jpg",
+       "time": "2026-10-08T04:00:29+00:00",
+       "id": "h41",
+       "desk": "world",
+       "source": "Le Monde"
+      },
+      {
+       "title": "Margaret Hamilton, scientifique qui a développé le système informatique de la mission Apollo, est morte à 90 ans",
+       "link": "https://www.lemonde.fr/disparitions/article/2026/10/08/margaret-hamilton-scientifique-qui-a-developpe-le-systeme-informatique-de-la-mission-apollo-est-morte-a-90-ans_6789925_3382.html",
+       "summary": "Considérée comme une pionnière dans son domaine, l’informaticienne américaine a permis à la NASA de battre l’Union soviétique durant la course à la Lune, dans les années 1960 et 1970.",
+       "image": "https://img.lemde.fr/2019/03/22/673/0/3001/1500/644/322/60/0/d65d94f_pN6CqbYS3az6iu-L4fJAzzW.jpg",
+       "time": "2026-10-08T03:49:19+00:00",
+       "id": "h42",
+       "desk": "world",
+       "source": "Le Monde"
+      },
+      {
+       "title": "Budget : comment Marine Le Pen veut instaurer la préférence nationale dans le secteur privé",
+       "link": "https://www.lemonde.fr/economie/article/2026/10/08/budget-comment-marine-le-pen-veut-instaurer-la-preference-nationale-dans-le-secteur-prive_6789892_3234.html",
+       "summary": "Dans son « contre-budget », le Rassemblement national envisage notamment de créer une taxe de 1 000 euros pour l’embauche d’un travailleur extra-européen. Une proposition jugée déconnectée des réalités du marché du travail par de nombreux…",
+       "image": "https://img.lemde.fr/2026/10/06/550/0/6000/3000/644/322/60/0/4f18ee7_upload-1-jabgugvgiam3-cbi1340004.jpg",
+       "time": "2026-10-08T03:30:09+00:00",
+       "id": "h43",
+       "desk": "world",
+       "source": "Le Monde"
+      },
+      {
+       "title": "Sébastien Lecornu accablé par « la superposition des crises », du mouvement lycéen à la baisse du pouvoir d’achat",
+       "link": "https://www.lemonde.fr/politique/article/2026/10/08/sebastien-lecornu-accable-par-la-superposition-des-crises-du-mouvement-lyceen-a-la-baisse-du-pouvoir-d-achat_6789890_823448.html",
+       "summary": "Dans une allocution télévisée, mercredi soir, le premier ministre a corrigé sa posture vis-à-vis du mouvement des lycéens, manifestant une forme de compréhension. Mais il a prévenu qu’il ne pourrait pas répondre à leurs principales…",
+       "image": "https://img.lemde.fr/2026/10/07/1000/0/6000/3000/644/322/60/0/2f4f9f8_ftp-1-la93avfot1tk-5291927-01-06.jpg",
+       "time": "2026-10-08T03:29:44+00:00",
+       "id": "h44",
+       "desk": "world",
+       "source": "Le Monde"
+      },
+      {
+       "title": "Mouvement lycéen, baisse du pouvoir d’achat… Sébastien Lecornu accablé par « la superposition des crises »",
+       "link": "https://www.lemonde.fr/politique/article/2026/10/08/sebastien-lecornu-accable-par-la-superposition-des-crises-du-mouvement-lyceen-a-la-baisse-du-pouvoir-d-achat_6789890_823448.html",
+       "summary": "Dans une allocution télévisée, mercredi soir, le premier ministre a corrigé sa posture vis-à-vis du mouvement des lycéens, manifestant une forme de compréhension. Mais il a prévenu qu’il ne pourrait pas répondre à leurs principales…",
+       "image": "https://img.lemde.fr/2026/10/07/1000/0/6000/3000/644/322/60/0/2f4f9f8_ftp-1-la93avfot1tk-5291927-01-06.jpg",
+       "time": "2026-10-08T03:29:44+00:00",
+       "id": "h45",
+       "desk": "world",
+       "source": "Le Monde"
+      },
+      {
+       "title": "Aux Etats-Unis, la situation économique de la France suscite l’inquiétude",
+       "link": "https://www.lemonde.fr/economie/article/2026/10/08/aux-etats-unis-la-situation-economique-de-la-france-suscite-l-inquietude_6789856_3234.html",
+       "summary": "Outre-Atlantique, la presse alerte sur l’instabilité budgétaire et sur la tension sur le marché de la dette. Entre 3 % et 4 % de cet endettement pourrait être entre les mains d’investisseurs américains, notamment de fonds privés.",
+       "image": "https://img.lemde.fr/2026/10/07/576/0/6895/3447/644/322/60/0/64f65a6_upload-1-iqomkzcegpnv-000-b9vq9nt.jpg",
+       "time": "2026-10-08T03:00:08+00:00",
+       "id": "h46",
+       "desk": "world",
+       "source": "Le Monde"
+      },
+      {
+       "title": "En Egypte, les six journalistes du média d’investigation « Matsadaash » inculpés d’infractions liées au terrorisme",
+       "link": "https://www.lemonde.fr/afrique/article/2026/10/08/en-egypte-les-six-journalistes-du-media-d-investigation-matsadaash-inculpes-d-infractions-liees-au-terrorisme_6789789_3212.html",
+       "summary": "Les membres de la rédaction du site spécialisé dans le fact-checking avaient été arrêtés fin septembre lors d’un coup de force inédit contre des journalistes.",
+       "image": "https://img.lemde.fr/2026/10/08/0/109/920/460/644/322/60/0/58fccc0_upload-1-r1rlzx5ry0oz-capture-d-e-cran-2026-10-07-a-19-07-28.png",
+       "time": "2026-10-08T02:14:49+00:00",
+       "id": "h47",
+       "desk": "world",
+       "source": "Le Monde"
+      },
+      {
+       "title": "Fabien Roussel accuse le gouvernement israélien de « terrorisme d’Etat »",
+       "link": "https://www.lemonde.fr/politique/article/2026/10/08/fabien-roussel-accuse-le-gouvernement-israelien-de-terrorisme-d-etat_6789756_823448.html",
+       "summary": "Le candidat communiste à la présidentielle a également condamné, sur LCI, les attaques du Hamas du 7 octobre 2023. Il renvoie dos à dos le gouvernement de Benyamin Nétanyahou et le mouvement islamiste palestinien en dénonçant « des forces…",
+       "image": "https://img.lemde.fr/2026/09/18/474/0/5379/2689/644/322/60/0/5669121_ftp-1-tgydq2zlfxxm-2026-09-18t092852z-1049325028-rc2llnacyte9-rtrmadp-3-france-budget-fuel.JPG",
+       "time": "2026-10-08T00:35:30+00:00",
+       "id": "h48",
+       "desk": "world",
+       "source": "Le Monde"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "defense",
+   "name": "Space & defense",
+   "sources": [
+    {
+     "name": "Payload",
+     "site": "payloadspace.com",
+     "lang": "en",
+     "feeds": [
+      "https://payloadspace.com/feed/"
+     ],
+     "items": [
+      {
+       "title": "Exclusive: Xona Ramps Up Production Ahead of Pulsar Launch",
+       "link": "https://payloadspace.com/exclusive-xona-ramps-up-production-ahead-of-pulsar-launch/",
+       "summary": "With FCC approval in hand and six sats ready for the pad, Xona is turning to its next challenge: building the next 250. The post Exclusive: Xona Ramps Up Production Ahead of Pulsar Launch appeared first on Payload .",
+       "image": "https://payloadspace.com/wp-content/uploads/2026/10/Copy-of-Copy-of-DSC02639-2-200x200.jpg",
+       "time": "2026-10-07T13:00:00+00:00",
+       "id": "h49",
+       "desk": "defense",
+       "source": "Payload"
+      },
+      {
+       "title": "ArbaLabs Launches AI Verification Demo On South Korea’s Nuri Rocket",
+       "link": "https://payloadspace.com/arbalabs-launches-ai-verification-demo-on-south-koreas-nuri-rocket/",
+       "summary": "“In short, tons of companies are looking at the latest and greatest physical AI deployments,” ArbaLabs CEO Ashley Reeves told Payload. “Nobody is really thinking about putting some checks and balances on what these AI models are doing.”…",
+       "image": "https://payloadspace.com/wp-content/uploads/2026/10/HT_78K6aoAAP8dK-200x200.jpeg",
+       "time": "2026-10-07T12:28:38+00:00",
+       "id": "h50",
+       "desk": "defense",
+       "source": "Payload"
+      },
+      {
+       "title": "Colorado Springs, Huntsville Team Up on Golden Dome",
+       "link": "https://payloadspace.com/colorado-springs-huntsville-team-up-on-golden-dome/",
+       "summary": "“It’s a transformed relationship between Colorado Springs and Huntsville,” Rep. Jeff Crank (R-CO) told Payload. “When I took office, I don’t think it was a bad relationship, but it was one where both communities were kind of looking over…",
+       "image": "https://payloadspace.com/wp-content/uploads/2025/08/golden-dome-200x200.webp",
+       "time": "2026-10-06T17:30:00+00:00",
+       "id": "h51",
+       "desk": "defense",
+       "source": "Payload"
+      }
+     ]
+    },
+    {
+     "name": "Tectonic",
+     "site": "tectonicdefense.com",
+     "lang": "en",
+     "feeds": [
+      "https://www.tectonicdefense.com/feed/"
+     ],
+     "items": [
+      {
+       "title": "Harmattan Unveils IRIFI Deep Strike UAV",
+       "link": "https://www.tectonicdefense.com/harmattan-unveils-irifi-deep-strike-uav/",
+       "summary": "In case you haven’t had a keen eye trained on Ukraine this summer, deep strike is quite the hot topic right now. Basically, companies like Fire Point have shown that lower-cost, autonomous deep strike weapons (like, with ranges well above…",
+       "image": "https://www.tectonicdefense.com/wp-content/uploads/2026/10/DB_image_3099.jpeg",
+       "time": "2026-10-07T14:00:33+00:00",
+       "id": "h52",
+       "desk": "defense",
+       "source": "Tectonic"
+      },
+      {
+       "title": "X-Bow Scores $69.7M Contract for SRMs with the US Navy",
+       "link": "https://www.tectonicdefense.com/x-bow-scores-69-7m-contract-for-srms-with-the-us-navy/",
+       "summary": "Damn. The Navy really is on quite the spending spree. This morning, New Mexico-based solid rocket motor (among much else) company X-Bow Systems announced that it’s been awarded a prototype agreement with the Navy worth $69.7M to “develop…",
+       "image": "https://www.tectonicdefense.com/wp-content/uploads/2026/10/vlcsnap-2026-03-24-14h10m02s231.png",
+       "time": "2026-10-07T13:50:47+00:00",
+       "id": "h53",
+       "desk": "defense",
+       "source": "Tectonic"
+      },
+      {
+       "title": "Exclusive: Forterra Brings Autonomy to Hypercraft’s Razorback UGV",
+       "link": "https://www.tectonicdefense.com/exclusive-forterra-turns-hypercrafts-off-road-vehicle-autonomous/",
+       "summary": "Forterra integrates its AutoDrive autonomy stack with Hypercraft’s Razorback for contested logistics missions. The post Exclusive: Forterra Brings Autonomy to Hypercraft’s Razorback UGV appeared first on Tectonic Defense .",
+       "image": "https://www.tectonicdefense.com/wp-content/uploads/2026/10/DSC_9679-scaled.jpg",
+       "time": "2026-10-07T13:47:34+00:00",
+       "id": "h54",
+       "desk": "defense",
+       "source": "Tectonic"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "sport",
+   "name": "Sport",
+   "sources": [
+    {
+     "name": "L'Équipe",
+     "site": "lequipe.fr",
+     "lang": "fr",
+     "feeds": [
+      "https://dwh.lequipe.fr/api/edito/rss?path=/"
+     ],
+     "items": [
+      {
+       "title": "« Je me dis pourquoi pas moi ? » : après une saison compliquée à Brighton, Olivier Boscagli rêve des Bleus",
+       "link": "https://www.lequipe.fr/Football/Article/-je-me-dis-pourquoi-pas-moi-apres-une-saison-compliquee-a-brighton-olivier-boscagli-reve-des-bleus/1724112#at_medium=RSS_feeds",
+       "summary": "Le défenseur français de Brighton, Olivier Boscagli, auteur d'un excellent début de saison à l'image de son équipe, était dans la première pré-liste de Zinédine Zidane. Il espère désormais franchir une nouvelle étape.",
+       "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
+       "time": "2026-10-08T03:55:00+00:00",
+       "id": "h55",
+       "desk": "sport",
+       "source": "L'Équipe"
+      },
+      {
+       "title": "Aux commémorations du 7-Octobre à Tel-Aviv, le football sert aussi à rendre hommage aux victimes",
+       "link": "https://www.lequipe.fr/Football/Article/Aux-commemorations-du-7-octobre-a-tel-aviv-le-football-sert-aussi-a-rendre-hommage-aux-victimes/1724115#at_medium=RSS_feeds",
+       "summary": "Une grande cérémonie de commémoration des victimes des massacres et des kidnappings perpétrés par le Hamas, le 7 octobre 2023, s'est tenue mercredi soir, à Tel-Aviv. Parmi elles se trouvaient de nombreux supporters de clubs, dont la…",
+       "image": "https://medias.lequipe.fr/img-photo-jpg/une-ceremonie-d-hommage-en-l-honneur-des-victimes-du-7-octobre-a-ete-rendue-a-tel-aviv-mercredi-w-dupuy-l-equipe/1500000002607534/0:0,2000:1333-828-552-75/4f3d8.jpg",
+       "time": "2026-10-08T03:49:00+00:00",
+       "id": "h56",
+       "desk": "sport",
+       "source": "L'Équipe"
+      },
+      {
+       "title": "Pourquoi la Formule 1 souhaiterait faire son retour sur le continent africain au Rwanda",
+       "link": "https://www.lequipe.fr/Formule-1/Article/Alors-qu-un-dernier-grand-prix-y-fut-organise-en-1993-en-afrique-du-sud-la-formule-1-souhaiterait-faire-son-retour-sur-le-continent-africain-au-rwanda-du-president-paul-kagame/1724031#at_medium=RSS_feeds",
+       "summary": "Liberty, propriétaire de la Formule 1, serait sur le point de finaliser un projet de Grand Prix au Rwanda. De quoi faire revenir le continent africain, déserté depuis trente-trois ans, sur la carte de la F1.",
+       "image": "https://medias.lequipe.fr/img-photo-jpg/le-dernier-grand-prix-africain-de-l-histoire-kyalami-afrique-du-sud-1993-avec-la-mclaren-d-ayrton-senna-qui-mene-la-danse-devant-les-williams-de-damon-hill-et-d-alain-prost-p-boutroux-l-equipe/1500000002607397/0:0,1983:1322-828-552-75/e18b9.jpg",
+       "time": "2026-10-08T03:45:00+00:00",
+       "id": "h57",
+       "desk": "sport",
+       "source": "L'Équipe"
+      },
+      {
+       "title": "Pas appelé en bleu, Brice Samba reste combatif avec Rennes",
+       "link": "https://www.lequipe.fr/Football/Article/Pas-appele-en-bleu-brice-samba-reste-combatif-avec-rennes/1724071#at_medium=RSS_feeds",
+       "summary": "Brice Samba a été l'un des absents du rassemblement de l'équipe de France, après trois ans de vie en bleu. Une nouvelle donne à digérer pour le gardien rennais.",
+       "image": "https://medias.lequipe.fr/img-photo-jpg/brice-samba-a-encaisse-7-buts-en-5-matches-avec-rennes-cette-saison-f-faugere-l-equipe/1500000002607457/79:72,1907:1291-828-552-75/0eeb5.jpg",
+       "time": "2026-10-08T03:42:00+00:00",
+       "id": "h58",
+       "desk": "sport",
+       "source": "L'Équipe"
+      },
+      {
+       "title": "Paris-Asvel, le nouveau duel qui a tout d'un futur classique du basket français, a tenu toutes ses promesses",
+       "link": "https://www.lequipe.fr/Basket/Article/Paris-asvel-le-nouveau-duel-qui-a-tout-d-un-futur-classique-du-basket-francais-a-tenu-toutes-ses-promesses/1724121#at_medium=RSS_feeds",
+       "summary": "Le premier des nombreux duels à venir, cette saison, entre Paris et l'Asvel, mercredi en Euroligue, a tourné à l'avantage du visiteur villeurbannais (96-98). La naissance du nouveau classique du basket français ?",
+       "image": "https://medias.lequipe.fr/img-photo-jpg/auteurs-respectivement-de-19-et-27-points-le-villeurbannais-tremont-waters-balle-en-main-et-le-parisien-tyson-etienne-se-sont-livre-un-beau-duel-mercredi-soir-f-faugere-l-equipe/1500000002607550/285:70,1959:1187-828-552-75/9dc3c.jpg",
+       "time": "2026-10-08T03:30:00+00:00",
+       "id": "h59",
+       "desk": "sport",
+       "source": "L'Équipe"
+      },
+      {
+       "title": "Juan Carlos Ferrero n'est pas fermé à l'idée d'entraîner Jannik Sinner : « Avoir entraîné Carlos ne signifie pas que tu ne peux plus entraîner son plus grand rival »",
+       "link": "https://www.lequipe.fr/Tennis/Actualites/Juan-carlos-ferrero-n-est-pas-ferme-a-l-idee-d-entrainer-jannik-sinner-avoir-entraine-carlos-ne-signifie-pas-que-tu-ne-peux-plus-entrainer-son-plus-grand-rival/1724122#at_medium=RSS_feeds",
+       "summary": "Dans une interview accordée au media Punto de break publiée mercredi, l'ancien entraîneur de Carlos Alcaraz, Juan Carlos Ferrero, a évoqué la possibilité de coacher Jannik Sinner dans le futur.",
+       "image": "https://medias.lequipe.fr/img-photo-jpg/juan-carlos-ferrero-pourrait-revenir-sur-le-circuit-comme-entraineur-en-2027-p-lahalle-l-equipe/1500000002607551/66:75,1843:1259-828-552-75/76bd5.jpg",
+       "time": "2026-10-07T22:24:38+00:00",
+       "id": "h60",
+       "desk": "sport",
+       "source": "L'Équipe"
+      },
+      {
+       "title": "Jae Crowder satisfait des progrès affichés par l'Asvel après sa victoire contre Paris en Euroligue : « On commence à se trouver »",
+       "link": "https://www.lequipe.fr/Basket/Actualites/Jae-crowder-satisfait-des-progres-affiches-par-l-asvel-apres-sa-victoire-contre-paris-en-euroligue-on-commence-a-se-trouver/1724119#at_medium=RSS_feeds",
+       "summary": "Ancien finaliste NBA, l'ailier-fort Jae Crowder était satisfait du coup de vis défensif de l'Asvel en fin de match, lors de la victoire contre Paris en Euroligue mercredi (98-96) et souligne les progrès collectifs rapides du groupe dirigé…",
+       "image": "https://medias.lequipe.fr/img-photo-jpg/jae-crowder-a-rejoint-l-asvel-cet-ete-a-martin-l-equipe/1500000002607539/82:147,1859:1331-828-552-75/a506e.jpg",
+       "time": "2026-10-07T21:53:49+00:00",
+       "id": "h61",
+       "desk": "sport",
+       "source": "L'Équipe"
+      },
+      {
+       "title": "Sans club depuis son départ de Rodez en janvier, Flavien Tait annonce sa retraite à 33 ans",
+       "link": "https://www.lequipe.fr/Football/Actualites/Sans-club-depuis-son-depart-de-rodez-en-janvier-flavien-tait-annonce-sa-retraite-a-33-ans/1724116#at_medium=RSS_feeds",
+       "summary": "Flavien Tait a annoncé ce mercredi qu'il mettait un terme à sa carrière. Le milieu de 33 ans, qui a évolué à Châteauroux, Angers et Rennes, était sans club depuis son départ de Rodez, en janvier.",
+       "image": "https://medias.lequipe.fr/img-photo-jpg/flavien-tait-a-joue-a-rennes-de-2019-a-2023-a-mounic-l-equipe/1500000002607535/0:0,2000:1333-828-552-75/f251f.jpg",
+       "time": "2026-10-07T21:31:44+00:00",
+       "id": "h62",
+       "desk": "sport",
+       "source": "L'Équipe"
+      }
+     ]
+    },
+    {
+     "name": "The Athletic",
+     "site": "nytimes.com/athletic",
+     "lang": "en",
+     "feeds": [
+      "https://www.nytimes.com/athletic/rss/news/"
+     ],
+     "items": [
+      {
+       "title": "MLB Playoffs live updates: Brewers lead Padres in Division Series Game 4 after Rays sweep Yankees",
+       "link": "https://www.nytimes.com/athletic/live-blogs/mlb-playoffs-live-scores-updates-results-alds-nlds-news-highlights/inE8qsHMcoZh/",
+       "summary": "Follow our live coverage as the Division Series continue with all eight remaining teams in action.",
+       "image": "https://theathletic-media-production.s3-us-west-2.amazonaws.com/inE8qsHMcoZh_syGNlQg6MUmn_1440x960.jpg",
+       "time": "2026-10-08T04:14:40+00:00",
+       "id": "h63",
+       "desk": "sport",
+       "source": "The Athletic"
+      },
+      {
+       "title": "Valkyries, Dream take commanding 2-0 series leads in WNBA playoffs: Live updates and reaction",
+       "link": "https://www.nytimes.com/athletic/live-blogs/wnba-playoffs-live-scores-updates-results-semifinals/7SjFN10b5DGP/",
+       "summary": "Golden State fends off a 17-point rally from Las Vegas, while Atlanta defeats New York in overtime.",
+       "image": "https://theathletic-media-production.s3-us-west-2.amazonaws.com/7SjFN10b5DGP_fyJW3k8KS4Ga_1440x960.png",
+       "time": "2026-10-08T04:14:21+00:00",
+       "id": "h64",
+       "desk": "sport",
+       "source": "The Athletic"
+      },
+      {
+       "title": "Tony Bloom on Hurzeler and Brighton's future: 'We have a realistic chance of finishing in the top five'",
+       "link": "https://www.nytimes.com/athletic/7625751/2026/10/08/tony-bloom-brighton-hurzeler-transfers-ambition-interview-exclusive/",
+       "summary": "The Brighton owner and chairman also addresses his desire to win the UEFA Conference League and the eye-catching fee paid for Luka Vuskovic",
+       "image": "https://static01.nyt.com/athletic/uploads/wp/2026/10/07063535/GettyImages-2215354572-scaled-e1791369356122.jpg",
+       "time": "2026-10-08T04:13:57+00:00",
+       "id": "h65",
+       "desk": "sport",
+       "source": "The Athletic"
+      },
+      {
+       "title": "Minnesota Wild live news: The latest updates from Michael Russo and Joe Smith",
+       "link": "https://www.nytimes.com/athletic/live-blogs/minnesota-wild-results-season/y2Xyq3gsFEog/",
+       "summary": "Michael Russo and Joe Smith bring you the ultimate fan spot for news, discussion and access to the Wild",
+       "image": "https://theathletic-media-production.s3-us-west-2.amazonaws.com/y2Xyq3gsFEog_7X8tr1OIy6tT_1440x960.jpg",
+       "time": "2026-10-08T04:13:33+00:00",
+       "id": "h66",
+       "desk": "sport",
+       "source": "The Athletic"
+      },
+      {
+       "title": "How to watch Iowa State vs. No. 8 BYU: TV channel and streaming options for October 9",
+       "link": "https://www.nytimes.com/athletic/7670617/2026/10/08/iowa-state-vs-byu-stream-how-to-watch-oct-9/",
+       "summary": "Find out how to watch the Iowa State Cyclones play the BYU Cougars, with time, TV channel and streaming information.",
+       "image": "https://static01.nyt.com/athletic/uploads/wp/2026/10/08000906/W7Nr9gn.jpg",
+       "time": "2026-10-08T04:09:06+00:00",
+       "id": "h67",
+       "desk": "sport",
+       "source": "The Athletic"
+      },
+      {
+       "title": "How will Premier League managers handle barrage of questions about Manchester City charges?",
+       "link": "https://www.nytimes.com/athletic/7668323/2026/10/08/premier-league-managers-manchester-city-charges/",
+       "summary": "Premier League managers will face questions for the first time on Manchester City's financial charges - here are some responses we might see",
+       "image": "https://static01.nyt.com/athletic/uploads/wp/2026/10/07114700/GettyImages-2276398425-scaled.jpg",
+       "time": "2026-10-08T04:08:48+00:00",
+       "id": "h68",
+       "desk": "sport",
+       "source": "The Athletic"
+      },
+      {
+       "title": "Injuries, air miles and unhappy coaches: Does anyone like the four-game international break?",
+       "link": "https://www.nytimes.com/athletic/7668342/2026/10/08/injuries-international-break-opinion-pochettino-tuchel/",
+       "summary": "Star players have suffered injuries during this extended break and international managers have been outspoken",
+       "image": "https://static01.nyt.com/athletic/uploads/wp/2026/10/07094722/GettyImages-2297137450-scaled.jpg",
+       "time": "2026-10-08T04:08:31+00:00",
+       "id": "h69",
+       "desk": "sport",
+       "source": "The Athletic"
+      },
+      {
+       "title": "The Expected Premier League Table MD6: Arsenal's open-play boost, wayward Forest, and can Brighton keep it up?",
+       "link": "https://www.nytimes.com/athletic/7668399/2026/10/08/expected-premier-league-table-md-6/",
+       "summary": "As the Premier League returns, The Athletic has a reminder of which sides have looked sharp this season, and which have not",
+       "image": "https://static01.nyt.com/athletic/uploads/wp/2026/10/07120916/GettyImages-2293843573-1-scaled.jpg",
+       "time": "2026-10-08T04:05:34+00:00",
+       "id": "h70",
+       "desk": "sport",
+       "source": "The Athletic"
+      }
+     ]
+    },
+    {
+     "name": "Sports Illustrated",
+     "site": "si.com",
+     "lang": "en",
+     "feeds": [
+      "https://www.si.com/.rss/full/"
+     ],
+     "items": [
+      {
+       "title": "Takeaways & Player Grades After Bulls Down Suns in Physical Preseason Opener",
+       "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxORzBHNXhBQXBUZkdtX092YjRNckNxLVZPb3ljbEJYQXY2ZDdKSHNHWTBjVzB2NUIzRUVRb0ZkeFV0WDlqSDZZMURYcGNTNDF6bFNhTTVLeTBCcF9STTdjWDZ0NUhkWDl0NTRUdTRQT3c0ZnRLMDdIMExwdWZzS3ltbmVDckQ5ci1CRDRwOXJVMnMxbTRveXhCZ2JIZnZoUTVZOVRsWm16NFF4NmFkcVVrcUU0emNkczZaRDJyNFhB?oc=5",
+       "summary": "",
+       "image": null,
+       "time": "2026-10-08T03:55:55+00:00",
+       "id": "h71",
+       "desk": "sport",
+       "source": "Sports Illustrated"
+      },
+      {
+       "title": "What we learned in the second Bucks preseason game",
+       "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNM054MHFhOS12X09COGNHOG9adkRSN095M0dQS05LSDRybFNXR2VkUGxHRXhwSU9hS0NTRHRJX3pMUWxpZ0ljc0V3WWQ5UVplV0NKMGJaTzc3TXV2SWFlaFJpNlk1bEZiY0lUdnNuczF6N1lRbFlVWGd0amRrbnNuSDZGYlFmWkhaRUYzd2ZHVlBSZXU3Q2hJaXk0V3dBdw?oc=5",
+       "summary": "",
+       "image": null,
+       "time": "2026-10-08T03:31:14+00:00",
+       "id": "h72",
+       "desk": "sport",
+       "source": "Sports Illustrated"
+      },
+      {
+       "title": "Cal Injury Report: Key Bears Players Remain Questionable for Saturday",
+       "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQVUFweE9McXhTbTZCM2NCUFBubFROU1ZiZGN1Qk43dGQtYmxzbTk0X3ZmMlZVWFNnWUpHdV96OE82VXNYcTlfeFVDN2FnWV9Yd2JudFR5R1NVNXphVVBZM28zalc3S2pQNU1QdlBNZ0pFYzVxbHRyaENLSFBCdmpyblRFaHFyXzFfVkdSbjgwS0lFeHF0R1c3VHhmYjVxMWZhZTRYaVNQemlrN1kxR09YZ2NWYm4wTzZFcWVSVi13?oc=5",
+       "summary": "",
+       "image": null,
+       "time": "2026-10-08T03:29:20+00:00",
+       "id": "h73",
+       "desk": "sport",
+       "source": "Sports Illustrated"
+      },
+      {
+       "title": "Colorado State Rams vs Texas State Bobcats Preview & Start Time — October 15, 2026 | SI",
+       "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOZ2g4N1hpM0VGNWEwbU4zYmFJNG5VSE1PZWRoRjZQXy16ZjhfTWRydURRVWR0QnJxYnQzQVZ4MFlzQVRCXzg3YWZvdFNNbkhNc0FHR2xhOHowek1Vb0xqZnl2b3lsZGp6ZlZfbHNnY1pwVlpBWlNOVHlfMXZQZVBFV2FBdWdyZGM?oc=5",
+       "summary": "",
+       "image": null,
+       "time": "2026-10-08T02:45:29+00:00",
+       "id": "h74",
+       "desk": "sport",
+       "source": "Sports Illustrated"
+      },
+      {
+       "title": "Charlie McBride on How Nebraska Can Beat Indiana",
+       "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOQjZaQmVfYkRkVXVodE1JSVRuMjNZbEJhOWpaVVJUQ08tZmVCUmR5WGNtNXliTWtYS1I0cklsVC1YV1ZTeXlQVl9PNDNScjRuOXByeEN0Y0gtMnNWWjNhUVRrRHQ2N04yRE51N2RnVG5Pa25TSFdBVEFiUVRfOWNQc0dZdTdsU1dkMTJHaHJEM3RPdjliZGsxczZnOTdVMU5BTGZ3Y24zUkg?oc=5",
+       "summary": "",
+       "image": null,
+       "time": "2026-10-08T01:03:57+00:00",
+       "id": "h75",
+       "desk": "sport",
+       "source": "Sports Illustrated"
+      },
+      {
+       "title": "Mississippi State Fans Deserve a Standard, Not a Moving Target",
+       "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPR0kxQXAyWTg0TTlTMUM5aW8zcmJQWmhXYWdYWGhMN3VpZXQ5MGxHSVJZX3YxZzdXTEZnZk9aMFdsYWNCR0dXekQ4TmlNZjNUeHNfX0wwQlV3RGxFWXlNN0Q2cUlOcXFlTGZXR2FzSGhCRUVndDhzSVRNUlRpb0Y3MGhGblNLVFlLT2tDaW5wNmRYZVNSZVVTakU4ZFpHeTVheThxaWsxay1YT3RPOTZzcEVodXU?oc=5",
+       "summary": "",
+       "image": null,
+       "time": "2026-10-08T01:00:00+00:00",
+       "id": "h76",
+       "desk": "sport",
+       "source": "Sports Illustrated"
+      },
+      {
+       "title": "3 Reason Guardians Won Do-or-Die ALDS Game 3",
+       "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOb19WczZWU05LSXBURnphZ1E3VmIyTFItUEhRRGVMS0JXT1lmNXkwNVNHVjdiNlgtWjIwQ2JaOGV2OUdKem5hV2cyekdhaGtrZGtYSUxyRVlVd1U1a1hZRWNVdEh6VEFBVTdEZVYzZnhoeDBoOFVadklzMm42M1JVY3V5MURtRWhYZlNfaDE5SjcxcERFTXFGVWxLWQ?oc=5",
+       "summary": "",
+       "image": null,
+       "time": "2026-10-08T00:10:30+00:00",
+       "id": "h77",
+       "desk": "sport",
+       "source": "Sports Illustrated"
+      },
+      {
+       "title": "Phillies Executive in Running To Lead Athletics Operations",
+       "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQU1JGb2V5R2liRHozZXF3Wm9DZG83cjVqNEFkbE1YekxXMjBCZGd4YkZLeXd3bDF0RGZfUnh3YnNVbTQwejhDMl80Rk4yVVk0N1NaVEtucUs1Vks5RW5yQkgycjdydEtOclY2SEhsVEJsaWlQLV82WEhvdWN0VVJTclhuTGpSNU9KendMaUoxeUVDa0FSRmtWdllxNA?oc=5",
+       "summary": "",
+       "image": null,
+       "time": "2026-10-08T00:00:00+00:00",
+       "id": "h78",
+       "desk": "sport",
+       "source": "Sports Illustrated"
+      }
+     ]
+    },
+    {
+     "name": "The Hockey News",
+     "site": "thehockeynews.com",
+     "lang": "en",
+     "feeds": [
+      "https://thehockeynews.com/.rss/full/"
+     ],
+     "items": [
+      {
+       "title": "What's Real And What's Not In The Early Stages Of The NHL Season?",
+       "link": "https://thehockeynews.com/news/latest-news/whats-real-and-whats-not-in-the-early-stages-of-the-nhl-season",
+       "summary": "The NHL's 2026-27 season is well underway, and Adam Proteau breaks down which early-season trends are likely to stick and where we can expect significant change.",
+       "image": "https://deweb-519a7.b-cdn.net/post-images/570476f2-41c0-4dc2-85aa-247dedcc1004.jpeg",
+       "time": "2026-10-07T21:50:23+00:00",
+       "id": "h79",
+       "desk": "sport",
+       "source": "The Hockey News"
+      },
+      {
+       "title": "The Hockey News Future Watch Show: Breaking Down Landon DuPont's NCAA Debut, Top Prospects In The AHL",
+       "link": "https://thehockeynews.com/news/podcast/the-hockey-news-future-watch-show-breaking-down-landon-duponts-ncaa-debut-top-prospects-in-the-ahl",
+       "summary": "Ryan Kennedy, Tony Ferrari and Eric Cruikshank break down Landon DuPont's first NCAA appearance with Michigan before looking at the top prospects to keep an eye out for in the AHL this season.",
+       "image": "https://deweb-519a7.b-cdn.net/post-images/ff78eb6e-8a35-4d2b-a496-cd664544800e.jpeg",
+       "time": "2026-10-07T19:49:07+00:00",
+       "id": "h80",
+       "desk": "sport",
+       "source": "The Hockey News"
+      },
+      {
+       "title": "BetMGM: Updated Stanley Cup Odds Have Florida Panthers, Toronto Maple Leafs, Washington Capitals And New York Rangers As Early Favorites",
+       "link": "https://thehockeynews.com/news/latest-news/betmgm-updated-stanley-cup-odds-have-florida-panthers-toronto-maple-leafs-washington-capitals-and-new-york-rangers-as-early-favorites",
+       "summary": "Despite injuries to two of its key forwards, Florida is the overwhelming favorite to win the Stanley Cup. But can the Leafs, Capitals and Rangers spoil the Panthers' bid for a third championship in four years?",
+       "image": "https://deweb-519a7.b-cdn.net/post-images/7f490eda-7333-4155-a33c-2388ab0a2acd.jpeg",
+       "time": "2026-10-07T17:34:09+00:00",
+       "id": "h81",
+       "desk": "sport",
+       "source": "The Hockey News"
+      },
+      {
+       "title": "The Hockey News' Top 80 Players In The NHL: 30-21",
+       "link": "https://thehockeynews.com/news/latest-news/the-hockey-news-top-80-players-in-the-nhl-30-21",
+       "summary": "In celebration of The Hockey News' 80th year, we're ranking the top 80 NHL players entering the 2026-27 season. In this file, we're unveiling players 30 through 21.",
+       "image": "https://deweb-519a7.b-cdn.net/post-images/921b6389-eb80-44b0-84db-576dc46e768d.jpeg",
+       "time": "2026-10-07T16:22:00+00:00",
+       "id": "h82",
+       "desk": "sport",
+       "source": "The Hockey News"
+      },
+      {
+       "title": "'It Felt Longer': How Maple Leafs' McKenna Survived His First Week Under The Microscope",
+       "link": "https://thehockeynews.com/news/latest-news/it-felt-longer-how-maple-leafs-mckenna-survived-his-first-week-under-the-microscope",
+       "summary": "The first week of Gavin McKenna's NHL career was capped off with an impressive two-point effort against the Nashville Predators. Before his standout performance, the 18-year-old rookie already got the full up-and-down experience of playing…",
+       "image": "https://deweb-519a7.b-cdn.net/post-images/32d52311-72b5-4909-9b03-cc196606e137.jpeg",
+       "time": "2026-10-07T15:16:44+00:00",
+       "id": "h83",
+       "desk": "sport",
+       "source": "The Hockey News"
+      },
+      {
+       "title": "NHL Rumor Roundup: Elias Pettersson May Have Improved His Trade Value, Latest On The Oilers",
+       "link": "https://thehockeynews.com/news/latest-news/nhl-rumor-roundup-elias-pettersson-may-have-improved-his-trade-value-latest-on-the-oilers",
+       "summary": "Elias Pettersson's strong start to this season has prompted speculation about his value to the Canucks. Meanwhile, it's rumored the Edmonton Oilers could be eyeing a promising forward in the Eastern Conference.",
+       "image": "https://deweb-519a7.b-cdn.net/post-images/008c5986-84d7-4cde-8747-8fad9fff3287.jpeg",
+       "time": "2026-10-07T14:36:27+00:00",
+       "id": "h84",
+       "desk": "sport",
+       "source": "The Hockey News"
+      },
+      {
+       "title": "The Hockey News Morning Skate: Larkin's Red Wings Return, McKenna Milestones, Marchand's Injury Scare",
+       "link": "https://thehockeynews.com/news/latest-news/the-hockey-news-morning-skate-larkins-red-wings-return-mckenna-milestone-marchands-injury-scare",
+       "summary": "In this edition of The Hockey News Morning Skate, Eric Cruikshank and Michael Traikos break down Gavin McKenna's two-point effort for the Toronto Maple Leafs, Dylan Larkin's return tot he Detroit Red Wings' lineup, Brad Marchand's injury…",
+       "image": "https://deweb-519a7.b-cdn.net/post-images/975edfd8-e992-4a1f-81dc-aff991455f34.jpeg",
+       "time": "2026-10-07T14:18:28+00:00",
+       "id": "h85",
+       "desk": "sport",
+       "source": "The Hockey News"
+      },
+      {
+       "title": "'Future Superstar': Social Media Reacts To Gavin McKenna's Breakout Performance For Maple Leafs",
+       "link": "https://thehockeynews.com/news/latest-news/future-superstar-social-media-reacts-to-gavin-mckennas-breakout-performance-for-maple-leafs",
+       "summary": "Toronto Maple Leafs rookie Gavin McKenna picked up the first two points of his NHL career against the Nashville Predators on Tuesday, and fans had plenty of praise for him on social media.",
+       "image": "https://deweb-519a7.b-cdn.net/post-images/fb7e7964-88bb-451c-8b1d-1fbb2859c190.jpeg",
+       "time": "2026-10-07T02:35:19+00:00",
+       "id": "h86",
+       "desk": "sport",
+       "source": "The Hockey News"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "ai": {
+  "briefing": [
+   {
+    "text": "French PM Sébastien Lecornu announced fuel and electricity relief measures while defending a 5% deficit target, as student-led protests returned for a second day nationwide.",
+    "desk": "world",
+    "ids": [
+     "h25",
+     "h44",
+     "h45",
+     "h35",
+     "h34"
+    ]
+   },
+   {
+    "text": "Big investors are quietly buying French and euro-area bonds, judging that fears of a debt-crisis repeat after France's sell-off are overdone, even as US commentary flags French fiscal risk.",
+    "desk": "business",
+    "ids": [
+     "h3",
+     "h46",
+     "h9"
+    ]
+   },
+   {
+    "text": "Samsung forecast operating profit topping $80 billion, driven by surging demand for AI-related chips.",
+    "desk": "business",
+    "ids": [
+     "h15"
+    ]
+   },
+   {
+    "text": "US logistics giant C.H. Robinson agreed to acquire rival freight broker RXO for roughly $5.8 billion, consolidating the sector.",
+    "desk": "business",
+    "ids": [
+     "h16"
+    ]
+   },
+   {
+    "text": "Colorado Springs and Huntsville defense communities are deepening ties to accelerate the Pentagon's Golden Dome missile-defense program.",
+    "desk": "defense",
+    "ids": [
+     "h51"
+    ]
+   },
+   {
+    "text": "The Court of Arbitration for Sport must decide who holds the 2025 Africa Cup of Nations title after Senegal walked off against Morocco over a disputed penalty.",
+    "desk": "sport",
+    "ids": [
+     "h41"
+    ]
+   }
+  ],
+  "upcoming": [
+   {
+    "date": "2026-10-09",
+    "when": "Fri 9 Oct",
+    "title": "Iowa State Cyclones face No. 8 BYU Cougars in college football",
+    "desk": "sport",
+    "ids": [
+     "h67"
+    ]
+   },
+   {
+    "date": "2026-10-15",
+    "when": "Thu 15 Oct",
+    "title": "Colorado State Rams play Texas State Bobcats in college football",
+    "desk": "sport",
+    "ids": [
+     "h74"
+    ]
+   },
+   {
+    "date": null,
+    "when": "pending ruling",
+    "title": "CAS decision on which nation holds the 2025 Africa Cup of Nations title (Morocco vs Senegal)",
+    "desk": "sport",
+    "ids": [
+     "h41"
+    ]
+   },
+   {
+    "date": null,
+    "when": "upcoming launch",
+    "title": "Xona Space Systems' Pulsar satellite launch after FCC approval",
+    "desk": "defense",
+    "ids": [
+     "h49"
+    ]
+   },
+   {
+    "date": null,
+    "when": "future season, date TBA",
+    "title": "Formula 1 reportedly finalizing a Rwanda Grand Prix to return to Africa",
+    "desk": "sport",
+    "ids": [
+     "h57"
+    ]
+   },
+   {
+    "date": null,
+    "when": "by 2027",
+    "title": "European Court of Auditors warns EU spending could push debt to €1,000bn",
+    "desk": "business",
+    "ids": [
+     "h17"
+    ]
+   }
+  ]
+ }
+}
