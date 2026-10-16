@@ -1,0 +1,1130 @@
+{
+ "desks": [
+  {
+   "id": "business",
+   "name": "Business & markets",
+   "sources": [
+    {
+     "name": "Financial Times",
+     "site": "ft.com",
+     "lang": "en",
+     "feeds": [
+      "https://www.ft.com/companies?format=rss",
+      "https://www.ft.com/markets?format=rss",
+      "https://www.ft.com/global-economy?format=rss"
+     ],
+     "items": [
+      {
+       "title": "Wall Street’s AI wobbles",
+       "link": "https://www.ft.com/content/6a1ecb1a-a998-4cbb-be54-22df550a66ee?syn-25a6b1a6=1",
+       "summary": "Investors are dumping data centre bonds and abandoned listings are piling up",
+       "image": null,
+       "time": "2026-10-16T04:00:27+00:00",
+       "id": "h1",
+       "desk": "business",
+       "source": "Financial Times"
+      },
+      {
+       "title": "Why law firms should resist the lure of the AI spin-off",
+       "link": "https://www.ft.com/content/0ce2a031-5c81-4b48-a4b1-d19585fd3a66?syn-25a6b1a6=1",
+       "summary": "A carve-out could raise capital, but it’s a crowded sector and valuations don’t accord with the sector’s lack of profitability",
+       "image": null,
+       "time": "2026-10-16T04:00:27+00:00",
+       "id": "h2",
+       "desk": "business",
+       "source": "Financial Times"
+      },
+      {
+       "title": "Anthropic secured highest junk credit rating in June",
+       "link": "https://www.ft.com/content/5a310aee-f555-4266-874c-b1b4db20186d?syn-25a6b1a6=1",
+       "summary": "Kroll Bond Rating Agency’s judgment sets up AI lab for investment-grade status",
+       "image": null,
+       "time": "2026-10-16T04:00:18+00:00",
+       "id": "h3",
+       "desk": "business",
+       "source": "Financial Times"
+      },
+      {
+       "title": "Has London’s £5bn ‘super sewer’ improved water quality in the Thames?",
+       "link": "https://www.ft.com/content/155bc83f-655d-4891-a431-aa5e1e1ce96a?syn-25a6b1a6=1",
+       "summary": "Ministers pledged the 25km-long sewer would mitigate health risks, encourage recreational river use and restore wildlife",
+       "image": null,
+       "time": "2026-10-16T04:00:17+00:00",
+       "id": "h4",
+       "desk": "business",
+       "source": "Financial Times"
+      },
+      {
+       "title": "UK government courted UBS over London HQ move",
+       "link": "https://www.ft.com/content/1bd1cdc2-9dc1-4538-8820-129e9bd9117b?syn-25a6b1a6=1",
+       "summary": "Rachel Reeves pitched the City as alternative home for Swiss bank, which is weighing its options amid new capital proposals",
+       "image": null,
+       "time": "2026-10-16T04:00:17+00:00",
+       "id": "h5",
+       "desk": "business",
+       "source": "Financial Times"
+      },
+      {
+       "title": "Canary Wharf developer George Iacobescu overseeing new London skyscraper",
+       "link": "https://www.ft.com/content/dcab1c7f-00aa-4194-bdb1-0a0c6712e4e8?syn-25a6b1a6=1",
+       "summary": "‘The man who built Canary Wharf’ working with insurer AmTrust on plans for a 70-storey City office tower",
+       "image": null,
+       "time": "2026-10-16T04:00:17+00:00",
+       "id": "h6",
+       "desk": "business",
+       "source": "Financial Times"
+      },
+      {
+       "title": "US business leaders are waking up to the perils of plutopopulism",
+       "link": "https://www.ft.com/content/586218d3-6943-4690-8dd8-63dd329c781d",
+       "summary": "Companies wanted a president who would cut taxes and rules, they got one who has blown holes in free trade and global alliances",
+       "image": null,
+       "time": "2026-10-16T04:00:17+00:00",
+       "id": "h7",
+       "desk": "business",
+       "source": "Financial Times"
+      },
+      {
+       "title": "Airlines should give up their fuel-hedging dogfight",
+       "link": "https://www.ft.com/content/2839679e-f329-41f0-a252-93444e81252c?syn-25a6b1a6=1",
+       "summary": "Even for battle-hardened CEOs, this latest crisis is a chance for some helpful new thinking",
+       "image": null,
+       "time": "2026-10-16T04:00:17+00:00",
+       "id": "h8",
+       "desk": "business",
+       "source": "Financial Times"
+      }
+     ]
+    },
+    {
+     "name": "Wall Street Journal",
+     "site": "wsj.com",
+     "lang": "en",
+     "feeds": [
+      "https://feeds.a.dj.com/rss/RSSMarketsMain.xml",
+      "https://feeds.a.dj.com/rss/WSJcomUSBusiness.xml"
+     ],
+     "items": [
+      {
+       "title": "Why U.S. Airstrikes Are Failing to Stop the Global Cocaine Boom",
+       "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPNGZXSjUwX3NPMFFLRGVHem5LV3ZNaXNJX0llb3dKZVJacjBHaHFubC1Mc0ZGU3J5MzMwY085aURSSFhQMk9PWGE4c2Nad2Z5dG5PUDdQNUNkcWFNaU1vZmtWM2QxOUFFeTNmREx6U181cWh1WVlRQXppb3l1UlZjSkhQTEV6bUNRZ0xBQ19XMG0?oc=5",
+       "summary": "",
+       "image": null,
+       "time": "2026-10-16T03:48:34+00:00",
+       "id": "h9",
+       "desk": "business",
+       "source": "Wall Street Journal"
+      },
+      {
+       "title": "Hardware Stores Have a Secret Weapon for Wooing Customers",
+       "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBPd1BaQVFnM3puUmVaNU5yVXZrMVRhQ3lYNnNKWURQZnhxQnpnWGQzd3cteU5QdE84LWxVSy1DNU9jS0lvOW1hNFRad1dxX3R1UEdIdVJ3ZktqbWhLRWNLdEpOZld4Nnd1QnVNMFB5cEhjNDUzYXpnV0NuTzI1UQ?oc=5",
+       "summary": "",
+       "image": null,
+       "time": "2026-10-16T03:48:07+00:00",
+       "id": "h10",
+       "desk": "business",
+       "source": "Wall Street Journal"
+      },
+      {
+       "title": "Gigi Hadid Steps Into the Fantastical World of Couture",
+       "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBvSjdRTk1nTVNwbGZCQlNlS215eHBvVjFMU2FwTDBDbUhtTGdSY05sN0FTUjBMLU43S1FEVUlxOFhBamdweXhXcnhpRnR6MmlLSlJ1bWFsS1FiMDVEOHJIeUFfZFRZTW5CN2YtdG5n?oc=5",
+       "summary": "",
+       "image": null,
+       "time": "2026-10-16T02:30:43+00:00",
+       "id": "h11",
+       "desk": "business",
+       "source": "Wall Street Journal"
+      },
+      {
+       "title": "Chip-Machine Supplier ASML Boosts Guidance for Third Time on Surging AI Demand",
+       "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQWHp0Zks1SnAwS1Y3RWhMSHNRUlVtTGJhb3duY1o0NWFycWQyUkNad2NIMm01aUlUM1lVX1lSS0lNYzQtVnBWTGZlc3RvcDZYQzUzNGRqZFRWOVNUSDJ1MVRnR19nZ280Tl80eERkdXJydU9DakFsbUVYYlIybnh4ZUY0YmJnV1lVTmhFRHZKNjlSR3o4S3lfeVc3akVEUm5vRnpodTZCUFB6MDExeXhyRWRmQXItVzlFVzBxTkJyMWtQV28?oc=5",
+       "summary": "",
+       "image": null,
+       "time": "2026-10-16T02:23:22+00:00",
+       "id": "h12",
+       "desk": "business",
+       "source": "Wall Street Journal"
+      },
+      {
+       "title": "U.S. Equity Market Shows Growing Number of Late-Cycle Signs, CE Says",
+       "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOdUI4NnVld2NGQzV4TlM3VkhtUUpFaG5NWWItVlhhcVZTRmhpMEhLdW80VE0wWWFacEpDVlNwNzVyb1Fxb2pnNGtHb1ZzR2ZVb1BKM0Fnb2FraTBIRndNSWF5SHdoVUt6SVhCd3dFY3Rham15dlY4RjZmV1lkU0duZk1BLWtjcXlncTJqRlVJLTViQQ?oc=5",
+       "summary": "",
+       "image": null,
+       "time": "2026-10-16T02:12:00+00:00",
+       "id": "h13",
+       "desk": "business",
+       "source": "Wall Street Journal"
+      },
+      {
+       "title": "Tesla’s New Roadster Takes Flight After Nearly a Decade of Delays",
+       "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBPS0IyMElyeGh3blBQeXdDZVVRbDF3cVFiSFNSMHotSjMxTXdUUVNzaVlYNFBVM25xYUF6MFFtMnZlWHBnc1VONlZPVENJcllILWxhcUV3SmY1ZndFVGhtWVp0QUFzal90TUpJOTlwWWRpUmlFVzl3?oc=5",
+       "summary": "",
+       "image": null,
+       "time": "2026-10-16T02:10:00+00:00",
+       "id": "h14",
+       "desk": "business",
+       "source": "Wall Street Journal"
+      },
+      {
+       "title": "Print Edition | Wall Street Journal",
+       "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5Hbkd0Y1NsSkJ2YXlsQUhPX3BsY1ZhaWtiWHdrQ3F5ZWxjdVhQNE9DRXpqYjNhVC1zQUo0d1l5VFdRRURTZjJIMm4zc2YwZHk5WHNQVmpTYUpPQURMbVFUeW5B?oc=5",
+       "summary": "",
+       "image": null,
+       "time": "2026-10-16T01:46:59+00:00",
+       "id": "h15",
+       "desk": "business",
+       "source": "Wall Street Journal"
+      },
+      {
+       "title": "Three Children and One Teacher Killed in Elementary School Shooting in Oregon",
+       "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQNkEyT1QyWWl0WHVrRGlodHktRUlObXlhNVBYcU1OZ21wY2p5aG1rN3NDZFVKUDBJQU9VRkw0WDFzbG9QU24xS05iSTlRU1JyOHpJYzl0MHVxc09EQzQtT2FMTmlCNldyckwtRE5SeUhZSFBFcHpNdVFnN29TWUtZZUc0U2lHVzhRdUFFVVBwb2dyNGVmUlhsSW41eDlMSkk5WGdOM3h0ZlloMHVxNERSaFNn?oc=5",
+       "summary": "",
+       "image": null,
+       "time": "2026-10-16T01:45:00+00:00",
+       "id": "h16",
+       "desk": "business",
+       "source": "Wall Street Journal"
+      }
+     ]
+    },
+    {
+     "name": "Les Echos",
+     "site": "lesechos.fr",
+     "lang": "fr",
+     "feeds": [
+      "https://syndication.lesechos.fr/rss/rss_une.xml"
+     ],
+     "items": [
+      {
+       "title": "« Nous voulons investir, mais de manière équilibrée » : très offensifs dans l'IA, les géants du non coté craignent le retour de bâton",
+       "link": "https://news.google.com/rss/articles/CBMimwJBVV95cUxPOVp0QWpoemxGTVNnSDlPS1htQU15TGRpMVBNMUVTNFRjSUF4QmpaYWdBQTl5a3NKMGw1MEk5Y0VabDdESFktdHFhalRhUzdxOGNtdkxEYm4yZkMzLVRWVUtLZG9qS3M3dUM4NVlkeklwbmN3anUySGJ1NUpYam5RUTlUcHNaNG1taGpKaEh6bUtLNjBLR1RWamZENXdEUWEwcUtIMnRTOTkxV1JBaGhNWFBSU0hHcVZlNV8yRThuZVdrb25OQzdfM2J5LWtybzN0WkFTRHZ3clRvek5KUzFrN1FPOUhVN0ZzZGxSdVNoa2ZrWXpYNDNoYXhZbDNTY0hLMkU1b3ZFc25qVElxVEJhQXVjRG5kZ1pic1Vz?oc=5",
+       "summary": "",
+       "image": null,
+       "time": "2026-10-16T04:10:10+00:00",
+       "id": "h17",
+       "desk": "business",
+       "source": "Les Echos"
+      },
+      {
+       "title": "Crise des lycées : « La France se concentre sur le volume d'heures, pas assez sur les pédagogies qui marchent",
+       "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNMTJOblRsLUpCcjNGZnRZZUk2d0tuTGxGRUZuUERJWHJaQ0tNZFlJT20zTld4T1lRbnpUQUNFOTMxcWhGY1pfT2tMX2YtYXFPOXBKMHdkUXVFcmlxOWZQMmtwTWVjN2RST2duRkNhajdGb0cxa09kNUQzdnNSd0NYeTlja3liMHRNZkJOUXlRbTlkSDc5N0Mtall3RzVEX3lscUxWWXIzTjFLWHRaeldLdUk1bXB3QVdKOTdEZFFWU3dmX1VhV0tDR2RSTkNrNnVYdXJLZU5LaGNJakdPLVRXRTYwb005Y3FOcC1CbTFYZ1NIODA1NlE?oc=5",
+       "summary": "",
+       "image": null,
+       "time": "2026-10-16T04:05:09+00:00",
+       "id": "h18",
+       "desk": "business",
+       "source": "Les Echos"
+      },
+      {
+       "title": "Dans les coulisses de la pâtisserie du Bon Marché Rive Gauche avec son chef Thibault Leroy",
+       "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOc0RNZEh4cThjSk4xOUlzZW1PLXBmOGJLRVp3Wl81UkxIblRrZEJUdTdTN3ZDblVlMEdzVFBfamhUR1hXMXQ5QVR0VS1nR1M0ZW1mWENUNC14azZabUJxUGdiWHF2NmhUSjh4R3pDWi1JMVBXR0l2Yk5xdGMwSGFCMVN0R21sV295UUhOUGpiZzVOaFFkaWllcnVmRmVhcy00RmNjdGtjSlNTekZVbG1kZkM1bFA0bW02UG5QeUMzMlVXSHJxSTVnSkFJMVlVbFQtYzRpVV9kQ3IyeVhNbXAyVQ?oc=5",
+       "summary": "",
+       "image": null,
+       "time": "2026-10-16T04:00:38+00:00",
+       "id": "h19",
+       "desk": "business",
+       "source": "Les Echos"
+      },
+      {
+       "title": "SONDAGE EXCLUSIF - Ecrits antisémites : l'affaire Bardella glisse sur les électeurs RN",
+       "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQYnFsdzYzUVVyX2lxWFBZSlZVVUc3eEI1SWV5SWxGbEd5Y1FYSVAxRkJOVUpzMzd4MmhuOGRiTnhnR1ZZNEZOcHVzSFpIUU5UcUVlNXNxS2dlREVzYkE3Q0JLSmdodUhFaW02V2FhY2U2ZXNpUTcxZlhETGMtNzk0ZWVITm1rVGlOTzZ0Z19qMjFYYlNiWmZRRjdiVkJSLXVwVWNsOHR4QTB4YmlTb1JCTTJJN2xFcHlxQVVPSUpzaEhyTEhpUU5KMVBWNmI?oc=5",
+       "summary": "",
+       "image": null,
+       "time": "2026-10-16T04:00:10+00:00",
+       "id": "h20",
+       "desk": "business",
+       "source": "Les Echos"
+      },
+      {
+       "title": "iShares III PLC - iShares USD High Yield Corp Bond Enhanced Active UCITS ETF",
+       "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOVDZvZ2NUbTN1UVNKa3FJS2Z0VDFKSkE4WHRaSk0tSmhqZFVvalVpLVpTSDQ4cHZ2eUU0My12OHFDOS1MM0NBb0RYNTQwUTNucERWWWt3cnRwSnF6MG5scjB6TVA2VUl5ZS1vTUlydHhiSWY0ZENPSEFqZmxBRzVWR042dkpycmtmVGhFZDc1NXJtUjF0eTBXaXVDeXRWN2h3dy0wX2RTalRqREZFYTc5Vk9Xa2djZnVVUHBfbWJRT0RJd3VkMHlhUlhLcHNqdlU5dUFKUUZEVDRsNDZPc09JdQ?oc=5",
+       "summary": "",
+       "image": null,
+       "time": "2026-10-16T01:34:36+00:00",
+       "id": "h21",
+       "desk": "business",
+       "source": "Les Echos"
+      },
+      {
+       "title": "Cours Actions Calm Seas Acqn - CSEA.U KYG1770D1262",
+       "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQQkp5MkF5MHdONU10a0dEbktYUTR3Y0Vpa3RqdUxyMjZxU3ZTQWhNc0ZzS1Nmem5KLUs1T3QwWnZYUG5tUzB1dXoyel9naXFZTmwtSnh5TkEtb2dud1ZkYXFKMWtwWWR3SVcyREhsNlY4WUVFS3ZsRzdHWWQ3OThwZXFHWnJqbzdETGc?oc=5",
+       "summary": "",
+       "image": null,
+       "time": "2026-10-16T00:46:41+00:00",
+       "id": "h22",
+       "desk": "business",
+       "source": "Les Echos"
+      },
+      {
+       "title": "Changement d'objet social - Paris - ALP01561701 - Les Echos",
+       "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPQU1qMmNVX3RfOVlmU3dybFVGTk90RXlOWDlrczg1aGtOOWJRRW9rRU94OGM0a1dQTmZnZE9lVTJ6ajlfSWRhVDZ5OGZxZG1qU1pBLXdSX2NCb2EzU0RubG5oWFFZbVJydThrUlBwT0kzRXJtVmxPNVNJTEdqdG5PQ0k2cVRTUzBSaV95U09YQkpKTGVjY2gtbm1VLXFCdw?oc=5",
+       "summary": "",
+       "image": null,
+       "time": "2026-10-15T21:26:14+00:00",
+       "id": "h23",
+       "desk": "business",
+       "source": "Les Echos"
+      },
+      {
+       "title": "Le trafic aérien attendu en baisse cette année à Paris, pour la première fois depuis 2020",
+       "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPSXd0M0xJUS1ZQ1dSRE5pTEYtSjhHTXVZc29HZmY3eERaVU1vTGNTOFpMOVJMdE1Ld01VOG1QTFZFTThzVEFCa05qcmNZbW9tSnB4OFZuZGFKWDRvYm42ZHZhd29vS2R2cmRodFBVdVVUUUU4SHFEUzUyc29vS0FpZERHZDRkRmk5LUp4RFFmWlAxcHFOQjdCQXRjcVd0Y2tiem94MDRyVWs2RmUtWjRQWll1Vkh0YWhTT3QwR1QyUnBtWHRsLUg2UHhFYW1ZNU5PVVBRZWNzSG04cWFJLXJBR3R4LW1Wdw?oc=5",
+       "summary": "",
+       "image": null,
+       "time": "2026-10-15T21:22:05+00:00",
+       "id": "h24",
+       "desk": "business",
+       "source": "Les Echos"
+      }
+     ]
+    },
+    {
+     "name": "Challenges",
+     "site": "challenges.fr",
+     "lang": "fr",
+     "feeds": [
+      "https://www.challenges.fr/rss.xml"
+     ],
+     "items": [
+      {
+       "title": "TotalEnergies fait part de marges de raffinage record au 3e trimestre de + 146 %, dopées par les conflits",
+       "link": "https://www.challenges.fr/entreprise/totalenergies-fait-part-de-marges-de-raffinage-record-au-3e-trimestre-de-146-dopees-par-les-conflits_646405",
+       "summary": "Ce jeudi, l’entreprise française a annoncé avoir réalisé des marges de raffinage inédites en raison des conflits en Ukraine et au Moyen-Orient.",
+       "image": "https://www.challenges.fr/_ipx/f_jpg&s_1200x630&enlarge_true/cha%2Fstatic%2F2026-10%2F63094.HR_2.jpg%3FVersionId%3D.G.iKTu4b3yDNoDFKLk5SazP0E_W.Kgb",
+       "time": "2026-10-15T18:29:00+00:00",
+       "id": "h25",
+       "desk": "business",
+       "source": "Challenges"
+      },
+      {
+       "title": "De 2 742 euros net par mois en moyenne à plus de 10 000 euros pour certains : qui gagne quoi dans la fonction publique ?",
+       "link": "https://www.challenges.fr/economie/de-2-742-euros-net-par-mois-en-moyenne-a-plus-de-10-000-euros-pour-certains-qui-gagne-quoi-dans-la-fonction-publique_646404",
+       "summary": "Le service statistique de la direction générale de l’administration et de la fonction publique a publié la dernière édition du « rapport annuel sur l’état de la fonction publique » en détaillant les différentes rémunérations mensuelles…",
+       "image": "https://www.challenges.fr/_ipx/f_jpg&s_1200x630&enlarge_true/cha%2Fstatic%2F2026-10%2F63080.HR_0.jpg%3FVersionId%3Dz59GfsMKsyXdCe44fLJZzATDBAput9H2",
+       "time": "2026-10-15T17:42:00+00:00",
+       "id": "h26",
+       "desk": "business",
+       "source": "Challenges"
+      },
+      {
+       "title": "« Sans réaction, l’Europe risque de devenir un musée pour milliardaires chinois et américains et être rayée de la carte » : Pierre Jouvet, eurodéputé PS",
+       "link": "https://www.challenges.fr/entreprise/industrie/sans-reaction-leurope-risque-de-devenir-un-musee-pour-milliardaires-chinois-et-americains-et-etre-rayee-de-la-carte-pierre-jouvet-eurodepute-ps_646401",
+       "summary": "Député européen (PS) et rapporteur de l’Industrial Accelerator Act, le texte phare de Bruxelles pour réindustrialiser l’Europe, Pierre Jouvet assume un pivot : poser les bases d’une véritable préférence européenne. Mais le chemin reste…",
+       "image": "https://www.challenges.fr/_ipx/f_jpg&s_1200x630&enlarge_true/cha%2Fstatic%2F2026-10%2F63053.HR_0.jpg%3FVersionId%3DFQzT2EXf6n.jzQAIQdzLXjcWsa2mDjk4",
+       "time": "2026-10-15T16:30:00+00:00",
+       "id": "h27",
+       "desk": "business",
+       "source": "Challenges"
+      },
+      {
+       "title": "Lufthansa lui souffle TAP sous le nez : que va faire Air France-KLM de l’argent qu’il comptait investir dans la compagnie portugaise ?",
+       "link": "https://www.challenges.fr/entreprise/transports/lufthansa-lui-souffle-tap-sous-le-nez-que-va-faire-air-france-klm-de-largent-quil-comptait-investir-dans-la-compagnie-portugaise_646403",
+       "summary": "Le gouvernement portugais a choisi l’allemand Lufthansa pour céder 45 % du capital de sa compagnie nationale TAP. Une déception pour Air France-KLM, l’autre acquéreur potentiel en lice. La question est désormais de savoir quelle sera la…",
+       "image": "https://www.challenges.fr/_ipx/f_jpg&s_1200x630&enlarge_true/cha%2Fstatic%2F2026-10%2F63068.HR_2.jpg%3FVersionId%3Dv.HtKadvgDqwXvk3hflgcEz1efptMCGz",
+       "time": "2026-10-15T16:15:00+00:00",
+       "id": "h28",
+       "desk": "business",
+       "source": "Challenges"
+      },
+      {
+       "title": "Une charge à 80 % en 5 minutes chrono : BYD s’apprête à ouvrir sa première station de charge ultrarapide en France",
+       "link": "https://www.challenges.fr/automobile/une-charge-a-80-en-5-minutes-chrono-byd-sapprete-a-ouvrir-sa-premiere-station-de-charge-ultrarapide-en-france_646395",
+       "summary": "Le constructeur chinois BYD promet un réseau de charge pour voitures électriques déployé dans toute l’Europe. Sa particularité : une puissance maximale de 1.500 kW pour recharger les voitures compatibles en 5 minutes. L’ouverture de la…",
+       "image": "https://www.challenges.fr/_ipx/f_jpg&s_1200x630&enlarge_true/cha%2Fstatic%2F2026-10%2F63048.HR_0.jpg%3FVersionId%3DuJ4wtNsbdT0RnJDXTU5K2skUp2fjF5tx",
+       "time": "2026-10-15T16:00:00+00:00",
+       "id": "h29",
+       "desk": "business",
+       "source": "Challenges"
+      },
+      {
+       "title": "« De nombreux défis restent à relever » pour Starlink Mobile : pourquoi Elon Musk n’est pas près de devenir le roi des télécoms aux États-Unis",
+       "link": "https://www.challenges.fr/entreprise/telecoms/de-nombreux-defis-restent-a-relever-pour-starlink-mobile-pourquoi-elon-musk-nest-pas-pres-de-devenir-le-roi-des-telecoms-aux-etats-unis_646402",
+       "summary": "Starlink Mobile, le service de téléphonie mobile associé au réseau satellitaire d’Elon Musk, a récemment annoncé un accord en vue de devenir l’un des principaux opérateurs aux États-Unis. Mais la route est encore longue, prévient Luke…",
+       "image": "https://www.challenges.fr/_ipx/f_jpg&s_1200x630&enlarge_true/cha%2Fstatic%2F2026-10%2F63079.HR_0.jpg%3FVersionId%3DuX.bjzFRjmDKjOqcmmXXr31UW50XcW_j",
+       "time": "2026-10-15T15:45:00+00:00",
+       "id": "h30",
+       "desk": "business",
+       "source": "Challenges"
+      },
+      {
+       "title": "EDITORIAL. La France ne manque pas d’impôts. Elle manque de courage politique pour sauver son modèle social",
+       "link": "https://www.challenges.fr/economie/editorial-la-france-ne-manque-pas-dimpots-elle-manque-de-courage-politique-pour-sauver-son-modele-social_646400",
+       "summary": "Dette, retraites, impôts… Malgré les alertes des marchés, du FMI et de la BCE, la classe politique refuse toujours d’affronter la réalité budgétaire.",
+       "image": "https://www.challenges.fr/_ipx/f_jpg&s_1200x630&enlarge_true/cha%2Fstatic%2F2026-10%2F63074.HR_0.jpg%3FVersionId%3DhbhFbVz8J.vXYNbYrYdLxuEHNBbSBhln",
+       "time": "2026-10-15T15:30:00+00:00",
+       "id": "h31",
+       "desk": "business",
+       "source": "Challenges"
+      },
+      {
+       "title": "La lente descente aux enfers du CAC 40 : pourquoi la France devient un « pays périphérique » en Europe",
+       "link": "https://www.challenges.fr/economie/la-lente-descente-aux-enfers-du-cac-40-pourquoi-la-france-devient-un-pays-peripherique-en-europe_646397",
+       "summary": "Le CAC 40 décroche depuis la rentrée, se détachant des autres indices du Vieux Continent. Si les valeurs européennes attirent les investisseurs, les françaises pâtissent d’un environnement macroéconomique et politique délétère.",
+       "image": "https://www.challenges.fr/_ipx/f_jpg&s_1200x630&enlarge_true/cha%2Fstatic%2F2026-10%2F63069.HR_0.jpg%3FVersionId%3DxxnnGYXMD53jMXpf7FwbdbHkshjISgHK",
+       "time": "2026-10-15T15:00:00+00:00",
+       "id": "h32",
+       "desk": "business",
+       "source": "Challenges"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "world",
+   "name": "World & politics",
+   "sources": [
+    {
+     "name": "New York Times",
+     "site": "nytimes.com",
+     "lang": "en",
+     "feeds": [
+      "https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml",
+      "https://rss.nytimes.com/services/xml/rss/nyt/World.xml"
+     ],
+     "items": [
+      {
+       "title": "The Sexual Abuse Crisis in Paris’s Public Schools",
+       "link": "https://www.nytimes.com/2026/10/16/world/europe/paris-schools-abuse-crisis.html",
+       "summary": "A surge of abuse accusations has led Parisian authorities to acknowledge a “collective failure” to prevent sexual offenders from working in schools.",
+       "image": "https://static01.nyt.com/images/2026/09/22/multimedia/00int-france-abuse-01-lzgh/00int-france-abuse-01-lzgh-mediumSquareAt3X.jpg",
+       "time": "2026-10-16T04:01:07+00:00",
+       "id": "h33",
+       "desk": "world",
+       "source": "New York Times"
+      },
+      {
+       "title": "El Niño Threatens Global Sugar Supply",
+       "link": "https://www.nytimes.com/2026/10/16/climate/india-sugarcane-production-sugar-prices.html",
+       "summary": "A poor sugarcane crop in India, the world’s second-largest producer, is hurting consumers and farmers — plus undermining the country’s energy security goals.",
+       "image": "https://static01.nyt.com/images/2026/10/05/multimedia/05-INT-INDIA-SUGAR-01-jbfv/05-INT-INDIA-SUGAR-01-jbfv-mediumSquareAt3X.jpg",
+       "time": "2026-10-16T04:00:14+00:00",
+       "id": "h34",
+       "desk": "world",
+       "source": "New York Times"
+      },
+      {
+       "title": "In Michigan Senate Race, Ocasio-Cortez Joins El-Sayed on Trail in Trump Country",
+       "link": "https://www.nytimes.com/2026/10/15/us/politics/ocasio-cortez-el-sayed-michigan-vance-trump-senate.html",
+       "summary": "Representative Alexandria Ocasio-Cortez campaigned with Dr. Abdul El-Sayed in a swath of Michigan including areas won by President Trump, making a progressive pitch in a key Senate race.",
+       "image": "https://static01.nyt.com/images/2026/10/15/multimedia/15pol-michigan-senate-aoc-wczb/15pol-michigan-senate-aoc-wczb-mediumSquareAt3X.jpg",
+       "time": "2026-10-16T03:16:51+00:00",
+       "id": "h35",
+       "desk": "world",
+       "source": "New York Times"
+      },
+      {
+       "title": "5 Takeaways From the Senate Debate in Maine",
+       "link": "https://www.nytimes.com/2026/10/15/us/politics/maine-senate-debate-collins-jackson.html",
+       "summary": "The race’s fourth and final debate centered around whether Senator Susan Collins, the Republican incumbent, was as independent as she claimed to be from President Trump.",
+       "image": "https://static01.nyt.com/images/2026/10/15/multimedia/15pol-maine-debate-takeaways-hvmg/15pol-maine-debate-takeaways-hvmg-mediumSquareAt3X.jpg",
+       "time": "2026-10-16T03:05:19+00:00",
+       "id": "h36",
+       "desk": "world",
+       "source": "New York Times"
+      },
+      {
+       "title": "Zelensky Says Ukraine Will Resume Russian Refinery Strikes, Defying Trump",
+       "link": "https://www.nytimes.com/2026/10/15/world/europe/ukraine-russia-oil-strikes-zelensky-us-intelligence.html",
+       "summary": "President Volodymyr Zelensky expressed overt frustration with the United States in an interview with The Financial Times. He had paused the strikes to comply with a demand from the United States.",
+       "image": "https://static01.nyt.com/images/2026/10/15/multimedia/15xp-zelensky-fbcz/15xp-zelensky-fbcz-mediumSquareAt3X.jpg",
+       "time": "2026-10-16T02:48:41+00:00",
+       "id": "h37",
+       "desk": "world",
+       "source": "New York Times"
+      },
+      {
+       "title": "Trump Cancels Planned Execution Livestream of Nidal Hasan, Fort Hood Shooter",
+       "link": "https://www.nytimes.com/2026/10/15/us/politics/trump-hasan-fort-hood-execution-livestream.html",
+       "summary": "The president said only immediate families of the victims of the mass shooting in 2009 would witness the execution of Maj. Nidal Malik Hasan.",
+       "image": "https://static01.nyt.com/images/2026/10/15/multimedia/15DC-execution-gqjp/15DC-execution-gqjp-mediumSquareAt3X-v2.jpg",
+       "time": "2026-10-16T02:22:17+00:00",
+       "id": "h38",
+       "desk": "world",
+       "source": "New York Times"
+      },
+      {
+       "title": "Katie Zacharia Admits Failing Bar, but Defends Calling Herself a Lawyer",
+       "link": "https://www.nytimes.com/2026/10/15/us/katie-zacharia-lawyer-attorney-bar.html",
+       "summary": "In an interview with a right-wing influencer, the new White House press secretary also described the harried process that led to her hiring.",
+       "image": "https://static01.nyt.com/images/2026/10/15/multimedia/15dc-zacharia-vtpc/15dc-zacharia-vtpc-mediumSquareAt3X.jpg",
+       "time": "2026-10-16T02:17:05+00:00",
+       "id": "h39",
+       "desk": "world",
+       "source": "New York Times"
+      },
+      {
+       "title": "School Shooting in Oregon Adds Silver Rail Elementary to Grim List",
+       "link": "https://www.nytimes.com/2026/10/15/us/school-shootings-usa-oregon-silver-rail.html",
+       "summary": "A long string of school shootings have stricken the nation over the last three decades.",
+       "image": "https://static01.nyt.com/images/2026/10/15/multimedia/15bend-shooting-school-shootings-lmbf/15bend-shooting-school-shootings-lmbf-mediumSquareAt3X.jpg",
+       "time": "2026-10-16T01:55:49+00:00",
+       "id": "h40",
+       "desk": "world",
+       "source": "New York Times"
+      }
+     ]
+    },
+    {
+     "name": "Le Monde",
+     "site": "lemonde.fr",
+     "lang": "fr",
+     "feeds": [
+      "https://www.lemonde.fr/rss/une.xml",
+      "https://www.lemonde.fr/rss/en_continu.xml"
+     ],
+     "items": [
+      {
+       "title": "Le Groenland vise l’interdiction de l’exploitation minière en eaux profondes jusqu’en 2029",
+       "link": "https://www.lemonde.fr/international/article/2026/10/16/le-groenland-vise-l-interdiction-de-l-exploitation-miniere-en-eaux-profondes-jusqu-en-2029_6795185_3210.html",
+       "summary": "Ce territoire autonome danois redoute les conséquences que pourrait avoir l’exploitation minière en haute mer sur l’environnement. En vertu de la proposition adoptée jeudi par le Parlement, le gouvernement groenlandais peut prolonger le…",
+       "image": "https://img.lemde.fr/2025/03/27/392/0/5612/2806/644/322/60/0/0629dd6_ftp-import-images-1-owdjdb2c7wsu-5439923-01-06.jpg",
+       "time": "2026-10-16T04:15:12+00:00",
+       "id": "h41",
+       "desk": "world",
+       "source": "Le Monde"
+      },
+      {
+       "title": "Mouvement lycéen : un mois de mobilisation et le pari de la convergence « jeunes et jaunes »",
+       "link": "https://www.lemonde.fr/societe/article/2026/10/16/mouvement-lyceen-un-mois-de-mobilisation-et-le-pari-de-la-convergence-jeunes-et-jaunes_6795111_3224.html",
+       "summary": "Les lycéens mobilisés comptent sur la large journée d’action de samedi 17 octobre pour donner du souffle à leurs revendications, alors que les vacances scolaires débutent et que le dialogue avec le gouvernement patine.",
+       "image": "https://img.lemde.fr/2026/10/13/0/0/2643/1322/644/322/60/0/596d97a_upload-1-vh97zih3rjes-asurp-maniflyce-e-107400.jpg",
+       "time": "2026-10-16T03:30:33+00:00",
+       "id": "h42",
+       "desk": "world",
+       "source": "Le Monde"
+      },
+      {
+       "title": "Carburants : les Vingt-Sept peinent à s’entendre pour faire baisser les prix de l’énergie, un cauchemar pour l’économie européenne",
+       "link": "https://www.lemonde.fr/economie/article/2026/10/16/carburants-les-vingt-sept-peinent-a-s-entendre-pour-faire-baisser-les-prix-de-l-energie-un-cauchemar-pour-l-economie-europeenne_6795109_3234.html",
+       "summary": "Les chefs d’Etat et de gouvernement, réunis à Bruxelles les 15 et 16 octobre, sont divisés sur les mesures à prendre et manquent d’outils, au moment où l’Union européenne, qui achète encore du gaz russe, est fragilisée dans sa réponse à…",
+       "image": "https://img.lemde.fr/2026/10/15/414/0/4938/2469/644/322/60/0/cf09aa7_ftp-1-jeuwmzcagckj-2026-10-15t085039z-1818786238-rc2k3oa14seq-rtrmadp-3-eu-summit.JPG",
+       "time": "2026-10-16T03:30:27+00:00",
+       "id": "h43",
+       "desk": "world",
+       "source": "Le Monde"
+      },
+      {
+       "title": "Au Népal, la vallée meurtrie par le « tsunami des montagnes » cherche le chemin du retour à la vie",
+       "link": "https://www.lemonde.fr/planete/article/2026/10/16/au-nepal-la-vallee-meurtrie-par-le-tsunami-des-montagnes-cherche-le-chemin-du-retour-a-la-vie_6795110_3244.html",
+       "summary": "Le 26 août, un glissement de terrain emportant un glacier provoquait une crue dévastatrice et meurtrière dans la vallée de la Trishuli. Alors que plus de 5 000 personnes n’ont pas été retrouvées, beaucoup de ceux qui restent « souffrent de…",
+       "image": "https://img.lemde.fr/2026/10/09/567/0/6804/3402/644/322/60/0/a37d092_ftp-1-ico1fdzqj7ta-2026-10-09t060037z-546745853-rc2w8naql22n-rtrmadp-3-climate-change-ipcc-science.JPG",
+       "time": "2026-10-16T03:30:15+00:00",
+       "id": "h44",
+       "desk": "world",
+       "source": "Le Monde"
+      },
+      {
+       "title": "A Nîmes, devant l’hôtel de luxe L’Impérator, des femmes de chambre en grève depuis près d'un mois",
+       "link": "https://www.lemonde.fr/economie/article/2026/10/16/a-nimes-devant-l-hotel-de-luxe-l-imperator-des-femmes-de-chambres-en-greve-depuis-pres-d-un-mois_6795105_3234.html",
+       "summary": "Les salariées demandent des augmentations et de meilleures conditions de travail, alors que l’établissement cinq étoiles, racheté en 2017, serait à nouveau à vendre selon l’hebdomadaire local « La Gazette ».",
+       "image": "https://img.lemde.fr/2026/09/18/40/0/1200/600/644/322/60/0/e152963_upload-1-5nwxtj40nkyz-maxradiofr034753.jpg",
+       "time": "2026-10-16T03:30:04+00:00",
+       "id": "h45",
+       "desk": "world",
+       "source": "Le Monde"
+      },
+      {
+       "title": "« “Notre salut” tient du miracle : ce grand film politique plaît de la gauche à l’extrême droite sans susciter de polémiques alors qu’il en porte beaucoup »",
+       "link": "https://www.lemonde.fr/idees/article/2026/10/16/notre-salut-tient-du-miracle-ce-grand-film-politique-plait-de-la-gauche-a-l-extreme-droite-sans-susciter-de-polemiques-alors-qu-il-en-porte-beaucoup_6795104_3232.html",
+       "summary": "Le film, qui relate le parcours d’un collabo ordinaire dans l’administration de Vichy, est un gros succès, malgré son thème ou les propos de son réalisateur et de son acteur principal, Swann Arlaud, remarque Michel Guerrin, chroniqueur au…",
+       "image": "https://img.lemde.fr/2026/10/15/50/0/1600/800/644/322/60/0/73e9fb9_upload-1-f07febj6imjg-le65xsq.png",
+       "time": "2026-10-16T03:25:16+00:00",
+       "id": "h46",
+       "desk": "world",
+       "source": "Le Monde"
+      },
+      {
+       "title": "EN DIRECT, guerre en Ukraine : Donald Trump juge que la reprise par l’Ukraine des frappes sur les raffineries russes est une « honte »",
+       "link": "https://www.lemonde.fr/international/live/2026/10/16/en-direct-guerre-en-ukraine-donald-trump-juge-que-la-reprise-par-l-ukraine-des-frappes-sur-les-raffineries-russes-est-une-honte_6791198_3210.html",
+       "summary": "Le président américain a haussé le ton contre le président ukrainien, Volodymyr Zelensky, dans une déclaration à la chaîne Newsmax. « Je pense qu’il est plus difficile de travailler avec Zelensky qu’avec Poutine », a-t-il attaqué avant de…",
+       "image": "https://img.lemde.fr/2026/10/15/30/0/5175/2587/644/322/60/0/a72be4f_ftp-1-bytusskijgrw-26a03d2ed31f45829afa9d740307e2a1-0-4e3d94439ed94fa79b492bd9d88a28d2.jpg",
+       "time": "2026-10-16T03:11:55+00:00",
+       "id": "h47",
+       "desk": "world",
+       "source": "Le Monde"
+      },
+      {
+       "title": "A l’Accor Arena de Paris, la légende Stevie Wonder retrouve la clé de son génie",
+       "link": "https://www.lemonde.fr/culture/article/2026/10/16/a-l-accor-arena-de-paris-la-legende-stevie-wonder-retrouve-la-cle-de-son-genie_6795030_3246.html",
+       "summary": "Absent des scènes françaises depuis douze ans, le vétéran de la Motown a joué jeudi 15 octobre un de ses chefs-d’œuvre, le double album « Songs in the Key of Life », à l’occasion du cinquantième anniversaire de sa parution.",
+       "image": "https://img.lemde.fr/2026/10/15/125/0/3251/1625/644/322/60/0/b3f3541_upload-1-3bd8wlulzahp-063-2282241152.jpg",
+       "time": "2026-10-16T03:00:05+00:00",
+       "id": "h48",
+       "desk": "world",
+       "source": "Le Monde"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "defense",
+   "name": "Space & defense",
+   "sources": [
+    {
+     "name": "Payload",
+     "site": "payloadspace.com",
+     "lang": "en",
+     "feeds": [
+      "https://payloadspace.com/feed/"
+     ],
+     "items": [
+      {
+       "title": "UKSA Taps ClearSpace for Country’s First Debris Removal Mission",
+       "link": "https://payloadspace.com/uksa-taps-clearspace-for-countrys-first-debris-removal-mission/",
+       "summary": "The UK Space Agency is dressing up as a waste-management company for Halloween. The post UKSA Taps ClearSpace for Country’s First Debris Removal Mission appeared first on Payload .",
+       "image": "https://payloadspace.com/wp-content/uploads/2026/10/ClearSpace_Infographics_Dev3_3-200x200.jpg",
+       "time": "2026-10-15T21:40:26+00:00",
+       "id": "h49",
+       "desk": "defense",
+       "source": "Payload"
+      },
+      {
+       "title": "BlackSky Renews HEO Deal, Adds Gen-3 Imagery for Space Domain Awareness",
+       "link": "https://payloadspace.com/blacksky-renews-heo-deal-adds-gen-3-imagery-for-space-domain-awareness/",
+       "summary": "BlackSky Technology inked a seven-figure deal to extend its partnership with Australian non-Earth imaging (NEI) provider HEO for another year. The post BlackSky Renews HEO Deal, Adds Gen-3 Imagery for Space Domain Awareness appeared first…",
+       "image": "https://payloadspace.com/wp-content/uploads/2026/10/Landsat-5-NEI-bksy-200x200.png",
+       "time": "2026-10-15T12:30:00+00:00",
+       "id": "h50",
+       "desk": "defense",
+       "source": "Payload"
+      },
+      {
+       "title": "JAXA Taps ArkEdge for Two Lunar Navigation Demos",
+       "link": "https://payloadspace.com/jaxa-taps-arkedge-for-two-lunar-navigation-demos/",
+       "summary": "Today’s Moon explorers won’t have the luxury of GPS-like tech for navigation. But JAXA is trying to change that for future lunar visitors. The post JAXA Taps ArkEdge for Two Lunar Navigation Demos appeared first on Payload .",
+       "image": "https://payloadspace.com/wp-content/uploads/2026/10/Screenshot-2026-10-14-at-4.51.31-PM-200x200.png",
+       "time": "2026-10-15T08:00:00+00:00",
+       "id": "h51",
+       "desk": "defense",
+       "source": "Payload"
+      }
+     ]
+    },
+    {
+     "name": "Tectonic",
+     "site": "tectonicdefense.com",
+     "lang": "en",
+     "feeds": [
+      "https://www.tectonicdefense.com/feed/"
+     ],
+     "items": [
+      {
+       "title": "Hadrian and Lockheed Ink Seven-Year Production Deal",
+       "link": "https://www.tectonicdefense.com/hadrian-and-lockheed-ink-seven-year-production-deal/",
+       "summary": "Remember when all of us here in defense tech land were just kind of a footnote when we talked about defense production and the primes? Yeah. Things have changed. Yesterday, new-age manufacturing company Hadrian announced that it’s signed a…",
+       "image": "https://www.tectonicdefense.com/wp-content/uploads/2026/10/PAC-3-3-NDF-Final-MR-MD.jpg.pc-adaptive.1280.medium.jpg",
+       "time": "2026-10-15T13:57:26+00:00",
+       "id": "h52",
+       "desk": "defense",
+       "source": "Tectonic"
+      },
+      {
+       "title": "Exclusive: Austin Sensing Company Emerges with $15M in Funding",
+       "link": "https://www.tectonicdefense.com/exclusive-austin-sensing-company-emerges-with-15m-in-funding/",
+       "summary": "ASC raised $15M to develop the full c-UAS sensing stack, from RF to radar and acoustic sensors. The post Exclusive: Austin Sensing Company Emerges with $15M in Funding appeared first on Tectonic Defense .",
+       "image": "https://www.tectonicdefense.com/wp-content/uploads/2026/10/all_03_black.png",
+       "time": "2026-10-15T13:56:57+00:00",
+       "id": "h53",
+       "desk": "defense",
+       "source": "Tectonic"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "sport",
+   "name": "Sport",
+   "sources": [
+    {
+     "name": "L'Équipe",
+     "site": "lequipe.fr",
+     "lang": "fr",
+     "feeds": [
+      "https://dwh.lequipe.fr/api/edito/rss?path=/"
+     ],
+     "items": [
+      {
+       "title": "« J'essaie de me persuader que je suis normale » : après ses quatre médailles aux Championnats d'Europe, Elena Colas raconte son changement de dimension",
+       "link": "https://www.lequipe.fr/Gymnastique/Article/-j-essaie-de-me-persuader-que-je-suis-normale-apres-ses-quatre-medailles-aux-championnats-d-europe-elena-colas-raconte-son-changement-de-dimension/1725764#at_medium=RSS_feeds",
+       "summary": "Quadruple médaillée européenne cet été à tout juste 16 ans, Elena Colas a vu sa vie s'accélérer ces derniers mois. Entre notoriété nouvelle, changement d'entraîneur, lycée à distance et pépin physique, la gymnaste s'est livrée avant ses…",
+       "image": "https://medias.lequipe.fr/img-photo-jpg/elena-colas-a-saint-etienne-mi-octobre-a-martin-l-equipe/1500000002612899/336:112,1903:1157-828-552-75/8447b.jpg",
+       "time": "2026-10-16T03:55:00+00:00",
+       "id": "h54",
+       "desk": "sport",
+       "source": "L'Équipe"
+      },
+      {
+       "title": "Vincent Esmiol, leader de la Diagonale des Fous après 80 km",
+       "link": "https://www.lequipe.fr/Ultra-trail/Actualites/Vincent-esmiol-leader-de-la-diagonale-des-fous-apres-80-km/1736138#at_medium=RSS_feeds",
+       "summary": "Après 80 km, à Hell-Bourg dans le cirque de Salazie, c'est le Français Vincent Esmiol qui mènait la Diagonale des Fous, ce vendredi matin au lever du jour. Il devançait Hugo Deck, Jean-Philippe Tschumi et Tom Evans. Chez les femmes, Ruth…",
+       "image": "https://medias.lequipe.fr/img-photo-jpg/vincent-esmiol-leader-a-hell-bourg-au-80e-km-d-michel-l-equipe/1500000002624171/1:201,1180:987-828-552-75/d45bc.jpg",
+       "time": "2026-10-16T03:51:13+00:00",
+       "id": "h55",
+       "desk": "sport",
+       "source": "L'Équipe"
+      },
+      {
+       "title": "« C'est mamie cool en dehors, mais à la table, c'est mamie tueuse » : à 63 ans, Xialian Ni donne encore la leçon à ses adversaires aux Championnats d'Europe",
+       "link": "https://www.lequipe.fr/Tennis-de-table/Actualites/-c-est-mamie-cool-en-dehors-mais-a-la-table-c-est-mamie-tueuse-xialian-ni-la-sexagenaire-qui-donne-encore-la-lecon-aux-europe/1736078#at_medium=RSS_feeds",
+       "summary": "Qualifiée pour les huitièmes de finale des Championnats d'Europe, Xialian Ni, Luxembourgeoise d'origine chinoise, n'a pas fini de s'amuser à la table, à 63 ans.",
+       "image": "https://medias.lequipe.fr/img-photo-jpg/apres-la-francaise-charlotte-lutz-la-veille-xialian-ni-a-elimine-l-ukrainienne-margaryta-pesotska-ce-jeudi-j-markovec-ettu/1500000002623998/0:0,799:533-828-552-75/5fb50.jpg",
+       "time": "2026-10-16T03:45:00+00:00",
+       "id": "h56",
+       "desk": "sport",
+       "source": "L'Équipe"
+      },
+      {
+       "title": "Taille, profils, carences : sur coups de pied arrêtés, le PSG a recommencé à subir face à Manchester City",
+       "link": "https://www.lequipe.fr/Football/Article/Taille-profils-carences-sur-coups-de-pied-arretes-le-psg-a-recommence-a-subir-face-a-manchester-city/1736064#at_medium=RSS_feeds",
+       "summary": "En difficulté sur coups de pied arrêtés mercredi, les Parisiens n'en ont pas subi les conséquences. Simple alerte ou résurgence de difficultés que l'on pensait évacuées ?",
+       "image": "https://medias.lequipe.fr/img-photo-jpg/face-a-manchester-city-mercredi-la-defense-du-paris-sg-a-souffert-sur-certains-coups-de-pied-arretes-f-faugere-l-equipe/1500000002623968/0:0,1898:1265-828-552-75/23c65.jpg",
+       "time": "2026-10-16T03:40:00+00:00",
+       "id": "h57",
+       "desk": "sport",
+       "source": "L'Équipe"
+      },
+      {
+       "title": "Plus de 18 500 pas par jour : les enfants de 3 à 4 ans, ces grands sportifs méconnus",
+       "link": "https://www.lequipe.fr/Respire/Pratique-sportive/Actualites/Plus-de-18-500-pas-par-jour-les-enfants-de-3-a-4-ans-ces-grands-sportifs-meconnus/1725697#at_medium=RSS_feeds",
+       "summary": "Une étude publiée fin septembre révèle que les enfants de 3 et 4 ans réalisent en moyenne 18 542 pas chaque jour. Avec, toutefois, de grosses disparités selon les régions rurales ou urbaines.",
+       "image": "https://medias.lequipe.fr/img-photo-jpg/tout-petits-grande-activite-physique-e-garnier-l-equipe/1500000002612724/0:0,1500:1000-828-552-75/18cf5.jpg",
+       "time": "2026-10-16T03:35:00+00:00",
+       "id": "h58",
+       "desk": "sport",
+       "source": "L'Équipe"
+      },
+      {
+       "title": "« S'il continue comme ça, ce sera difficile de ne pas l'appeler en sélection » : après un début de carrière difficile, Casper Tengstedt s'épanouit à Toulouse",
+       "link": "https://www.lequipe.fr/Football/Article/-s-il-continue-comme-ca-avec-toulouse-ce-sera-difficile-de-ne-pas-l-appeler-apres-un-debut-de-carriere-difficile-casper-tengstedt-semble-avoir-trouve-le-bon-club-avec-toulouse/1736027#at_medium=RSS_feeds",
+       "summary": "L'attaquant danois Casper Tengstedt, recruté cet été par le TFC et auteur d'un gros début de saison avec quatre buts marqués, a traversé des périodes plus difficiles dans sa carrière. Dont il a su tirer profit.",
+       "image": "https://medias.lequipe.fr/img-photo-jpg/samedi-casper-tengstedt-a-transforme-un-penalty-dans-le-match-nul-entre-monaco-et-toulouse-2-2-v-hache-l-equipe/1500000002623902/0:0,908:605-828-552-75/fb890.jpg",
+       "time": "2026-10-16T03:30:00+00:00",
+       "id": "h59",
+       "desk": "sport",
+       "source": "L'Équipe"
+      },
+      {
+       "title": "« J'ai une idée pour le prochain match » : costaud et polyvalent, Ruben Kluivert est une option à plusieurs postes pour l'OL de Paulo Fonseca",
+       "link": "https://www.lequipe.fr/Football/Actualites/-j-ai-une-idee-pour-le-prochain-match-costaud-contre-crystal-palace-polyvalent-ruben-kluivert-est-une-option-pour-l-ol-de-paulo-fonseca/1736095#at_medium=RSS_feeds",
+       "summary": "Défenseur polyvalent, axial gauche contre Crystal Palace, le Néerlandais Ruben Kluivert a été le meilleur Lyonnais. Il pourrait dépanner en latéral gauche, dimanche, contre Nice, alors que Moussa Niakhaté devrait faire son retour.",
+       "image": "https://medias.lequipe.fr/img-photo-jpg/ruben-kluivert-a-debute-contre-crystal-palace-son-7e-match-de-la-saison-a-martin-l-equipe/1500000002624046/0:0,2000:1333-828-552-75/61b95.jpg",
+       "time": "2026-10-16T03:20:00+00:00",
+       "id": "h60",
+       "desk": "sport",
+       "source": "L'Équipe"
+      },
+      {
+       "title": "« En ce moment, on voit le but tout petit » : encore muette face à l'Olympiakos et en manque de leaders, l'attaque de l'OM n'en finit plus d'inquiéter",
+       "link": "https://www.lequipe.fr/Football/Actualites/-en-ce-moment-on-voit-le-but-tout-petit-encore-muette-face-a-l-olympiakos-et-en-manque-de-leaders-l-attaque-de-l-om-n-en-finit-plus-d-inquieter/1736134#at_medium=RSS_feeds",
+       "summary": "Depuis le feu d'artifice face à Strasbourg en ouverture de la Ligue 1, l'OM peine à concrétiser, malgré la diversité des propositions de Bruno Genesio. Le jeune Keyliane Abdallah a été l'offensif marseillais le plus en vue ce jeudi soir…",
+       "image": "https://medias.lequipe.fr/img-photo-jpg/igor-paixao-n-a-une-nouvelle-fois-pas-repondu-aux-attentes-sur-le-front-de-l-attaque-provencale-jeudi-soir-face-a-l-olympiakos-0-1-a-reau-l-equipe/1500000002624157/0:0,2000:1333-828-552-75/16287.jpg",
+       "time": "2026-10-15T22:36:04+00:00",
+       "id": "h61",
+       "desk": "sport",
+       "source": "L'Équipe"
+      }
+     ]
+    },
+    {
+     "name": "The Athletic",
+     "site": "nytimes.com/athletic",
+     "lang": "en",
+     "feeds": [
+      "https://www.nytimes.com/athletic/rss/news/"
+     ],
+     "items": [
+      {
+       "title": "Sam Darnold interception sets up Broncos overtime win over Seahawks: Live updates, reaction",
+       "link": "https://www.nytimes.com/athletic/live-blogs/seahawks-vs-broncos-live-score-updates-nfl-tnf/ZX6N8h1EzpMs/",
+       "summary": "Follow live reaction as ‘Thursday Night Football’ sees Denver outlast Seattle in OT.",
+       "image": "https://theathletic-media-production.s3-us-west-2.amazonaws.com/ZX6N8h1EzpMs_Kw7gmiMkR6lG_1440x960.jpg",
+       "time": "2026-10-16T04:24:11+00:00",
+       "id": "h62",
+       "desk": "sport",
+       "source": "The Athletic"
+      },
+      {
+       "title": "How is Jonathan Woodgate remembered at Leeds United?",
+       "link": "https://www.nytimes.com/athletic/7692804/2026/10/16/jonathan-woodgate-leeds-manchester-united-legacy/",
+       "summary": "The former Leeds and England centre-half returns to Elland Road this weekend as a member of arch-rivals Manchester United's backroom staff",
+       "image": "https://static01.nyt.com/athletic/uploads/wp/2026/10/15121545/GettyImages-1193448009-e1792081869443.jpg",
+       "time": "2026-10-16T04:24:01+00:00",
+       "id": "h63",
+       "desk": "sport",
+       "source": "The Athletic"
+      },
+      {
+       "title": "Forward-thinking Bruno Guimaraes is giving Arteta's Arsenal a midfield selection headache",
+       "link": "https://www.nytimes.com/athletic/7692176/2026/10/16/bruno-guimaraes-forward-passes-arsenal/",
+       "summary": "The midfielder has already delighted Arsenal fans with his goals and progressive play",
+       "image": "https://static01.nyt.com/athletic/uploads/wp/2026/10/15090209/Guimaeres-scaled.jpg",
+       "time": "2026-10-16T04:23:11+00:00",
+       "id": "h64",
+       "desk": "sport",
+       "source": "The Athletic"
+      },
+      {
+       "title": "How to watch No. 21 Wake Forest vs. Cal: TV channel and streaming options for October 17",
+       "link": "https://www.nytimes.com/athletic/7695160/2026/10/16/wake-forest-vs-cal-stream-how-to-watch-oct-17/",
+       "summary": "Find out how to watch the Wake Forest Demon Deacons play the California Golden Bears, with time, TV channel and streaming information.",
+       "image": "https://static01.nyt.com/athletic/uploads/wp/2026/10/16002133/eAW8JNx.jpg",
+       "time": "2026-10-16T04:21:33+00:00",
+       "id": "h65",
+       "desk": "sport",
+       "source": "The Athletic"
+      },
+      {
+       "title": "Brighton may have kicked their habit of freezing when favourites at the ideal time",
+       "link": "https://www.nytimes.com/athletic/7692266/2026/10/16/brighton-conference-league-favourites/",
+       "summary": "Brighton are favourites to win the UEFA Conference League, and that's something they will have to get used to",
+       "image": "https://static01.nyt.com/athletic/uploads/wp/2026/10/15173314/GettyImages-2300405598-scaled-e1792100491217.jpg",
+       "time": "2026-10-16T04:21:29+00:00",
+       "id": "h66",
+       "desk": "sport",
+       "source": "The Athletic"
+      },
+      {
+       "title": "Minnesota Wild live news updates: The latest from Michael Russo and Joe Smith after a win over Blues",
+       "link": "https://www.nytimes.com/athletic/live-blogs/minnesota-wild-results-season/y2Xyq3gsFEog/",
+       "summary": "Michael Russo and Joe Smith bring you the ultimate fan spot for news, discussion and access to the Wild",
+       "image": "https://theathletic-media-production.s3-us-west-2.amazonaws.com/y2Xyq3gsFEog_LKQK6wC4KxXt_1440x960.jpg",
+       "time": "2026-10-16T04:21:03+00:00",
+       "id": "h67",
+       "desk": "sport",
+       "source": "The Athletic"
+      },
+      {
+       "title": "What are Chelsea doing so right early on in games?",
+       "link": "https://www.nytimes.com/athletic/7692422/2026/10/16/chelsea-early-goals-alonso-analysis/",
+       "summary": "The Athletic pinpoints three principles that are earning Chelsea rich rewards early in games under Xabi Alonso's stewardship this season",
+       "image": "https://static01.nyt.com/athletic/uploads/wp/2026/10/15094127/GettyImages-2298963687-1-scaled-e1792071778669.jpg",
+       "time": "2026-10-16T04:20:12+00:00",
+       "id": "h68",
+       "desk": "sport",
+       "source": "The Athletic"
+      },
+      {
+       "title": "Brewers sweep Dodgers in NLCS, head to World Series for first time since 1982: Live updates and reaction",
+       "link": "https://www.nytimes.com/athletic/live-blogs/brewers-vs-dodgers-live-updates-mlb-playoffs-game-4-score-result/h62TVnxCQjWn/",
+       "summary": "Milwaukee was swept last year in the NLCS by Los Angeles but got its revenge this year.",
+       "image": "https://theathletic-media-production.s3-us-west-2.amazonaws.com/h62TVnxCQjWn_q8qTq2ZMaQ8A_1440x960.jpg",
+       "time": "2026-10-16T04:20:07+00:00",
+       "id": "h69",
+       "desk": "sport",
+       "source": "The Athletic"
+      }
+     ]
+    },
+    {
+     "name": "Sports Illustrated",
+     "site": "si.com",
+     "lang": "en",
+     "feeds": [
+      "https://www.si.com/.rss/full/"
+     ],
+     "items": [
+      {
+       "title": "Dodgers Swept by Brewers in Stunning Fashion, Face Long Offseason With Major Questions",
+       "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOZHYtU2ZIdmFOTkZWeFZ5aW15YXZ3QWI4Sk9jMTE0UTdaYUNJUlZocDdNS0U2RUlSRFZTUV9mNWtTc1JFd3l6VXdwdHJFNzJfN1lqT3RNM1owUlc2cWtUckRfNnNLZ0FYSklPazVrTDFocWM0TUlhMVFUZ28tb3d5ejM3SFZFZDNwaFNWQXd5YW1udmlrYVpvcw?oc=5",
+       "summary": "",
+       "image": null,
+       "time": "2026-10-16T03:08:05+00:00",
+       "id": "h70",
+       "desk": "sport",
+       "source": "Sports Illustrated"
+      },
+      {
+       "title": "Huskies Down 5 Running Backs for Purdue Game",
+       "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOYm9Lak5PRDc4RHc2bXNoUXpRakl5NmlibkRycVRIV0UtTW52Q2VTSzQ2YWprWDMyWmR3Q1FGOFdPUW1lN3Z5cVBJUHEzZnQxdVdNZzN5ZlVocW12ODRkTU9NMEUxbk5waWJQN2U0N0lEWFF3LW9FS3lSd0ZrYnNuLUlOVDBfNTBseTZxNzdNWmJWcU0yckFHWTZ1MGlvNW40ZWxSX0pyUQ?oc=5",
+       "summary": "",
+       "image": null,
+       "time": "2026-10-16T02:06:53+00:00",
+       "id": "h71",
+       "desk": "sport",
+       "source": "Sports Illustrated"
+      },
+      {
+       "title": "Why Washington State was always the dream job for assistant coach Eti Ena",
+       "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOZGVpdGNhSW5MeFhlX2FMWWpsNVFmYjBuSDA3bEdpcV8yVkltU0tHNmhURlhyQlhwcTYwSThPXzdYWWtxdEM3cGc0bjVLS2xXSS1EOFdFRDdDYV8yODJRUWNocWtFeExERTFJWUh5ck96SDltaGxvaHEzWldyaVJscEhOaGpZNHRObXV6Q1NQTjlyM2d6WnAxeTlEZjFBS0t4V1hVbUR1ZHVpVDcwT1JITThqaGtuOWMxWDltQTF0YzdLM1Rv?oc=5",
+       "summary": "",
+       "image": null,
+       "time": "2026-10-16T01:19:12+00:00",
+       "id": "h72",
+       "desk": "sport",
+       "source": "Sports Illustrated"
+      },
+      {
+       "title": "How Much Should the Rockets Offer for Kyrie Irving?",
+       "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNUW5aczdKQ1dTeG5sNHV4ZkxuV09ka0QwdUJQWDhpcmE4a1JOb2o4YmZxR0dnVXBxU2NPN1NmdklrSmhwOGxwZVpabjhobGtmczNVQkFfQkg5SGwya1Z2UEFqeXlnd0MzWnBvMTlXa19TV3dTVDNmTF9SMWhWOTNOV2xabTd6Q2p2d1ZWeWJldGxMODVWN1JWWXE1SWl4Yklv?oc=5",
+       "summary": "",
+       "image": null,
+       "time": "2026-10-16T00:30:00+00:00",
+       "id": "h73",
+       "desk": "sport",
+       "source": "Sports Illustrated"
+      },
+      {
+       "title": "Rams Midweek Report: Favorable Schedule Ahead, Myles Garrett Update, Sean McVay Concerns",
+       "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNZVM4Y2szbVdsVUxoZzdXU0t3dUFZTlNKRXVUa1BpYndVMGlYOEpUS2xacEpqVHF4dzNsTjVFcUlsX3JMTlkyS0ZXZzV2Vk4zNmpDWTEwc3hraW5uZlQyNG1NTXZCeWZNLWxNcE1EeWI0RTJldXVPcXZoaXBKMkw0WEZldmRyaWw4bElkZHliaVdyNlJf?oc=5",
+       "summary": "",
+       "image": null,
+       "time": "2026-10-15T23:50:44+00:00",
+       "id": "h74",
+       "desk": "sport",
+       "source": "Sports Illustrated"
+      },
+      {
+       "title": "NBA Draft: Obinna Ekezie Jr. Could be Louisville's Next One-and-Done",
+       "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPTi1uSEpLM1Y0UElfbTlqU016djRIWGFib3M5aVFLeXhkYWQ2RE5rNmNwSmR4bGNqeFBZbllZSzgtMEdxTDU3YmJoLXBldUNzX1VZTjd5ZzJhYndITHRCelRzeV9mUFMxU3lKazhPY2NvbTlhclI0UFhnNEZqSjh3SXJOUU91MnNlbmdfRzhuYklPaERHTWZIdllsazMzdHYyQzlibHlGbw?oc=5",
+       "summary": "",
+       "image": null,
+       "time": "2026-10-15T23:49:17+00:00",
+       "id": "h75",
+       "desk": "sport",
+       "source": "Sports Illustrated"
+      },
+      {
+       "title": "Oregon Has a Quarterback Problem. Can Nebraska Make It Count?",
+       "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNYXBUNmxOM1N4ci1VMUN6Q3ZYMlpmMlROdUU4cHBLejNkUzE2Yjh3c3Fqd2R5RnRWNW15NDAyUGc5VV9RTDZISWlLeTVIaERIZXhwUkFORkpqMV9fbUFwVFF1WHZKUEtDSjVPSm96OHpjbXlPUDg5OHg0X3NiV3RVZWc3Q0h6Tm5GZXpDazA2SHo?oc=5",
+       "summary": "",
+       "image": null,
+       "time": "2026-10-15T23:47:10+00:00",
+       "id": "h76",
+       "desk": "sport",
+       "source": "Sports Illustrated"
+      },
+      {
+       "title": "The Blueprint to a Rout: Three Key Matchups for Baylor vs. TCU",
+       "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQZGk4MF9YaEVWT3BBY1FiRHROcFF6QzVFRzVRay1vZHRWbDBLek5hOVEtVzZHZTh1U2JRYTV2cEg5UWR6bTYybjBEa3ktb0VuMkNXeWlPTFRDWVhhSm1RX0stY1NSOGtLc0tHMWhyNDBLUU5CXzJ1YU9ObWRoUk9qR1cxb3RJZjRFbWxvYnVrZHQ5VkduaS1vdVRVZ1BDUXNkbGJBX1ln?oc=5",
+       "summary": "",
+       "image": null,
+       "time": "2026-10-15T23:30:00+00:00",
+       "id": "h77",
+       "desk": "sport",
+       "source": "Sports Illustrated"
+      }
+     ]
+    },
+    {
+     "name": "The Hockey News",
+     "site": "thehockeynews.com",
+     "lang": "en",
+     "feeds": [
+      "https://thehockeynews.com/.rss/full/"
+     ],
+     "items": [
+      {
+       "title": "Toronto Maple Leafs Trade Jacob Quillan, Brandon Buhr To Vancouver Canucks For Aatu Raty",
+       "link": "https://thehockeynews.com/news/latest-news/toronto-maple-leafs-trade-jacob-quillan-brandon-buhr-to-vancouver-canucks-for-aatu-raty",
+       "summary": "The Toronto Maple Leafs and Vancouver Canucks are shaking up their forward depth.",
+       "image": "https://deweb-519a7.b-cdn.net/post-images/f711acf2-34cb-4e2d-92a3-dd12906f335a.jpeg",
+       "time": "2026-10-15T22:16:36+00:00",
+       "id": "h78",
+       "desk": "sport",
+       "source": "The Hockey News"
+      },
+      {
+       "title": "Three Ways The Toronto Maple Leafs Can Improve Their Defensive Situation",
+       "link": "https://thehockeynews.com/news/latest-news/three-ways-the-toronto-maple-leafs-can-improve-their-defensive-situation",
+       "summary": "How can Toronto Maple Leafs head coach Jim Hiller and GM John Chayka put together a stronger defense corps?",
+       "image": "https://deweb-519a7.b-cdn.net/post-images/477da6a4-f909-4431-b160-72db692d3556.jpeg",
+       "time": "2026-10-15T21:49:45+00:00",
+       "id": "h79",
+       "desk": "sport",
+       "source": "The Hockey News"
+      },
+      {
+       "title": "New York Rangers Sign James Reimer To AHL Tryout Amid Goaltending Injuries",
+       "link": "https://thehockeynews.com/news/latest-news/new-york-rangers-sign-james-reimer-to-ahl-tryout-amid-goaltending-injuries",
+       "summary": "With Igor Shesterkin out for the season and Joonas Korpisalo out for the next few weeks, the New York Rangers have turned to veteran goaltender James Reimer for some insurance between the pipes.",
+       "image": "https://deweb-519a7.b-cdn.net/post-images/3f2fe174-2f5e-4130-8cc9-aef11c3656ed.jpeg",
+       "time": "2026-10-15T20:56:03+00:00",
+       "id": "h80",
+       "desk": "sport",
+       "source": "The Hockey News"
+      },
+      {
+       "title": "NHL Sour Rankings: Flames And Flyers Among Floundering Teams To Open The Season",
+       "link": "https://thehockeynews.com/news/latest-news/nhl-sour-rankings-flames-and-flyers-among-floundering-teams-to-open-the-season",
+       "summary": "Tony Ferrari's NHL Sour Rankings return with an early assessment of all seven teams below .500 to start the season.",
+       "image": "https://deweb-519a7.b-cdn.net/post-images/c27be18c-903d-411c-a331-c31da3ded426.jpeg",
+       "time": "2026-10-15T20:02:59+00:00",
+       "id": "h81",
+       "desk": "sport",
+       "source": "The Hockey News"
+      },
+      {
+       "title": "How The Los Angeles Kings' Slow Start Could Spark Major Changes",
+       "link": "https://thehockeynews.com/news/latest-news/how-the-los-angeles-kings-slow-start-could-spark-major-changes",
+       "summary": "You don't hire Peter Laviolette and expect to struggle, but as the Kings' misery continues into mid-October, all options have to be on the table.",
+       "image": "https://deweb-519a7.b-cdn.net/post-images/bec13ed0-9f70-4e54-8264-0948a0d1f6c7.jpeg",
+       "time": "2026-10-15T17:57:16+00:00",
+       "id": "h82",
+       "desk": "sport",
+       "source": "The Hockey News"
+      },
+      {
+       "title": "The Hockey News Wraparound: Can Lafreniere Lead The Rangers To The Playoffs Without Shesterkin?",
+       "link": "https://thehockeynews.com/news/podcast/the-hockey-news-wraparound-can-lafreniere-lead-the-rangers-to-the-playoffs-without-shesterkin",
+       "summary": "Emma Lingan and Michael Augello are joined by Kelsey Surmacz to discuss Alexis Lafreniere's hot start to the season with the New York Rangers, Alex DeBrincat's seven-year extension with the Detroit Red Wings, and more.",
+       "image": "https://deweb-519a7.b-cdn.net/post-images/ad35678c-b6b5-45cb-9eb2-c0a18052abc4.jpeg",
+       "time": "2026-10-15T16:48:50+00:00",
+       "id": "h83",
+       "desk": "sport",
+       "source": "The Hockey News"
+      },
+      {
+       "title": "Could Tim Stutzle End Up In The Hart Trophy Conversation?",
+       "link": "https://thehockeynews.com/news/latest-news/could-tim-stutzle-end-up-in-the-hart-trophy-conversation",
+       "summary": "The Ottawa Senators have gotten off to a strong start to the 2026-27 regular-season, and a key reason for that is the play of star center Tim Stutzle. Could he be in the conversation for the Hart Trophy as the NHL's MVP at season's end?",
+       "image": "https://deweb-519a7.b-cdn.net/post-images/65479fc1-7b05-466c-a2c5-ec425c2ea69c.jpeg",
+       "time": "2026-10-15T16:01:27+00:00",
+       "id": "h84",
+       "desk": "sport",
+       "source": "The Hockey News"
+      },
+      {
+       "title": "Avalanche Assistant Dave Hakstol Hired As Head Coach Of Arizona State University",
+       "link": "https://thehockeynews.com/news/latest-news/avalanche-assistant-dave-hakstol-hired-as-head-coach-of-arizona-state-university",
+       "summary": "After spending the last 10 seasons in the NHL as a coach, Dave Hakstol is returning to his roots at the NCAA level.",
+       "image": "https://deweb-519a7.b-cdn.net/post-images/668a10c7-b5e9-40f1-8ec9-27318af96ac8.jpeg",
+       "time": "2026-10-15T15:02:57+00:00",
+       "id": "h85",
+       "desk": "sport",
+       "source": "The Hockey News"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "ai": {
+  "briefing": [
+   {
+    "text": "Investors are souring on the AI boom, dumping data-centre bonds and shelving listings even as law firms and private funds weigh risky AI spin-offs.",
+    "desk": "business",
+    "ids": [
+     "h1",
+     "h2",
+     "h3",
+     "h13",
+     "h17"
+    ]
+   },
+   {
+    "text": "Chip-equipment maker ASML raised its guidance for a third time, citing surging AI-driven demand.",
+    "desk": "business",
+    "ids": [
+     "h12"
+    ]
+   },
+   {
+    "text": "Zelensky vowed to resume strikes on Russian refineries despite US objections, prompting Trump to call the move 'a shame' and say Zelensky is harder to deal with than Putin.",
+    "desk": "world",
+    "ids": [
+     "h37",
+     "h47"
+    ]
+   },
+   {
+    "text": "EU leaders meeting in Brussels remain divided over how to curb energy prices, with the bloc still reliant on Russian gas and lacking effective tools.",
+    "desk": "world",
+    "ids": [
+     "h43"
+    ]
+   },
+   {
+    "text": "Defense manufacturer Hadrian signed a seven-year production deal with Lockheed Martin, underscoring the rise of new-age arms makers alongside traditional primes.",
+    "desk": "defense",
+    "ids": [
+     "h52"
+    ]
+   },
+   {
+    "text": "The Milwaukee Brewers swept the Dodgers in the NLCS to reach the World Series for the first time since 1982.",
+    "desk": "sport",
+    "ids": [
+     "h69",
+     "h70"
+    ]
+   }
+  ],
+  "upcoming": [
+   {
+    "date": "2026-10-17",
+    "when": "Sat 17 Oct",
+    "title": "Nationwide day of protest by French high-school students pressing the government on education reforms",
+    "desk": "world",
+    "ids": [
+     "h42"
+    ]
+   },
+   {
+    "date": "2026-10-17",
+    "when": "Sat 17 Oct",
+    "title": "No. 21 Wake Forest face California in NCAA college football",
+    "desk": "sport",
+    "ids": [
+     "h65"
+    ]
+   },
+   {
+    "date": "2026-10-18",
+    "when": "Sun 18 Oct",
+    "title": "Lyon host Nice in Ligue 1, with Ruben Kluivert possibly filling in at left-back",
+    "desk": "sport",
+    "ids": [
+     "h60"
+    ]
+   },
+   {
+    "date": null,
+    "when": "later this month",
+    "title": "World Series opponent to be determined after Brewers' sweep of the Dodgers",
+    "desk": "sport",
+    "ids": [
+     "h69",
+     "h70"
+    ]
+   },
+   {
+    "date": null,
+    "when": "ahead of the midterms",
+    "title": "Michigan Senate race intensifies as Ocasio-Cortez campaigns with Abdul El-Sayed in Trump-won areas",
+    "desk": "world",
+    "ids": [
+     "h35"
+    ]
+   },
+   {
+    "date": null,
+    "when": "soon",
+    "title": "BYD to open its first ultra-fast EV charging station in France",
+    "desk": "business",
+    "ids": [
+     "h29"
+    ]
+   },
+   {
+    "date": null,
+    "when": "upcoming missions",
+    "title": "JAXA to run two lunar navigation technology demonstrations with ArkEdge",
+    "desk": "defense",
+    "ids": [
+     "h51"
+    ]
+   },
+   {
+    "date": null,
+    "when": "upcoming mission",
+    "title": "ClearSpace to conduct the UK's first space debris removal mission",
+    "desk": "defense",
+    "ids": [
+     "h49"
+    ]
+   }
+  ]
+ }
+}
