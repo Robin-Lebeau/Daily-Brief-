@@ -1,0 +1,1086 @@
+{
+ "desks": [
+  {
+   "id": "business",
+   "name": "Business & markets",
+   "sources": [
+    {
+     "name": "Financial Times",
+     "site": "ft.com",
+     "lang": "en",
+     "feeds": [
+      "https://www.ft.com/companies?format=rss",
+      "https://www.ft.com/markets?format=rss",
+      "https://www.ft.com/global-economy?format=rss"
+     ],
+     "items": [
+      {
+       "title": "Weil’s incoming leader to walk away from top job as law firm faces talent crisis",
+       "link": "https://www.ft.com/content/0ce8a176-19d9-4fb8-8708-0c3fbd04f89c?syn-25a6b1a6=1",
+       "summary": "Ramona Nee had been due to take the helm in January but has declined position amid an exodus from the Wall Street law firm",
+       "image": null,
+       "time": "2026-10-25T23:19:41+00:00",
+       "id": "h1",
+       "desk": "business",
+       "source": "Financial Times"
+      },
+      {
+       "title": "Toyota takes on Tesla and China in humanoid robot race",
+       "link": "https://www.ft.com/content/8bf93407-6b93-4ebb-b54b-f290ebd563e3?syn-25a6b1a6=1",
+       "summary": "Japanese group uses 20 years of research to commercialise intelligent robots",
+       "image": null,
+       "time": "2026-10-25T21:00:06+00:00",
+       "id": "h2",
+       "desk": "business",
+       "source": "Financial Times"
+      },
+      {
+       "title": "Bon Secours nears $6bn takeover of Bain-backed Surgery Partners",
+       "link": "https://www.ft.com/content/e7b82fe0-db51-49cf-bad4-2168a905652b?syn-25a6b1a6=1",
+       "summary": "US hospital chain is the latest not-for-profit healthcare provider to seek a large deal",
+       "image": null,
+       "time": "2026-10-25T18:56:37+00:00",
+       "id": "h3",
+       "desk": "business",
+       "source": "Financial Times"
+      },
+      {
+       "title": "A knife-edge election in Israel and other potential pivot points",
+       "link": "https://www.ft.com/content/49873329-05f1-4137-bf94-d4ed3f63e897?syn-25a6b1a6=1",
+       "summary": "A key Knesset election, a (hopefully) boring British Budget, Big Oil and Big Tech reports",
+       "image": null,
+       "time": "2026-10-25T18:15:07+00:00",
+       "id": "h4",
+       "desk": "business",
+       "source": "Financial Times"
+      },
+      {
+       "title": "Enough golfers commit to LIV 2.0 to keep hopes of new league alive",
+       "link": "https://www.ft.com/content/935f19bc-bb43-4840-8a55-d8ef409c7b52?syn-25a6b1a6=1",
+       "summary": "Around 15 players have expressed interest, with several others expected to join by a Friday deadline set by the Saudi Public Investment Fund",
+       "image": null,
+       "time": "2026-10-25T17:56:50+00:00",
+       "id": "h5",
+       "desk": "business",
+       "source": "Financial Times"
+      },
+      {
+       "title": "Carney’s energy ambitions boosted by Conservative victory in British Columbia",
+       "link": "https://www.ft.com/content/397d5d63-1d60-4218-b2bd-8ce6e8f527b1?syn-25a6b1a6=1",
+       "summary": "Party leader wants to end emissions limits and replace province’s carbon tax framework",
+       "image": null,
+       "time": "2026-10-25T14:25:30+00:00",
+       "id": "h6",
+       "desk": "business",
+       "source": "Financial Times"
+      },
+      {
+       "title": "London’s most famous shopping street bans cars in bid to revive its fortunes",
+       "link": "https://www.ft.com/content/73a2ca6f-29b7-49e5-b8c7-0bde6c4e945b?syn-25a6b1a6=1",
+       "summary": "Oxford Street’s controversial pedestrianisation comes as big brands invest in flagship stores",
+       "image": null,
+       "time": "2026-10-25T12:26:15+00:00",
+       "id": "h7",
+       "desk": "business",
+       "source": "Financial Times"
+      },
+      {
+       "title": "Measles surge exposes Republicans’ vulnerability on vaccines",
+       "link": "https://www.ft.com/content/86e2ad4c-4a19-4221-8043-1c26e3354936?syn-25a6b1a6=1",
+       "summary": "Health secretary Robert F Kennedy Jr’s scepticism of jabs is not shared by the majority of Americans",
+       "image": null,
+       "time": "2026-10-25T12:00:03+00:00",
+       "id": "h8",
+       "desk": "business",
+       "source": "Financial Times"
+      }
+     ]
+    },
+    {
+     "name": "Wall Street Journal",
+     "site": "wsj.com",
+     "lang": "en",
+     "feeds": [
+      "https://feeds.a.dj.com/rss/RSSMarketsMain.xml",
+      "https://feeds.a.dj.com/rss/WSJcomUSBusiness.xml"
+     ],
+     "items": [
+      {
+       "title": "Oil Futures Settle Lower in Volatile Session",
+       "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPTUxmM3AtZ2FXSDFNbHBRTVlickI1OXNDdU1BeGZwOHZ6NVd5SW9RaUx0ZFlMTGVTN3J1QXFzUEc2Z3JOaVFzTTRQV1VXVVVpTktIaV9HYnU3Z2U1UmJCZExNdlZiWlhyMzlJRmh3X0Z5bHhNYW02R09JbE1nSWxEVW9hbXFsdTZuOVVuVjVvYlFEazFqR012VU40cTdnS096MmFQY1h0VQ?oc=5",
+       "summary": "",
+       "image": null,
+       "time": "2026-10-26T04:19:47+00:00",
+       "id": "h9",
+       "desk": "business",
+       "source": "Wall Street Journal"
+      },
+      {
+       "title": "How France Became the Poster Child for Debt Woes",
+       "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQWEFaVHhUN2RPVlA2dHFSTFNRWFJDVFdqY2U0N3RYUV9vUXBNc3EyYTVZQ1JQbl9PQ2hjalN0R0lxT3FlVWYzYTQ1VUY2ZDd5c0ZWS19USFh5bVdEMFNEbTdYN3cxbEZELXlmVGNEemIxcHF0ZlJLdWh1bkZuaFRRLVF6Z0VEcWdMYXRfcW9DWURqNUdL?oc=5",
+       "summary": "",
+       "image": null,
+       "time": "2026-10-26T04:02:52+00:00",
+       "id": "h10",
+       "desk": "business",
+       "source": "Wall Street Journal"
+      },
+      {
+       "title": "The Excruciating Delight That Is Modern Day Apple-Picking",
+       "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9Ld0dMNDZDUTNVMEJGVVhXMUt2OVdQcWJ0SFd3WDAzVUlGY0FwRWxNY05Dc1QwTGRVc3VOSG02NnlyblJwNlJkRjNXeFI0LXpmamNDSHg4OW9ZYmJseUJxUzl2eW5tYnlzWWMydllCNm5WQkJE?oc=5",
+       "summary": "",
+       "image": null,
+       "time": "2026-10-26T04:01:37+00:00",
+       "id": "h11",
+       "desk": "business",
+       "source": "Wall Street Journal"
+      },
+      {
+       "title": "The CEO Who Turns ‘Touchy-Feely’ Leadership Into Profits",
+       "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNaHZDZE1pOHNYWGUzYjVZcFQ3UzVHaFNpZUtyNEllWUVxMnFnUEhvWXhXU2wyTnFjMGtPa3psUHFNMmgwemd1OTMyckNTT0l0Zk9iY2h6em5rTVhXR0d3S1JKa2pzR3kzVlU2R3J0TjkwQlNBMU03TjVuMFZRWGJvSUg0REhOM0ZjV181QjJzVTVmSC1TVTl3?oc=5",
+       "summary": "",
+       "image": null,
+       "time": "2026-10-26T03:59:41+00:00",
+       "id": "h12",
+       "desk": "business",
+       "source": "Wall Street Journal"
+      },
+      {
+       "title": "The Morning Risk Report: Meta Ordered to Pay $25 Billion to New Mexico in Data-Privacy Case",
+       "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQdmJqMmZWZkpDckJlZUtXQ3NDWjhjeUx4RWpzWmxtc0tzTnJhLS11dkRkRHZYNzJtbGU2NU1GcTR5bDZJX2NQbUs5QXVXTS1ZNzRwNjNFOE9pUDUwNFUwZEJLdmNTT09leDhpR1lCVzhBaGZLZlNyVHpjWWJYeklQZ19jbWFpanhrdGRzUlJTbll0NzNPTFcyOWJUS3RIZmpxOS0xOTZub3JhX3g3TGJCMGNQejhqbnNsWGxLRWw5MnpWLW56cUlBdktxSEViLXdiNk52Z2daaGRmdw?oc=5",
+       "summary": "",
+       "image": null,
+       "time": "2026-10-26T03:52:45+00:00",
+       "id": "h13",
+       "desk": "business",
+       "source": "Wall Street Journal"
+      },
+      {
+       "title": "Asian Stocks Decline as Appetite for Risky Assets Ebbs",
+       "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQV1FGQ01uRTk1eWVoWThueGVyUF9RWERUVlh4UmFGZjVhd3dJYlUxakk3VEVRVkxabEhlUlItWFFoQ09WdV95eVNBUEhCRTY4eUlrV1F0ZlFEWUtGZFItSE8wd2RXR3BjU3k4N0hqbklWeTVOc2dxZzdaSmhYMjBNVDlTcjdzWWwtOEIxa1lOcjhwZGc1bXRyR1pvTU9hanc?oc=5",
+       "summary": "",
+       "image": null,
+       "time": "2026-10-26T03:48:56+00:00",
+       "id": "h14",
+       "desk": "business",
+       "source": "Wall Street Journal"
+      },
+      {
+       "title": "Exclusive | Death Threats, Lawsuits and Billions in Play: The Battle Over Moving Russian Oil",
+       "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQZ2pKeW4wX3ViQlR1WmVGcnJZLXl5MVFBb3BXUTFZOWYwWEdvNkdUZS1LNzdPSlk1WDdrc18zZ21lZXhTNUFNbVYwb3R0bWNzbjZHdERNUkVaS2xsNFJ4WXZIS1lPeTZLNm5hZW9Dc082cDNPVUNrRjQxLUZGVVkyTDRtSHZKNFIzamp5QVptREJPZkNBOGdBVEdMS01hVDRDVXVmU3dLdnB6eUgzNjRmaG9BSWhFUlNIMmNJcg?oc=5",
+       "summary": "",
+       "image": null,
+       "time": "2026-10-26T03:37:57+00:00",
+       "id": "h15",
+       "desk": "business",
+       "source": "Wall Street Journal"
+      },
+      {
+       "title": "See How Flight Routes Are Changing to Avoid War Zones Around the World",
+       "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQUlB4dVplUTFDQ25acHl6Q240Uk1aWTAzWDB5WUVZeXB6eTJZZVgwZjZCcVUxbmtOdDlsdUxLUVdCRTV3OXJ4eEpQV3RzNmxqNjcxMVd5MTFrb3FNVUFKTjFJUl9rWnJLWW83VUpJRHJPTzVqZFNmV3BodnpOcWRPWV9lN1ozXzNXRU1BckV0RF9LSWxFcktRelpyWktqYklsTTZkbDEzTjNndUozTmNIWVNpR2I3VjZzNlFfQnpIMFlIUQ?oc=5",
+       "summary": "",
+       "image": null,
+       "time": "2026-10-26T03:33:59+00:00",
+       "id": "h16",
+       "desk": "business",
+       "source": "Wall Street Journal"
+      }
+     ]
+    },
+    {
+     "name": "Les Echos",
+     "site": "lesechos.fr",
+     "lang": "fr",
+     "feeds": [
+      "https://syndication.lesechos.fr/rss/rss_une.xml"
+     ],
+     "items": [
+      {
+       "title": "Cours Actions Aetherion - AETR CA00809Q1054",
+       "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNVjZSNWdDdHoyT0hWMGhQaHlHUURWYk9teWhUUGJyaERPY0dFTFNXNGN0NmRaT3RmZ0pleS01ejlGNzRUVWRJWGl5OWZLN2pnTlV5ejJYTGdBR0hEblp2bWhlLXNwcGswWENUODV4bEpVYUhpUHBGcGp3dy04RjdaSw?oc=5",
+       "summary": "",
+       "image": null,
+       "time": "2026-10-25T23:31:19+00:00",
+       "id": "h17",
+       "desk": "business",
+       "source": "Les Echos"
+      },
+      {
+       "title": "Transfert de siège social même département - Paris - ALP01568061 - Les Echos",
+       "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOaDlScmNCS05CYVNidWVCcmNNRXpvdGFYZGY3cGhqelRQX3ViN0tZNzNVRldpRl9JU3oxUFdHTGwzbllZNlMwWFgtS2ROR0ZVMzBVM25qTzRXQm43US1lRF9RNDlpbXExQngzYWNmVkVsdjBIeXRYbHhWbnBfMEV5MmN5T3hnRnh1Y0ktV0JEdlh6Y0U2d3dac21tdjdCUQ?oc=5",
+       "summary": "",
+       "image": null,
+       "time": "2026-10-25T21:30:21+00:00",
+       "id": "h18",
+       "desk": "business",
+       "source": "Les Echos"
+      },
+      {
+       "title": "Constitution SASU - Rhône - ALP01568024 - Les Echos",
+       "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPOHZnZDJ5c01BMnc3WHRqcjRsUDV0R1dqWV9XM0xQeE1FNzZ5UEYtWW5Eb1RBMmxfTFplb3lTaXV6TEpXUGpMWURtVkhYRUN5czVKa2l3cmd3VHRFOThBcEhldDBEUkJaXzgwelJBS3VSY0paWG0zaDVOMEpOUHRCdkU5WUg3ellZQlBzZUh3RVpvUlpXS2Zxc0hoZllEZw?oc=5",
+       "summary": "",
+       "image": null,
+       "time": "2026-10-25T21:30:21+00:00",
+       "id": "h19",
+       "desk": "business",
+       "source": "Les Echos"
+      },
+      {
+       "title": "Constitution SCI - Val-d’Oise - ALP01568043 - Les Echos",
+       "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOT3UxcUpwcXBSZkRnbk14YmVHVm5pa0c5c0JEREpGMHA5Y3g5NV9IYXZHaGV5WGYzTXFHVVJQazdKNTFVNW9KQ3JUZ2NCNGNaVnNTejN5MzF4STZoSGhpSHZTc19HeWtlUkRDbjZUY0pWSkJaaUVrUy0tSDRxUmFBSzFDZVFMNl9rTjFIMmZnWnpLb1g5NVJmRlptVUtSdw?oc=5",
+       "summary": "",
+       "image": null,
+       "time": "2026-10-25T21:30:20+00:00",
+       "id": "h20",
+       "desk": "business",
+       "source": "Les Echos"
+      },
+      {
+       "title": "Les Brésiliens aux urnes pour un second tour serré entre Lula et Bolsonaro",
+       "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNNjJmWmtwY01tYnR2S2xsaGR2VmVHdjNseUpUNzRyS1poMGE0UzFJMVhMbGNUMU9zd3AySDM1UVdkTGd6ekRfUUZScm9BajM2eXBBM090aTc3MGl5NWJ4QlQ0UklaZGQzaG1kY2d1LXFWYUNjV2NpTUlXdUVTNkJGV0wzUms4STczZzV4WlY4ankxNDRwbGFtcEdVbkJZV2FNaTZrMVVsQmFKVzJTZGhzOXhrRThEM2hPb294WXN2VVU3dUw1YVJZcDdHN3EzVmNNV3R5dHBES3cxdExURURj?oc=5",
+       "summary": "",
+       "image": null,
+       "time": "2026-10-25T20:29:51+00:00",
+       "id": "h21",
+       "desk": "business",
+       "source": "Les Echos"
+      },
+      {
+       "title": "La défaite d'Aleksandar Vucic signe un changement d'ère en Serbie",
+       "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQVnhKMU5majlNUTFORFFlaHdLUmZIZmhKWDFZaXRBUXF2TWxHUHoxc0tTRU5wa2JuVENmc2FzV1dYcjFWSVA1UDFzc1ozOHFyZ3p6NVltc1R6ZHFvWktYQXQ2RURjcUJkZlBLdmhMZ2s1aFZRaUtrdEtOLTIwNUl3TlROd0ptMkgxQ3ZRMURWT1RyektJSS1yZnlibDlsRnoxdDBiLVFVX0lBUlVG?oc=5",
+       "summary": "",
+       "image": null,
+       "time": "2026-10-25T20:21:00+00:00",
+       "id": "h22",
+       "desk": "business",
+       "source": "Les Echos"
+      },
+      {
+       "title": "Analyses de l'élection présidentielle 2027 | Page 2",
+       "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9KYUhQN1o4TmRoeGNRcXJaTHJiME84WEtPNU5Ga0V6ZjV6TjJyNjVhdWpXQmV5MXpTeWdXRHcyNGxnSEMyVzQ4bkkycjdFY0ZyNzRfLXN3ekl1R0h0RHNF?oc=5",
+       "summary": "",
+       "image": null,
+       "time": "2026-10-25T20:18:43+00:00",
+       "id": "h23",
+       "desk": "business",
+       "source": "Les Echos"
+      },
+      {
+       "title": "- Les Echos",
+       "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBQMXkzamhIZUs4TXNOYWpPNUxsVVQ1UVV3S092U1R1aTlFNHpTc3VGanE3ZWlQaXJod0FGUExhMGlQbTY0X2J2OQ?oc=5",
+       "summary": "",
+       "image": null,
+       "time": "2026-10-25T18:42:26+00:00",
+       "id": "h24",
+       "desk": "business",
+       "source": "Les Echos"
+      }
+     ]
+    },
+    {
+     "name": "Challenges",
+     "site": "challenges.fr",
+     "lang": "fr",
+     "feeds": [
+      "https://www.challenges.fr/rss.xml"
+     ],
+     "items": [
+      {
+       "title": "« Les ordres de grandeur sont délirants » : récupérer 18 milliards d’euros de fraudes, le mirage de la TVA à la source du RN",
+       "link": "https://www.challenges.fr/economie/les-ordres-de-grandeur-sont-delirants-recuperer-18-milliards-deuros-de-fraudes-le-mirage-de-la-tva-a-la-source-du-rn_646571",
+       "summary": "Challenges passe en revue des annonces de la candidate du Rassemblement national, toujours aussi peu crédible sur le terrain économique. Le RN propose un prélèvement de la source à la TVA, avec un rendement irréaliste.",
+       "image": "https://www.challenges.fr/_ipx/f_jpg&s_1200x630&enlarge_true/cha%2Fstatic%2F2026-10%2F63511.HR_0.jpg%3FVersionId%3DYIMwFNE8FlPR9f2hyUwJy4.2AuZJJ4fx",
+       "time": "2026-10-25T17:00:00+00:00",
+       "id": "h25",
+       "desk": "business",
+       "source": "Challenges"
+      },
+      {
+       "title": "Élections législatives en Israël : comment des dizaines de milliers d’expatriés pourraient changer la donne lors d’un scrutin décisif pour Netanyahou",
+       "link": "https://www.challenges.fr/monde/elections-legislatives-en-israel-comment-des-dizaines-de-milliers-dexpatries-pourraient-changer-la-donne-lors-dun-scrutin-decisif-pour-netanyahou_646443",
+       "summary": "Beaucoup d’Israéliens vivant en dehors du pays prendront l’avion pour participer aux élections législatives du 27 octobre. Leur vote contre le gouvernement de Netanyahou pourrait être déterminant.",
+       "image": "https://www.challenges.fr/_ipx/f_jpg&s_1200x630&enlarge_true/cha%2Fstatic%2F2026-10%2F63257.HR_0.jpg%3FVersionId%3Dc_KvaohCL2N_qOT4.Z.D967fhQ8EDJuw",
+       "time": "2026-10-25T16:00:00+00:00",
+       "id": "h26",
+       "desk": "business",
+       "source": "Challenges"
+      },
+      {
+       "title": "Présidentielle au Brésil : L’économie a besoin d’une réforme en profondeur, et ni Lula ni Bolsonaro n’ont de quoi y répondre",
+       "link": "https://www.challenges.fr/monde/presidentielle-au-bresil-leconomie-a-besoin-dune-reforme-en-profondeur-et-ni-lula-ni-bolsonaro-nont-de-quoi-y-repondre_646584",
+       "summary": "La dette publique brésilienne se creuse inexorablement, entre autres à cause d’un mécanisme constitutionnel singulier de « cliquet ». Alors que Lula et Flavio Bolsonaro s’affrontent au second tour de la présidentielle ce dimanche, aucun ne…",
+       "image": "https://www.challenges.fr/_ipx/f_jpg&s_1200x630&enlarge_true/cha%2Fstatic%2F2026-10%2F63628.HR_2.jpg%3FVersionId%3DCztiWANQsn75smnwBRoFKNWkaUkGMRT5",
+       "time": "2026-10-25T14:00:00+00:00",
+       "id": "h27",
+       "desk": "business",
+       "source": "Challenges"
+      },
+      {
+       "title": "« Nous voulons être l’un des trois grands roboticiens du monde » : comment la pépite française Wandercraft compte défier les géants chinois et américains",
+       "link": "https://www.challenges.fr/entreprise/tech-numerique/nous-voulons-etre-lun-des-trois-grands-roboticiens-du-monde-comment-la-pepite-francaise-wandercraft-compte-defier-les-geants-chinois-et-americains_646565",
+       "summary": "PODCAST - Née dans la robotique médicale, Wandercraft s’attaque désormais aux robots humanoïdes industriels. Avec Renault comme partenaire, la société française veut changer d’échelle et rivaliser avec les géants chinois et américains. Son…",
+       "image": "https://www.challenges.fr/_ipx/f_jpg&s_1200x630&enlarge_true/cha%2Fstatic%2F2026-10%2F63607.HR_0.jpg%3FVersionId%3DYQx8Q7o1nuILetbdNXyz4TUvyoYVK69G",
+       "time": "2026-10-25T12:00:00+00:00",
+       "id": "h28",
+       "desk": "business",
+       "source": "Challenges"
+      },
+      {
+       "title": "À Berlin, le Rutz, ce restaurant trois étoiles Michelin fait voler en éclats tous les clichés sur la cuisine allemande",
+       "link": "https://www.challenges.fr/lifestyle/a-berlin-le-rutz-ce-restaurant-trois-etoiles-michelin-fait-voler-en-eclats-tous-les-cliches-sur-la-cuisine-allemande_646572",
+       "summary": "Seul restaurant trois étoiles de Berlin, Rutz propose des saveurs subtiles aux antipodes des clichés sur les plats roboratifs du Nord. Le Guide Michelin parle d’une « cuisine qui se distingue par une précision remarquable, sans jamais…",
+       "image": "https://www.challenges.fr/_ipx/f_jpg&s_1200x630&enlarge_true/cha%2Fstatic%2F2026-10%2F63146.HR_0.jpeg%3FVersionId%3Dw2WhdxK2MImjn6y1ktCJjRH6dUN_pK7g",
+       "time": "2026-10-25T11:30:00+00:00",
+       "id": "h29",
+       "desk": "business",
+       "source": "Challenges"
+      },
+      {
+       "title": "« Arrêter les présentations PowerPoint, et voir ce qui marche vraiment » : plongée dans l’ancienne base aérienne de Brétigny, laboratoire de la lutte antidrones",
+       "link": "https://www.challenges.fr/entreprise/defense/arreter-les-presentations-powerpoint-et-voir-ce-qui-marche-vraiment-plongee-dans-lancienne-base-aerienne-de-bretigny-laboratoire-de-la-lutte-antidrones_646514",
+       "summary": "MENACE RUSSE - Sur l’ancienne base aérienne 217 de Brétigny-sur-Orge, le pôle de compétitivité Systematic teste et labellise, pour le compte du SGDSN (Secrétariat général de la Défense et de la Sécurité nationale), les solutions de…",
+       "image": "https://www.challenges.fr/_ipx/f_jpg&s_1200x630&enlarge_true/cha%2Fstatic%2F2026-10%2F63340.HR_1.jpeg%3FVersionId%3DTHEfvZh9.hApps3yyt4n6AtjT.aWcSrf",
+       "time": "2026-10-25T11:00:00+00:00",
+       "id": "h30",
+       "desk": "business",
+       "source": "Challenges"
+      },
+      {
+       "title": "Une mobilisation du 24 octobre globalement calme, les commerces épargnés",
+       "link": "https://www.challenges.fr/politique/une-mobilisation-du-24-octobre-globalement-calme-les-commerces-epargnes_646583",
+       "summary": "Une semaine après les nombreux saccages et pillages du 17 octobre, l’« acte II » de la mobilisation s’est globalement déroulé dans le calme, malgré quelques dégradations et affrontements avec des forces de l’ordre beaucoup plus organisées…",
+       "image": "https://www.challenges.fr/_ipx/f_jpg&s_1200x630&enlarge_true/cha%2Fstatic%2F2026-10%2F63626.HR_1.jpg%3FVersionId%3Dr9t.3m40ewOXE3XpqJBI4v4z26JzvMZY",
+       "time": "2026-10-25T10:15:00+00:00",
+       "id": "h31",
+       "desk": "business",
+       "source": "Challenges"
+      },
+      {
+       "title": "« J’ai remis à flot un bateau qui prenait l’eau de toutes parts » : comment Thierry Léger a redressé Scor et prépare désormais sa reconquête",
+       "link": "https://www.challenges.fr/entreprise/banque-et-assurance/jai-remis-a-flot-un-bateau-qui-prenait-leau-de-toutes-parts-comment-thierry-leger-a-redresse-scor-et-prepare-desormais-sa-reconquete_646449",
+       "summary": "Après avoir traité la crise de gouvernance du réassureur français, le successeur de Denis Kessler prépare son nouveau plan stratégique. Priorité à la reconquête de parts de marché, notamment aux Etats-Unis. Rencontre.",
+       "image": "https://www.challenges.fr/_ipx/f_jpg&s_1200x630&enlarge_true/cha%2Fstatic%2F2026-10%2F63262.HR_1.jpeg%3FVersionId%3DBQHAVSIP0zIZxECEviLrrlW87w8cKuGF",
+       "time": "2026-10-25T08:00:00+00:00",
+       "id": "h32",
+       "desk": "business",
+       "source": "Challenges"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "world",
+   "name": "World & politics",
+   "sources": [
+    {
+     "name": "New York Times",
+     "site": "nytimes.com",
+     "lang": "en",
+     "feeds": [
+      "https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml",
+      "https://rss.nytimes.com/services/xml/rss/nyt/World.xml"
+     ],
+     "items": [
+      {
+       "title": "Who Is Netanyahu’s Main Opponent in Israel’s Elections?",
+       "link": "https://www.nytimes.com/video/world/asia/100000011222464/who-is-netanyahus-main-opponent-in-israels-elections.html",
+       "summary": "Gadi Eisenkot has emerged as Benjamin Netanyahu’s main opponent in the upcoming elections. The New York Times Jerusalem bureau chief, David Halbfinger, describes why Mr. Eisenkot is resonating with Israeli voters.",
+       "image": null,
+       "time": "2026-10-26T04:14:41+00:00",
+       "id": "h33",
+       "desk": "world",
+       "source": "New York Times"
+      },
+      {
+       "title": "Brazil Live Updates: Lula Wins Re-Election as Bolsonaro Rejects Result",
+       "link": "https://www.nytimes.com/live/2026/10/25/world/brazil-election",
+       "summary": "President Luiz Inácio Lula da Silva’s win ended a string of conservative victories in Latin America. His opponent, Flávio Bolsonaro, called for the election to be annulled.",
+       "image": "https://static01.nyt.com/images/2026/10/25/multimedia/25brazil-election-promo-9pm/25brazil-election-promo-9pm-mediumSquareAt3X.jpg",
+       "time": "2026-10-26T04:11:24+00:00",
+       "id": "h34",
+       "desk": "world",
+       "source": "New York Times"
+      },
+      {
+       "title": "Israeli Jews Across the Spectrum Face an Election of Fears",
+       "link": "https://www.nytimes.com/2026/10/26/world/middleeast/israel-election-stakes.html",
+       "summary": "Supporters and opponents of Prime Minister Benjamin Netanyahu have expressed intense anxieties about isolation abroad, security at home and the future of Israel’s identity.",
+       "image": "https://static01.nyt.com/images/2026/10/26/multimedia/26int-israel-collapse-01-wgbz/26int-israel-collapse-01-wgbz-mediumSquareAt3X.jpg",
+       "time": "2026-10-26T04:01:08+00:00",
+       "id": "h35",
+       "desk": "world",
+       "source": "New York Times"
+      },
+      {
+       "title": "Is the Venice Soccer Team Ever Going to Be as Good as It Looks?",
+       "link": "https://www.nytimes.com/2026/10/26/world/europe/venice-soceer.html",
+       "summary": "Venezia FC, a historically modest club, has become a fashion sensation. But its performance has struggled to match the off-field hype.",
+       "image": "https://static01.nyt.com/images/2026/10/22/multimedia/00int-Venice-soccer-01-bhwl/00int-Venice-soccer-01-bhwl-mediumSquareAt3X.jpg",
+       "time": "2026-10-26T04:01:08+00:00",
+       "id": "h36",
+       "desk": "world",
+       "source": "New York Times"
+      },
+      {
+       "title": "‘Pull Out the Sick Trees’: Xi’s Constant Purges Pave Way for Next Term",
+       "link": "https://www.nytimes.com/2026/10/26/world/asia/china-communist-party-xi-forever-purge.html",
+       "summary": "The Chinese leader Xi Jinping, who is likely preparing to secure a fourth term in power in 2027, has complained that officials cannot be trusted.",
+       "image": "https://static01.nyt.com/images/2026/10/26/multimedia/26int-china-xi-purges-01-jlbc/26int-china-xi-purges-01-jlbc-mediumSquareAt3X.jpg",
+       "time": "2026-10-26T04:00:06+00:00",
+       "id": "h37",
+       "desk": "world",
+       "source": "New York Times"
+      },
+      {
+       "title": "In Islamophobic Rant, Trump Seeks to Stir Republican Base in Michigan",
+       "link": "https://www.nytimes.com/2026/10/25/us/elections/trump-michigan-el-sayed-rogers.html",
+       "summary": "The president contended that Dr. Abdul El-Sayed, a Muslim, would “invite hordes of jihadis to our shores” as he sought to bolster the G.O.P. candidate in a tight Senate race.",
+       "image": "https://static01.nyt.com/images/2026/10/25/multimedia/25dc-trump-michigan-wpqz/25dc-trump-michigan-wpqz-mediumSquareAt3X.jpg",
+       "time": "2026-10-26T02:26:14+00:00",
+       "id": "h38",
+       "desk": "world",
+       "source": "New York Times"
+      },
+      {
+       "title": "Here’s the latest.",
+       "link": "https://www.nytimes.com/live/2026/10/25/world/brazil-election/heres-the-latest",
+       "summary": "",
+       "image": null,
+       "time": "2026-10-26T02:06:21+00:00",
+       "id": "h39",
+       "desk": "world",
+       "source": "New York Times"
+      },
+      {
+       "title": "Aleksandar Vucic Concedes Defeat in Serbian Election",
+       "link": "https://www.nytimes.com/2026/10/25/world/europe/serbia-vucic-election-defeat.html",
+       "summary": "“It is clear that we have lost these elections,” Aleksandar Vucic said in a surprisingly early speech congratulating his opponents.",
+       "image": "https://static01.nyt.com/images/2026/10/25/multimedia/25int-serbia-vucic-mpgv/25int-serbia-vucic-mpgv-mediumSquareAt3X.jpg",
+       "time": "2026-10-26T01:57:25+00:00",
+       "id": "h40",
+       "desk": "world",
+       "source": "New York Times"
+      }
+     ]
+    },
+    {
+     "name": "Le Monde",
+     "site": "lemonde.fr",
+     "lang": "fr",
+     "feeds": [
+      "https://www.lemonde.fr/rss/une.xml",
+      "https://www.lemonde.fr/rss/en_continu.xml"
+     ],
+     "items": [
+      {
+       "title": "Présidentielle au Brésil : Lula réélu contre toute attente, Flavio Bolsonaro réclame l’annulation de l’élection",
+       "link": "https://www.lemonde.fr/international/article/2026/10/26/presidentielle-au-bresil-lula-reelu-contre-toute-attente-flavio-bolsonaro-reclame-l-annulation-du-scrutin_6800387_3210.html",
+       "summary": "Arrivé derrière son rival conservateur au premier tour, le candidat de gauche a réussi à inverser le rapport de force et à s’imposer pour pouvoir exercer un quatrième mandat, dimanche, au terme d’un scrutin très serré.",
+       "image": "https://img.lemde.fr/2026/10/26/524/0/5500/2750/644/322/60/0/ed485e1_ftp-1-d3y4dzmdipt0-2026-10-26t015100z-524888703-rc2paoa2p9k8-rtrmadp-3-brazil-election.JPG",
+       "time": "2026-10-26T04:05:23+00:00",
+       "id": "h41",
+       "desk": "world",
+       "source": "Le Monde"
+      },
+      {
+       "title": "Pour Lula, vainqueur surprise de la présidentielle, un quatrième mandat sans majorité au Congrès et sous la pression de la société civile",
+       "link": "https://www.lemonde.fr/international/article/2026/10/26/bresil-pour-lula-un-quatrieme-mandat-qui-s-annonce-complique-sans-majorite-au-congres-et-sous-la-pression-de-la-societe-civile_6800386_3210.html",
+       "summary": "Alors que le Parti libéral de Flavio Bolsonaro dominera le pouvoir législatif à partir de janvier 2027, le président devra faire des concessions à la droite, mais aussi tenir compte des exigences de la mobilisation populaire qui a porté sa…",
+       "image": "https://img.lemde.fr/2026/10/26/204/0/5500/2750/644/322/60/0/f1273dc_ftp-1-snuwebmmnnjo-2026-10-26t015957z-158078371-rc2paoatu9xn-rtrmadp-3-brazil-election.JPG",
+       "time": "2026-10-26T04:05:07+00:00",
+       "id": "h42",
+       "desk": "world",
+       "source": "Le Monde"
+      },
+      {
+       "title": "Après les manifestations du 24 octobre, l’exécutif confronté à la perspective d’un long automne social",
+       "link": "https://www.lemonde.fr/politique/article/2026/10/26/apres-les-manifestations-du-24-octobre-l-executif-confronte-a-la-perspective-d-un-long-automne-social_6800384_823448.html",
+       "summary": "Le premier ministre, Sébastien Lecornu, reçoit, lundi, les représentants des lycéens pour leur apporter des « réponses concrètes ». De nouveaux appels à mobilisation ont déjà été lancés pour le 31 octobre et le 5 novembre.",
+       "image": "https://img.lemde.fr/2026/10/25/448/0/4500/2250/644/322/60/0/5fda6fe_upload-1-c2tqjj2cxmve-3124102026-1a0a5202-acteii-manifestation-carrot.jpg",
+       "time": "2026-10-26T04:00:19+00:00",
+       "id": "h43",
+       "desk": "world",
+       "source": "Le Monde"
+      },
+      {
+       "title": "En Serbie, le mouvement des étudiants remporte les législatives face au dirigeant populiste Aleksandar Vucic",
+       "link": "https://www.lemonde.fr/international/article/2026/10/26/en-serbie-le-mouvement-des-etudiants-remporte-les-legislatives-face-au-dirigeant-populiste-aleksandar-vucic_6800348_3210.html",
+       "summary": "Après la défaite de la coalition menée par l’ancien président, le pays va connaître une alternance démocratique majeure qui pourrait insuffler une dynamique d’apaisement dans les Balkans, après deux décennies de blocage.",
+       "image": "https://img.lemde.fr/2026/10/26/995/0/6000/3000/644/322/60/0/1d9219b_ftp-1-1dmxkfbnkeul-2026-10-26t000236z-1540540903-rc2maoaqkntv-rtrmadp-3-serbia-election.JPG",
+       "time": "2026-10-26T03:30:11+00:00",
+       "id": "h44",
+       "desk": "world",
+       "source": "Le Monde"
+      },
+      {
+       "title": "F1 : l’Italien Kimi Antonelli remporte le Grand Prix des Etats-Unis et se rapproche un peu plus du titre mondial",
+       "link": "https://www.lemonde.fr/sport/article/2026/10/26/f1-l-italien-kimi-antonelli-remporte-le-grand-prix-des-etats-unis-et-se-rapproche-un-peu-plus-du-titre-mondial_6800248_3242.html",
+       "summary": "Auteur de sa neuvième victoire de la saison à l’âge de 20 ans, le pilote Mercedes n’aura besoin que de deux points lors du Grand Prix du Mexique, dimanche 1ᵉʳ novembre, pour être sacré champion du monde.",
+       "image": "https://img.lemde.fr/2026/10/25/18/0/3311/1655/644/322/60/0/12eda6f_ftp-1-x42v0mfbyanc-2301988745.jpg",
+       "time": "2026-10-26T00:37:28+00:00",
+       "id": "h45",
+       "desk": "world",
+       "source": "Le Monde"
+      },
+      {
+       "title": "Liga espagnole : avec son doublé, Kylian Mbappé fait plier le Barça et offre le Clasico au Real",
+       "link": "https://www.lemonde.fr/sport/article/2026/10/26/espagne-kylian-mbappe-fait-plier-le-barca-avec-un-double-opportuniste-et-offre-le-clasico-au-real-madrid_6800182_3242.html",
+       "summary": "Menace constante pour la défense catalane, l’attaquant français a inscrit ses 99ᵉ et 100ᵉ buts sous le maillot madrilène, dimanche, au Camp Nou, au terme d’une rencontre plus équilibrée que prévu.",
+       "image": "https://img.lemde.fr/2026/10/25/57/0/2641/1320/644/322/60/0/038d67b_ftp-1-8sas6b1bffiv-afp-d4e98xx.jpg",
+       "time": "2026-10-25T23:44:10+00:00",
+       "id": "h46",
+       "desk": "world",
+       "source": "Le Monde"
+      },
+      {
+       "title": "A Hébron, en Cisjordanie, plus de 2 670 Palestiniens « déplacés de force » par l’armée israélienne, selon l’Autorité palestinienne",
+       "link": "https://www.lemonde.fr/international/article/2026/10/25/a-hebron-en-cisjordanie-plus-de-2-670-palestiniens-deplaces-de-force-par-l-armee-israelienne-selon-l-autorite-palestinienne_6800149_3210.html",
+       "summary": "Dimanche, des soldats israéliens étaient toujours déployés dans les rues de la plus grande ville du territoire palestinien occupé, selon des images de l’Agence France-Presse.",
+       "image": "https://img.lemde.fr/2026/10/24/612/0/7329/3664/644/322/60/0/5a73c5f_ftp-1-ptpzcihdynfi-afp-d4ax3dx.jpg",
+       "time": "2026-10-25T22:46:41+00:00",
+       "id": "h47",
+       "desk": "world",
+       "source": "Le Monde"
+      },
+      {
+       "title": "Serbie : Aleksandar Vucic reconnaît sa défaite aux élections législatives anticipées",
+       "link": "https://www.lemonde.fr/international/article/2026/10/25/serbie-aleksandar-vucic-reconnait-sa-defaite-aux-elections-legislatives-anticipees_6800116_3210.html",
+       "summary": "Le dirigeant nationaliste a admis, dimanche soir, que le mouvement étudiant avait remporté la victoire, après avoir mené des manifestations pendant deux ans.",
+       "image": "https://img.lemde.fr/2026/10/25/396/0/4752/2376/644/322/60/0/5f7cf65_ftp-1-gximiiu49lh4-2026-10-25t204932z-1410583075-rc2jaoaafn8o-rtrmadp-3-serbia-election.JPG",
+       "time": "2026-10-25T20:55:48+00:00",
+       "id": "h48",
+       "desk": "world",
+       "source": "Le Monde"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "defense",
+   "name": "Space & defense",
+   "sources": [
+    {
+     "name": "Payload",
+     "site": "payloadspace.com",
+     "lang": "en",
+     "feeds": [
+      "https://payloadspace.com/feed/"
+     ],
+     "items": []
+    },
+    {
+     "name": "Tectonic",
+     "site": "tectonicdefense.com",
+     "lang": "en",
+     "feeds": [
+      "https://www.tectonicdefense.com/feed/"
+     ],
+     "items": []
+    }
+   ]
+  },
+  {
+   "id": "sport",
+   "name": "Sport",
+   "sources": [
+    {
+     "name": "L'Équipe",
+     "site": "lequipe.fr",
+     "lang": "fr",
+     "feeds": [
+      "https://dwh.lequipe.fr/api/edito/rss?path=/"
+     ],
+     "items": [
+      {
+       "title": "Quatrième défaite de suite, place de barragiste, perdu dans le jeu... Strasbourg n'est pour le moment pas invité dans la cour des grands en Ligue 1",
+       "link": "https://www.lequipe.fr/Football/Article/Quatrieme-defaite-consecutive-place-de-barragiste-perdu-dans-le-jeu-strasbourg-n-est-pour-le-moment-pas-invite-dans-la-cour-des-grands-en-ligue-1/1738672#at_medium=RSS_feeds",
+       "summary": "Strasbourg a concédé dimanche à Rennes son cinquième revers en huit journées (0-3), le quatrième d'affilée. Voilà le Racing barragiste, loin de ses ambitions européennes, et quelque peu inquiétant.",
+       "image": "https://medias.lequipe.fr/img-photo-jpg/diogo-sousa-est-depite-par-la-defaite-du-racing-sur-la-pelouse-de-rennes-0-3-d-derajinski-icon-sport/1500000002633071/69:55,862:584-828-552-75/714b6.jpg",
+       "time": "2026-10-26T04:15:00+00:00",
+       "id": "h49",
+       "desk": "sport",
+       "source": "L'Équipe"
+      },
+      {
+       "title": "Ronan O'Gara après la défaite de La Rochelle contre l'UBB : « Comment on peut commencer un derby comme ça ? »",
+       "link": "https://www.lequipe.fr/Rugby/Actualites/Ronan-o-gara-apres-la-defaite-de-la-rochelle-contre-l-ubb-comment-on-peut-commencer-un-derby-comme-ca/1738729#at_medium=RSS_feeds",
+       "summary": "Le manager du Stade Rochelais Ronan O'Gara a pesté contre l'apathie de son équipe en première période lors de la défaite à domicile contre l'UBB (25-19), dimanche soir, à l'occasion de la 7e journée du Top 14.",
+       "image": "https://medias.lequipe.fr/img-photo-jpg/ronan-o-gara-avant-le-match-contre-l-ubb-dimanche-l-hahn-l-equipe/1500000002633245/65:243,1950:1499-828-552-75/4fcbe.jpg",
+       "time": "2026-10-25T23:54:11+00:00",
+       "id": "h50",
+       "desk": "sport",
+       "source": "L'Équipe"
+      },
+      {
+       "title": "Hugo Reus après la victoire de l'UBB à La Rochelle : « Il faut qu'on sache gagner de toutes les manières possibles »",
+       "link": "https://www.lequipe.fr/Rugby/Actualites/Hugo-reus-apres-la-victoire-de-l-ubb-a-la-rochelle-il-faut-qu-on-sache-gagner-de-toutes-les-manieres-possibles/1738728#at_medium=RSS_feeds",
+       "summary": "Le demi d'ouverture de l'UBB, auteur de 20 des 25 points de la victoire à La Rochelle dimanche soir (25-19), était satisfait de la façon dont son équipe s'est imposée, avec beaucoup de réalisme malgré les nombreux blessés avant et pendant…",
+       "image": "https://medias.lequipe.fr/img-photo-jpg/hugo-reus-a-reussi-un-7-8-face-aux-poteaux-a-la-rochelle-l-hahn-l-equipe/1500000002633244/0:0,2000:1333-828-552-75/1bfbf.jpg",
+       "time": "2026-10-25T23:54:02+00:00",
+       "id": "h51",
+       "desk": "sport",
+       "source": "L'Équipe"
+      },
+      {
+       "title": "Non-sélectionné avec les Bleus, Nicolas Depoortere avait les crocs contre La Rochelle",
+       "link": "https://www.lequipe.fr/Rugby/Actualites/Non-selectionne-avec-les-bleus-depoortere-avait-les-crocs-contre-la-rochelle/1738726#at_medium=RSS_feeds",
+       "summary": "Pas retenu dans le groupe des 42 par Fabien Galthié, le centre international Nicolas Depoortere a livré une partie pleine d'énergie ce dimanche à La Rochelle. La blessure de Fabien Brau-Boirie à Toulon samedi va-t-elle lui permettre de…",
+       "image": "https://medias.lequipe.fr/img-photo-jpg/nicolas-depoortere-a-livre-une-partie-pleine-d-energie-contre-la-rochelle-dimanche-l-hahn-l-equipe/1500000002633236/0:0,2000:1333-828-552-75/c5136.jpg",
+       "time": "2026-10-25T23:34:56+00:00",
+       "id": "h52",
+       "desk": "sport",
+       "source": "L'Équipe"
+      },
+      {
+       "title": "Mourinho : «Un grand match et une grande victoire»",
+       "link": "https://www.lequipe.fr/Football/Video/Liga-real-madrid-jose-mourinho-dithyrambique-sur-la-prestation-des-merengues-contre-le-barca-lors-du-clasico-un-grand-match-et-une-grande-victoire/20244087#at_medium=RSS_feeds",
+       "summary": "",
+       "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
+       "time": "2026-10-25T23:28:00+00:00",
+       "id": "h53",
+       "desk": "sport",
+       "source": "L'Équipe"
+      },
+      {
+       "title": "Antonelli sur la voie royale",
+       "link": "https://www.lequipe.fr/Formule-1/Article/-ce-n-est-plus-qu-une-question-de-temps-apres-sa-victoire-a-austin-kimi-antonelli-tout-proche-du-titre-mondial/1738719#at_medium=RSS_feeds",
+       "summary": "",
+       "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
+       "time": "2026-10-25T23:10:00+00:00",
+       "id": "h54",
+       "desk": "sport",
+       "source": "L'Équipe"
+      },
+      {
+       "title": "Donnez une note au Grand Prix des États-Unis",
+       "link": "https://www.lequipe.fr/Formule-1/Actualites/Donnez-une-note-au-grand-prix-des-etats-unis/1738717#at_medium=RSS_feeds",
+       "summary": "Kimi Antonelli (Mercedes) a dominé le Grand Prix des États-Unis, dimanche, et n'a jamais été aussi près de son premier titre mondial. Si la course à Austin n'était pas des plus palpitantes, elle a tout de même été animée par les bagarres…",
+       "image": "https://medias.lequipe.fr/img-photo-jpg/charles-leclerc-ferrari-a-signe-un-beau-podium-a-austin-dimanche-s-coleman-expa-eibner/1500000002633213/0:0,1500:1000-828-552-75/60273.jpg",
+       "time": "2026-10-25T23:09:41+00:00",
+       "id": "h55",
+       "desk": "sport",
+       "source": "L'Équipe"
+      },
+      {
+       "title": "Le 100e but de Mbappé, Mourinho invaincu, Raphinha sur les temps de passage de Messi : les chiffres à retenir du Clasico remporté par le Real Madrid à Barcelone",
+       "link": "https://www.lequipe.fr/Football/Actualites/Le-100e-but-de-mbappe-mourinho-invaincu-raphinha-sur-les-temps-de-passage-de-messi-les-chiffres-a-retenir-du-clasico-remporte-par-le-real-madrid-a-barcelone/1738715#at_medium=RSS_feeds",
+       "summary": "Le Real Madrid s'est imposé ce dimanche au Camp Nou face au FC Barcelone (2-1), lors de la 10e journée de Liga. Un doublé de Kylian Mbappé a stoppé la série de neuf victoires du leader catalan et ramené les Madrilènes à trois points.",
+       "image": "https://medias.lequipe.fr/img-photo-png/-/1500000000833469/0-828-552-75/0cb67.png",
+       "time": "2026-10-25T23:08:29+00:00",
+       "id": "h56",
+       "desk": "sport",
+       "source": "L'Équipe"
+      }
+     ]
+    },
+    {
+     "name": "The Athletic",
+     "site": "nytimes.com/athletic",
+     "lang": "en",
+     "feeds": [
+      "https://www.nytimes.com/athletic/rss/news/"
+     ],
+     "items": [
+      {
+       "title": "Newcastle United's leadership and know-how proved priceless at Selhurst Park",
+       "link": "https://www.nytimes.com/athletic/7721996/2026/10/26/newcastle-united-crystal-palace-analysis/",
+       "summary": "Newcastle have not suddenly cast all their deficiencies to one side, but victory over Crystal Palace was imperative and more must follow",
+       "image": "https://static01.nyt.com/athletic/uploads/wp/2026/10/25151350/GettyImages-2301941327-scaled.jpg",
+       "time": "2026-10-26T04:25:38+00:00",
+       "id": "h57",
+       "desk": "sport",
+       "source": "The Athletic"
+      },
+      {
+       "title": "Jaxon Smith-Njigba, Seahawks hand Chiefs first loss of season on ‘Sunday Night Football’: Live updates and reaction",
+       "link": "https://www.nytimes.com/athletic/live-blogs/chiefs-vs-seahawks-live-score-updates-nfl-snf-result/K6qrvGP9FnzN/",
+       "summary": "Jaxon Smith-Njigba had a big night, including one touchdown, to lead Seattle to a win over Kansas City.",
+       "image": "https://theathletic-media-production.s3-us-west-2.amazonaws.com/K6qrvGP9FnzN_WOWYBQZOKf0Q_1440x960.jpg",
+       "time": "2026-10-26T04:25:05+00:00",
+       "id": "h58",
+       "desk": "sport",
+       "source": "The Athletic"
+      },
+      {
+       "title": "Minnesota Wild news updates: Quinn Hughes scores 500th point in return to Vancouver",
+       "link": "https://www.nytimes.com/athletic/live-blogs/minnesota-wild-results-season/y2Xyq3gsFEog/",
+       "summary": "Michael Russo and Joe Smith bring you the ultimate fan spot for news, discussion and access to the Wild.",
+       "image": "https://theathletic-media-production.s3-us-west-2.amazonaws.com/y2Xyq3gsFEog_bwV6W9ehBzvD_1440x960.jpg",
+       "time": "2026-10-26T04:22:59+00:00",
+       "id": "h59",
+       "desk": "sport",
+       "source": "The Athletic"
+      },
+      {
+       "title": "Jonathan Taylor doesn't mind wife using social media to discuss trade rumors",
+       "link": "https://www.nytimes.com/athletic/7725694/2026/10/26/jonathan-taylor-wife-social-media-trade-rumors/",
+       "summary": "\"You know everybody's on TikTok these days,\" Taylor said. \"So, you just have to come into work and stay focused.\"",
+       "image": "https://static01.nyt.com/athletic/uploads/wp/2026/10/26001946/GettyImages-2301541280-2-1.jpg",
+       "time": "2026-10-26T04:22:23+00:00",
+       "id": "h60",
+       "desk": "sport",
+       "source": "The Athletic"
+      },
+      {
+       "title": "Submit a question for Stewart Mandel's College Football Mailbag",
+       "link": "https://www.nytimes.com/athletic/7725666/2026/10/26/submit-a-question-for-stewart-mandels-college-football-mailbag-365/",
+       "summary": "Eight weeks in, only three teams haven’t lost. That’s some crazy parity. Leave your questions here. Please include your city.",
+       "image": null,
+       "time": "2026-10-26T04:16:31+00:00",
+       "id": "h61",
+       "desk": "sport",
+       "source": "The Athletic"
+      },
+      {
+       "title": "Week 7 fantasy takeaways: Garrett Wilson, Justin Jefferson headline top receiver struggles",
+       "link": "https://www.nytimes.com/athletic/7725409/2026/10/26/fantasy-football-takeaways-week-7-jefferson/",
+       "summary": "Michael Salfino shares his Week 7 fantasy football observations, including some highlights for the Giants and lowlights for the Jets.",
+       "image": "https://static01.nyt.com/athletic/uploads/wp/2026/10/25225414/GettyImages-2301537326.jpg",
+       "time": "2026-10-26T04:11:22+00:00",
+       "id": "h62",
+       "desk": "sport",
+       "source": "The Athletic"
+      },
+      {
+       "title": "NBA opening week live updates: Everything that happened in the first 6 days of the season",
+       "link": "https://www.nytimes.com/athletic/live-blogs/nba-scores-season-games-schedule-today/iAdFcCak0Nx8/",
+       "summary": "Follow along for all the latest from the first week of the 2026-27 NBA season.",
+       "image": "https://theathletic-media-production.s3-us-west-2.amazonaws.com/iAdFcCak0Nx8_d4H1Rlo7N2RZ_1440x960.jpg",
+       "time": "2026-10-26T04:04:10+00:00",
+       "id": "h63",
+       "desk": "sport",
+       "source": "The Athletic"
+      },
+      {
+       "title": "Connections: Sports Edition today: Hints and answers for Oct. 26, 2026, puzzle No. 763",
+       "link": "https://www.nytimes.com/athletic/7725393/2026/10/26/connections-sports-edition-hints-answers-oct-26-2026/",
+       "summary": "Welcome to Connections: Sports Edition Coach — a spot to gather clues and discuss (and share) scores.",
+       "image": "https://static01.nyt.com/athletic/uploads/wp/2026/10/25213818/10262026_ConnectionsCoach763-scaled.jpg",
+       "time": "2026-10-26T04:00:03+00:00",
+       "id": "h64",
+       "desk": "sport",
+       "source": "The Athletic"
+      }
+     ]
+    },
+    {
+     "name": "Sports Illustrated",
+     "site": "si.com",
+     "lang": "en",
+     "feeds": [
+      "https://www.si.com/.rss/full/"
+     ],
+     "items": [
+      {
+       "title": "Seahawks’ Dominant Win Over the Unbeaten Chiefs Sets Up Intriguing NFC West Race",
+       "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBCVkFXZ1hBSHpCVG10Z1pkX1B0OUtZMTJrdG4tY2ViNFI3alhCbUkyWjB6RWFocUZ5cS0xRmJwMmluTjVYMXFpOVo5dzZiNmxsTkxIbl9lTThpdjZKanc3MHBETzFFSmJGN1A1NHZ5Sll1OWlNTVpiNVFNMA?oc=5",
+       "summary": "",
+       "image": null,
+       "time": "2026-10-26T03:37:08+00:00",
+       "id": "h65",
+       "desk": "sport",
+       "source": "Sports Illustrated"
+      },
+      {
+       "title": "Cal Women Give No. 3 USC a Scare in Exhibition Game",
+       "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOZzJsUUd2ZWRhUi1TbEE3V3NDdVh0UVJvSWd5RVdPQ1dMMjNjcGZ0dTI5SUxwallLUnRENUM4c0lYeGNEdk1sVk5aVS05ekRZYTVxbHI4b0gyeHJVMzJ4WkdCSFJqaC0za2YzTm9jZ1JsSmV0LXZRN3FXQTdkdnVTSW9VcW1LUFc1eGxfQkRTcDhseGVqYkN5dHFzZUxXU0dsa2VkTE45TWM?oc=5",
+       "summary": "",
+       "image": null,
+       "time": "2026-10-26T03:35:55+00:00",
+       "id": "h66",
+       "desk": "sport",
+       "source": "Sports Illustrated"
+      },
+      {
+       "title": "OKC Thunder Star Jalen Williams Exits Clippers’ Game with Apparent Leg Injury",
+       "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPcHJlQ3BGbkdpSkJfNTFkcGlENmpYay1WTmt1WXBHVHR5cXVfTnl2WV9pVlJWX0lma0VhUzRBaE5iNGFnYzBDRE9aWEZUWFgyZ3B1Q2RMd0lwZ2Nfa3djQWx2WnBURTlwQ2xiSnpNR3VEQVB3OG9FS2hIeDk2bGpYLW5YbE5INmMxdFYxTUE2Zjgxbm9YWnlaWVhjcEh1eVozNzJyX3RYUEFrcDFB?oc=5",
+       "summary": "",
+       "image": null,
+       "time": "2026-10-26T01:27:05+00:00",
+       "id": "h67",
+       "desk": "sport",
+       "source": "Sports Illustrated"
+      },
+      {
+       "title": "Week 8 Fantasy Waiver Wire: Target RB Rachaad White",
+       "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE94Y19WbWd0Y1hYUURxQy1XaEIzZFRHcFRpcHJ0OTFGSkpMZ01wa0hoM1R2alg1LW5yQndQS1hublhJa2lNUktTNGY2bHJaZ0lPRFE4dE8wazk5bXRVeU11RjB2QQ?oc=5",
+       "summary": "",
+       "image": null,
+       "time": "2026-10-26T00:31:22+00:00",
+       "id": "h68",
+       "desk": "sport",
+       "source": "Sports Illustrated"
+      },
+      {
+       "title": "3 Big Takeaways From Broncos' 30-16 Win Over Cardinals",
+       "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOMGFYOUMxcnYzc1NPRXpHcGotaUFvd1NLbVJObVE1U25Gd2s5MmN3cnlLWlA4bmNhRzZoQllFMjkxSlg3M0hMamN4Rko2RVFWOW1MWGhhNzVVa0lFeGpjVUdqUHhjd0VVX3NfZ2dPT29VM3ZFaUs5RlJ4WTlna0pMOEdpVUNqWkRCcTRoRkFyNEJZakU?oc=5",
+       "summary": "",
+       "image": null,
+       "time": "2026-10-26T00:20:48+00:00",
+       "id": "h69",
+       "desk": "sport",
+       "source": "Sports Illustrated"
+      },
+      {
+       "title": "6 Winners and 2 Losers From Bengals' Dominant Comeback Win Over Ravens",
+       "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQamdoUlU5SjYzWDNXSWswbXB6ZTZ4My1pMzdiVEFLVEIycXNpbXNJSnR1Y1ZqVWt5N1AzbUNoOGprUElkM1QzVEhjbWlwdUpiYmZXN3NUc051RHprRW9pSmp5SUZvVXVYb0ZpWVZ4T1JSRWFrbmhEeFRGTkxUWkQxVHc2alJtNS1BTHo2d21LcnlRdzd1WlNVNngtczhVTnNWRlpUeGt4SmxxTlV0a013aXFhU3Y5OXplY0E?oc=5",
+       "summary": "",
+       "image": null,
+       "time": "2026-10-26T00:17:54+00:00",
+       "id": "h70",
+       "desk": "sport",
+       "source": "Sports Illustrated"
+      },
+      {
+       "title": "Trey Smack Leads List of Losers as the Packers Drop a Division Game in Detroit",
+       "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNWnpIWU9RQzM5cjZ6bUdYeDFzRTg5WkhuUDJ1Z2dhY05IUmI5WktlT25fN2xQaTdueDI2YWktaW92OVNLOVBNTmdBc0ZyU2UyMTRlVzBiRGpMVWZTU09ibTR2cVZLNEVNNzY1dUdEbXlZcmw1QW51T3BJcE1Ucm1iaDU4OEhQeFdyUllEXzIwWk5CcXVEalE4T0FQV1psOUQ1a0lYUkJjQ1dMZ3N5aFZZbGFldw?oc=5",
+       "summary": "",
+       "image": null,
+       "time": "2026-10-26T00:03:13+00:00",
+       "id": "h71",
+       "desk": "sport",
+       "source": "Sports Illustrated"
+      },
+      {
+       "title": "Ravens Rookie Coach Jesse Minter Is Getting Exposed: Hiring Outside Help Could Save The Season",
+       "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQVHU2c2Fsb0dqWlZBaU11c3g0Nk9BS0VnODJTYnpVbXl6V0RGbTZEZUxkQ2NlUzNBOU5PODlUZE1zZWVXMGlQdmRBSWd5eHBzcThPeTE4N0t2Q1FpUEF1MG9Iclc0Q3hXZ2k4NDloaVo3aW9zTnNMOWpyOHFuQTlLTGhFc0ZFU2dOSXMzTmJMX0k4c195U2NPUUFQMGd5SnBzbEN5LXpMdXdBczM4VmYzSHFweUZuY1VrUVFiY0JzU004aDlmQkRrTUtSOHdPVHNHTmlQbjd2R0Y?oc=5",
+       "summary": "",
+       "image": null,
+       "time": "2026-10-26T00:00:00+00:00",
+       "id": "h72",
+       "desk": "sport",
+       "source": "Sports Illustrated"
+      }
+     ]
+    },
+    {
+     "name": "The Hockey News",
+     "site": "thehockeynews.com",
+     "lang": "en",
+     "feeds": [
+      "https://thehockeynews.com/.rss/full/"
+     ],
+     "items": [
+      {
+       "title": "Morgan Rielly Has Found The Sweet Spot, Rebounding For Maple Leafs This 2026-27 Season",
+       "link": "https://thehockeynews.com/news/latest-news/morgan-rielly-has-found-the-sweetspot-rebounding-for-maple-leafs-this-2026-27-season",
+       "summary": "Maple Leafs defenseman Morgan Rielly had a terrible 2025-26 season, and no teams were interested in trading for him this summer. But Rielly has bounced back in a major way this season, and he's become a terrific example of a veteran who…",
+       "image": "https://deweb-519a7.b-cdn.net/post-images/7f4ca943-3ae9-4faa-b1af-a66c37337720.jpeg",
+       "time": "2026-10-25T21:39:56+00:00",
+       "id": "h73",
+       "desk": "sport",
+       "source": "The Hockey News"
+      },
+      {
+       "title": "Nikishin's NHL Stalemate With Hurricanes Finally Ends With One-Year Contract",
+       "link": "https://thehockeynews.com/news/latest-news/nikishins-nhl-contract-stalemate-with-hurricanes-finally-ends-with-one-year-contract-extension",
+       "summary": "After a lengthy contract dispute, keeping him out of the lineup all season long, defenseman Alexander Nikishin and the Carolina Hurricanes finally agreed on a deal - a one-year contract.",
+       "image": "https://deweb-519a7.b-cdn.net/post-images/8f326f7d-86b3-404f-b406-7faf78cb08ad.jpeg",
+       "time": "2026-10-25T21:12:51+00:00",
+       "id": "h74",
+       "desk": "sport",
+       "source": "The Hockey News"
+      },
+      {
+       "title": "Looking Back At The 2022 NHL Draft: Slafkovsky, Hutson Fared The Best While Others Disappoint",
+       "link": "https://thehockeynews.com/news/latest-news/looking-back-at-the-2022-nhl-draft-slafkovsky-hutson-fared-the-best-while-others-disappoint",
+       "summary": "Looking back at the 2022 NHL draft, players have met, exceeded, or failed to meet expectations. Here's a breakdown of that draft class and who stands out from the bunch.",
+       "image": "https://deweb-519a7.b-cdn.net/post-images/366c9924-c4dc-4456-8390-de2c56dbba8a.jpeg",
+       "time": "2026-10-25T20:09:36+00:00",
+       "id": "h75",
+       "desk": "sport",
+       "source": "The Hockey News"
+      },
+      {
+       "title": "Oilers' Trade For Vasily Podkolzin Continues To Work Wonders With Breakout Season",
+       "link": "https://thehockeynews.com/news/latest-news/oilers-trade-for-vasily-podkolzin-continues-to-work-wonders-with-breakout-season",
+       "summary": "The Edmonton Oilers acquiring Vasily Podkolzin from the Vancouver Canucks during the 2024 NHL off-season continues to look like the right call with his breakout season.",
+       "image": "https://deweb-519a7.b-cdn.net/post-images/e0f4a708-ade6-4476-a49a-85b0311b2d23.jpeg",
+       "time": "2026-10-25T18:28:48+00:00",
+       "id": "h76",
+       "desk": "sport",
+       "source": "The Hockey News"
+      },
+      {
+       "title": "Five Of The Luckiest NHL Players to Start This Season",
+       "link": "https://thehockeynews.com/news/latest-news/five-of-the-luckiest-nhl-players-to-start-this-season",
+       "summary": "Several players have been off to a great start, and some of these starts lead to questions of whether it is sustainable. Here are some suspects to having a lucky start to the 2026-27 NHL regular season.",
+       "image": "https://deweb-519a7.b-cdn.net/post-images/e96c289e-a6c5-48e8-8ad9-d695a5d35f43.jpeg",
+       "time": "2026-10-25T17:12:27+00:00",
+       "id": "h77",
+       "desk": "sport",
+       "source": "The Hockey News"
+      },
+      {
+       "title": "How long Can The Sharks Barely Survive Askarov's Play To Start The NHL Season?",
+       "link": "https://thehockeynews.com/news/latest-news/how-long-can-the-sharks-barely-survive-askarovs-play-to-start-the-nhl-season",
+       "summary": "The San Jose Sharks' record to start the year is a little deceiving because the team is outplaying some truly rotten goaltending from Yaroslav Askarov. The young goalie has to figure it out ASAP.",
+       "image": "https://deweb-519a7.b-cdn.net/post-images/41ba30de-6f69-4af7-b2f1-7874bea696cb.jpeg",
+       "time": "2026-10-25T14:52:49+00:00",
+       "id": "h78",
+       "desk": "sport",
+       "source": "The Hockey News"
+      },
+      {
+       "title": "The Three Top NHL Goalie Trade Candidates Following Hellebuyck Deal",
+       "link": "https://thehockeynews.com/news/latest-news/the-three-top-nhl-goalie-trade-candidates-following-hellebuyck-deal",
+       "summary": "Connor Hellebuyck has been taken off the goalie trade market after his trade to the New Jersey Devils. Here are three netminders who could be next on the trade block.",
+       "image": "https://deweb-519a7.b-cdn.net/post-images/23d0561a-1fe2-4e4d-a9e5-4022c0092f46.jpeg",
+       "time": "2026-10-24T20:42:45+00:00",
+       "id": "h79",
+       "desk": "sport",
+       "source": "The Hockey News"
+      },
+      {
+       "title": "The New-Look Michigan State NCAA Roster Trying To Fill Big Shoes Left Behind",
+       "link": "https://thehockeynews.com/news/latest-news/the-new-look-michigan-state-ncaa-roster-trying-to-fill-big-shoes-left-behind",
+       "summary": "The MSU Spartans lost a ton of talent from last season, including a top-10 Hobey Baker finalist, the Mike Richter Award winner, and a guy many projected to be the NHL's rookie of the year. Their start hasn't been perfect, but it's easy to…",
+       "image": "https://deweb-519a7.b-cdn.net/post-images/1328a3ff-ecc4-40c0-aaca-2949a65a007c.jpeg",
+       "time": "2026-10-24T20:15:52+00:00",
+       "id": "h80",
+       "desk": "sport",
+       "source": "The Hockey News"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "ai": {
+  "briefing": [
+   {
+    "text": "Lula narrowly won Brazil's runoff for a fourth term, but Flavio Bolsonaro is contesting the result and demanding the election be annulled.",
+    "desk": "world",
+    "ids": [
+     "h21",
+     "h27",
+     "h34",
+     "h41",
+     "h42"
+    ]
+   },
+   {
+    "text": "Serbia's Aleksandar Vucic conceded defeat to the student-led opposition movement in legislative elections, signalling a historic political shift.",
+    "desk": "world",
+    "ids": [
+     "h22",
+     "h40",
+     "h44",
+     "h48"
+    ]
+   },
+   {
+    "text": "Israel heads into a knife-edge Knesset election on Tuesday, with Gadi Eisenkot emerging as Netanyahu's strongest challenger amid deep voter anxiety.",
+    "desk": "world",
+    "ids": [
+     "h4",
+     "h26",
+     "h33",
+     "h35"
+    ]
+   },
+   {
+    "text": "A US court ordered Meta to pay $25 billion to New Mexico over data-privacy violations, a landmark penalty for the tech giant.",
+    "desk": "business",
+    "ids": [
+     "h13"
+    ]
+   },
+   {
+    "text": "French authorities are testing counter-drone technologies at a former air base near Paris as concerns grow over Russian aerial threats.",
+    "desk": "defense",
+    "ids": [
+     "h30"
+    ]
+   },
+   {
+    "text": "Mercedes' 20-year-old Kimi Antonelli won the US Grand Prix, needing just two points in Mexico to clinch the F1 world title.",
+    "desk": "sport",
+    "ids": [
+     "h45",
+     "h54",
+     "h55"
+    ]
+   }
+  ],
+  "upcoming": [
+   {
+    "date": "2026-10-27",
+    "when": "Tue 27 Oct",
+    "title": "Israel holds knife-edge Knesset elections",
+    "desk": "world",
+    "ids": [
+     "h4",
+     "h26",
+     "h33",
+     "h35"
+    ]
+   },
+   {
+    "date": "2026-10-31",
+    "when": "Sat 31 Oct",
+    "title": "New round of French social mobilization planned",
+    "desk": "world",
+    "ids": [
+     "h43"
+    ]
+   },
+   {
+    "date": "2026-11-01",
+    "when": "Sun 1 Nov",
+    "title": "F1 Mexican Grand Prix, where Antonelli could clinch the title",
+    "desk": "sport",
+    "ids": [
+     "h45"
+    ]
+   },
+   {
+    "date": "2026-11-05",
+    "when": "Thu 5 Nov",
+    "title": "Further French protest mobilization called",
+    "desk": "world",
+    "ids": [
+     "h43"
+    ]
+   },
+   {
+    "date": null,
+    "when": "Friday deadline",
+    "title": "PIF-backed LIV golf 2.0 player commitment deadline",
+    "desk": "sport",
+    "ids": [
+     "h5"
+    ]
+   },
+   {
+    "date": null,
+    "when": "from January 2027",
+    "title": "Lula begins fourth term facing a Congress dominated by Bolsonaro's party",
+    "desk": "world",
+    "ids": [
+     "h42"
+    ]
+   },
+   {
+    "date": null,
+    "when": "2027",
+    "title": "Xi Jinping expected to secure a fourth term amid ongoing purges",
+    "desk": "world",
+    "ids": [
+     "h37"
+    ]
+   },
+   {
+    "date": null,
+    "when": "upcoming",
+    "title": "UK Budget expected, hoped to be uneventful",
+    "desk": "business",
+    "ids": [
+     "h4"
+    ]
+   }
+  ]
+ }
+}
